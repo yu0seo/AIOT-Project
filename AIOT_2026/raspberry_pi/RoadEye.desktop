@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Road Eye 영상 전송
+Comment=라즈베리파이 카메라 영상을 PC로 전송합니다
+Exec=rpicam-vid -t 0 -n --width 1280 --height 720 --framerate 20 --bitrate 2000000 --codec libav --libav-format mpegts --low-latency -o "tcp://0.0.0.0:5000?listen=1"
+Terminal=true
+Icon=camera-video
+StartupNotify=false
