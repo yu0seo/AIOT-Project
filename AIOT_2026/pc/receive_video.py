@@ -117,8 +117,8 @@ def main():
                 return 1
             print(f"YOLO 모델 준비 중: {args.model}. 기본 모델의 첫 실행에는 다운로드가 필요할 수 있습니다.", flush=True)
             model = YOLO(args.model)
-            if model.task != "detect":
-                raise ValueError("이 프로그램에서는 객체 탐지용 YOLO 모델을 사용하세요.")
+            if model.task not in {"detect", "segment"}:
+                raise ValueError("이 프로그램에서는 객체 탐지 또는 segmentation용 YOLO 모델을 사용하세요.")
             if args.classes is not None and any(class_id not in model.names for class_id in args.classes):
                 raise ValueError(f"모델에 없는 클래스 번호입니다. 모델 클래스: {model.names}")
             print("PC 분석 활성화: YOLO 탐지 + ByteTrack 추적", flush=True)

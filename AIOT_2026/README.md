@@ -5,3 +5,7 @@
 라즈베리파이 영상을 Windows PC로 실시간 전송하고 OpenCV로 받는 방법은 [pc](pc/README.md)에 있습니다.
 
 PC 수신 프로그램에 `--track`을 추가하면 YOLO 객체 탐지와 ByteTrack 추적을 실행할 수 있습니다. 설치와 차량 클래스 선택은 [PC 안내](pc/README.md#pc에서-yolo--bytetrack-실행)를 참고하세요.
+
+다운로드한 IDD 샘플의 전방 영상과 같은 시각의 속도·가속도·저크를 함께 확인하려면 [IDD 확인 도구](pc/IDD_INSPECTION.md)를 참고하세요.
+
+현재 CCTV 화면 영역이나 IDD 영상에 YOLO 객체 분할 마스크를 표시하려면 [segmentation 실행 안내](pc/SEGMENTATION.md)를 참고하세요.
