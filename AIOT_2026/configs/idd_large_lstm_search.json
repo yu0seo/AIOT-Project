@@ -1,0 +1,14 @@
+{
+  "folds": 3,
+  "seed": 20261107,
+  "stride_seconds": 3,
+  "epochs": 40,
+  "patience": 7,
+  "checkpoint_metric": "macro_auc",
+  "comparison_warmup_points": 21,
+  "candidates": [
+    {"name": "lstm64x2", "model_type": "LSTM", "hidden_size": 64, "num_layers": 2, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "signed_log1p", "smooth_points": 7},
+    {"name": "lstm128x2", "model_type": "LSTM", "hidden_size": 128, "num_layers": 2, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "signed_log1p", "smooth_points": 7},
+    {"name": "lstm256x3", "model_type": "LSTM", "hidden_size": 256, "num_layers": 3, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "signed_log1p", "smooth_points": 7}
+  ]
+}

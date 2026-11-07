@@ -1,0 +1,31 @@
+{
+  "cohort": "experiment1",
+  "tasks": ["no_task"],
+  "exclude_participants": ["P701", "P711", "7218", "7219", "7225", "7228", "7229", "7237"],
+  "exclude_annotated_anomalies": true,
+  "feature": {
+    "sample_hz": 10,
+    "smooth_points": 11,
+    "polynomial_degree": 3,
+    "max_gap_s": 0.2,
+    "max_raw_speed_mps": 80.0,
+    "position_slack_m": 0.5,
+    "min_turn_speed_mps": 0.5
+  },
+  "window_seconds": [3, 5, 10],
+  "stride_seconds": 1,
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "test_fraction": 0.2,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "dropout": 0.3,
+  "batch_size": 128,
+  "epochs": 50,
+  "patience": 8,
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "max_validation_fpr": 0.05,
+  "cpu_threads": 4,
+  "bootstrap_repeats": 500
+}

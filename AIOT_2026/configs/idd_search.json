@@ -1,0 +1,19 @@
+{
+  "folds": 3,
+  "seed": 20261107,
+  "stride_seconds": 3,
+  "epochs": 40,
+  "patience": 7,
+  "checkpoint_metric": "macro_auc",
+  "candidates": [
+    {"name": "baseline", "model_type": "LSTM", "hidden_size": 32, "num_layers": 1, "pooling": "last", "dropout": 0.3, "weight_decay": 0.01, "transform": "identity", "smooth_points": 11},
+    {"name": "lstm_pool32", "model_type": "LSTM", "hidden_size": 32, "num_layers": 1, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "identity", "smooth_points": 11},
+    {"name": "lstm_pool64", "model_type": "LSTM", "hidden_size": 64, "num_layers": 1, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "identity", "smooth_points": 11},
+    {"name": "lstm_log32", "model_type": "LSTM", "hidden_size": 32, "num_layers": 1, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "signed_log1p", "smooth_points": 11},
+    {"name": "lstm_log64", "model_type": "LSTM", "hidden_size": 64, "num_layers": 1, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "signed_log1p", "smooth_points": 11},
+    {"name": "gru_log32", "model_type": "GRU", "hidden_size": 32, "num_layers": 1, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "signed_log1p", "smooth_points": 11},
+    {"name": "tcn_log32", "model_type": "TCN", "hidden_size": 32, "num_layers": 4, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "signed_log1p", "smooth_points": 11},
+    {"name": "lstm_smooth21", "model_type": "LSTM", "hidden_size": 32, "num_layers": 1, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "signed_log1p", "smooth_points": 21},
+    {"name": "lstm_smooth7", "model_type": "LSTM", "hidden_size": 32, "num_layers": 1, "pooling": "statistics", "dropout": 0.1, "weight_decay": 0.0001, "transform": "signed_log1p", "smooth_points": 7}
+  ]
+}
