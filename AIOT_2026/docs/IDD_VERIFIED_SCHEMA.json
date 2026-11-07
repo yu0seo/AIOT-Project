@@ -1,0 +1,53 @@
+{
+  "verified_index_columns": [
+    "scenario_index",
+    "scenario_name",
+    "scenario_path",
+    "round",
+    "cognitive_task",
+    "start_time",
+    "end_time",
+    "duration_s",
+    "duration_frames"
+  ],
+  "verified_ego_columns": [
+    "resampled_epoch_ns",
+    "carla_objects_log_time",
+    "carla_objects_pose_x",
+    "carla_objects_pose_y",
+    "carla_objects_pose_z",
+    "carla_objects_pose_orientation_x",
+    "carla_objects_pose_orientation_y",
+    "carla_objects_pose_orientation_z",
+    "carla_objects_pose_orientation_w",
+    "carla_objects_twist_linear_vx",
+    "carla_objects_twist_linear_vy",
+    "carla_objects_twist_linear_vz",
+    "carla_objects_bbox_x",
+    "carla_objects_bbox_y",
+    "carla_objects_bbox_z",
+    "resampled_log_time",
+    "smoothed_log_time",
+    "yaw",
+    "lateral_speed",
+    "longitudinal_speed",
+    "lateral_acceleration",
+    "longitudinal_acceleration",
+    "lateral_jerk",
+    "longitudinal_jerk"
+  ],
+  "used_ego_columns": [
+    "resampled_epoch_ns",
+    "carla_objects_pose_x",
+    "carla_objects_pose_y"
+  ],
+  "label_source": "ToyotaResearchInstitute/DBM DDD2024Dataset",
+  "annotation_alcohol_columns_zero_based": [
+    57,
+    64
+  ],
+  "annotation_anomaly_columns_zero_based": [
+    1,
+    8
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "seconds": 3,
+    "scenario_id": "P712/R1/driving/7a-vehicle_run_red_light/no_task",
+    "matched_windows": 157,
+    "max_score_absolute_error": 6.062889101876578e-08
+  },
+  {
+    "seconds": 5,
+    "scenario_id": "P712/R1/driving/7a-vehicle_run_red_light/no_task",
+    "matched_windows": 157,
+    "max_score_absolute_error": 6.402435304142529e-08
+  },
+  {
+    "seconds": 10,
+    "scenario_id": "P712/R1/driving/7a-vehicle_run_red_light/no_task",
+    "matched_windows": 157,
+    "max_score_absolute_error": 6.419067383189869e-08
+  }
+]

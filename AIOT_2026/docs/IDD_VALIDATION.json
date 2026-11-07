@@ -1,0 +1,21 @@
+{
+  "tests_passed": 21,
+  "compileall": "passed",
+  "dependency_check": "passed",
+  "training_run": "outputs/idd_lstm_seed42",
+  "selected_seconds": 10,
+  "participant_split_counts": {
+    "train": 12,
+    "validation": 4,
+    "test": 4
+  },
+  "window_counts_per_length": {
+    "train": 8360,
+    "validation": 2912,
+    "test": 2993
+  },
+  "actual_training_and_evaluation_seconds": 59.738723599817604,
+  "replay_cli_rows": 1679,
+  "offline_online_score_check": "docs/IDD_REPLAY_VALIDATION.json",
+  "deployment_recommendation": "현재 성능으로 관제 적용을 권장하지 않음"
+}
