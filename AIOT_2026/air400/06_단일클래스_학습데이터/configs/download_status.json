@@ -1,0 +1,1488 @@
+{
+  "updated_at": "2026-11-21T20:15:06.182205+09:00",
+  "finished": 296,
+  "total": 296,
+  "errors": 0,
+  "files": [
+    {
+      "path": "videos\\S01\\1.mp4",
+      "status": "reused",
+      "bytes": 3070382
+    },
+    {
+      "path": "videos\\S01\\3.mp4",
+      "status": "downloaded",
+      "bytes": 2665051
+    },
+    {
+      "path": "videos\\S01\\7.mp4",
+      "status": "downloaded",
+      "bytes": 2501786
+    },
+    {
+      "path": "videos\\S01\\2.mp4",
+      "status": "downloaded",
+      "bytes": 2563599
+    },
+    {
+      "path": "videos\\S01\\6.mp4",
+      "status": "downloaded",
+      "bytes": 2685018
+    },
+    {
+      "path": "videos\\S01\\11.mp4",
+      "status": "reused",
+      "bytes": 2639442
+    },
+    {
+      "path": "videos\\S01\\5.mp4",
+      "status": "downloaded",
+      "bytes": 2490306
+    },
+    {
+      "path": "videos\\S01\\4.mp4",
+      "status": "downloaded",
+      "bytes": 3092383
+    },
+    {
+      "path": "videos\\S01\\9.mp4",
+      "status": "downloaded",
+      "bytes": 2919185
+    },
+    {
+      "path": "videos\\S01\\10.mp4",
+      "status": "downloaded",
+      "bytes": 2489061
+    },
+    {
+      "path": "videos\\S01\\8.mp4",
+      "status": "downloaded",
+      "bytes": 2529489
+    },
+    {
+      "path": "videos\\S01\\12.mp4",
+      "status": "downloaded",
+      "bytes": 2524948
+    },
+    {
+      "path": "videos\\S01\\13.mp4",
+      "status": "downloaded",
+      "bytes": 2628288
+    },
+    {
+      "path": "videos\\S01\\17.mp4",
+      "status": "downloaded",
+      "bytes": 2414339
+    },
+    {
+      "path": "videos\\S01\\15.mp4",
+      "status": "downloaded",
+      "bytes": 2518795
+    },
+    {
+      "path": "videos\\S02\\1.mp4",
+      "status": "reused",
+      "bytes": 2878334
+    },
+    {
+      "path": "videos\\S01\\16.mp4",
+      "status": "downloaded",
+      "bytes": 2537316
+    },
+    {
+      "path": "videos\\S01\\19.mp4",
+      "status": "downloaded",
+      "bytes": 2473267
+    },
+    {
+      "path": "videos\\S01\\18.mp4",
+      "status": "downloaded",
+      "bytes": 2557215
+    },
+    {
+      "path": "videos\\S01\\20.mp4",
+      "status": "downloaded",
+      "bytes": 2473879
+    },
+    {
+      "path": "videos\\S02\\2.mp4",
+      "status": "downloaded",
+      "bytes": 2846613
+    },
+    {
+      "path": "videos\\S02\\4.mp4",
+      "status": "downloaded",
+      "bytes": 2877399
+    },
+    {
+      "path": "videos\\S02\\6.mp4",
+      "status": "downloaded",
+      "bytes": 3434781
+    },
+    {
+      "path": "videos\\S02\\5.mp4",
+      "status": "downloaded",
+      "bytes": 2868799
+    },
+    {
+      "path": "videos\\S02\\8.mp4",
+      "status": "downloaded",
+      "bytes": 3032246
+    },
+    {
+      "path": "videos\\S02\\9.mp4",
+      "status": "downloaded",
+      "bytes": 2968326
+    },
+    {
+      "path": "videos\\S02\\10.mp4",
+      "status": "downloaded",
+      "bytes": 2887852
+    },
+    {
+      "path": "videos\\S01\\14.mp4",
+      "status": "downloaded",
+      "bytes": 2653091
+    },
+    {
+      "path": "videos\\S02\\12.mp4",
+      "status": "downloaded",
+      "bytes": 2933062
+    },
+    {
+      "path": "videos\\S02\\13.mp4",
+      "status": "downloaded",
+      "bytes": 2951085
+    },
+    {
+      "path": "videos\\S02\\3.mp4",
+      "status": "downloaded",
+      "bytes": 2849396
+    },
+    {
+      "path": "videos\\S02\\16.mp4",
+      "status": "downloaded",
+      "bytes": 2874669
+    },
+    {
+      "path": "videos\\S02\\15.mp4",
+      "status": "downloaded",
+      "bytes": 2844531
+    },
+    {
+      "path": "videos\\S02\\14.mp4",
+      "status": "downloaded",
+      "bytes": 2879750
+    },
+    {
+      "path": "videos\\S02\\17.mp4",
+      "status": "downloaded",
+      "bytes": 2939102
+    },
+    {
+      "path": "videos\\S02\\21.mp4",
+      "status": "reused",
+      "bytes": 2896026
+    },
+    {
+      "path": "videos\\S02\\19.mp4",
+      "status": "downloaded",
+      "bytes": 2878931
+    },
+    {
+      "path": "videos\\S02\\18.mp4",
+      "status": "downloaded",
+      "bytes": 3125389
+    },
+    {
+      "path": "videos\\S02\\22.mp4",
+      "status": "downloaded",
+      "bytes": 2950272
+    },
+    {
+      "path": "videos\\S02\\24.mp4",
+      "status": "downloaded",
+      "bytes": 2910563
+    },
+    {
+      "path": "videos\\S02\\25.mp4",
+      "status": "downloaded",
+      "bytes": 2912449
+    },
+    {
+      "path": "videos\\S02\\26.mp4",
+      "status": "downloaded",
+      "bytes": 2882826
+    },
+    {
+      "path": "videos\\S02\\27.mp4",
+      "status": "downloaded",
+      "bytes": 2893453
+    },
+    {
+      "path": "videos\\S02\\23.mp4",
+      "status": "downloaded",
+      "bytes": 3733121
+    },
+    {
+      "path": "videos\\S02\\28.mp4",
+      "status": "downloaded",
+      "bytes": 2932779
+    },
+    {
+      "path": "videos\\S02\\30.mp4",
+      "status": "downloaded",
+      "bytes": 2825967
+    },
+    {
+      "path": "videos\\S02\\29.mp4",
+      "status": "downloaded",
+      "bytes": 2859732
+    },
+    {
+      "path": "videos\\S02\\31.mp4",
+      "status": "downloaded",
+      "bytes": 2814995
+    },
+    {
+      "path": "videos\\S02\\11.mp4",
+      "status": "downloaded",
+      "bytes": 2846048
+    },
+    {
+      "path": "videos\\S02\\32.mp4",
+      "status": "downloaded",
+      "bytes": 3093934
+    },
+    {
+      "path": "videos\\S02\\33.mp4",
+      "status": "downloaded",
+      "bytes": 3821327
+    },
+    {
+      "path": "videos\\S02\\35.mp4",
+      "status": "downloaded",
+      "bytes": 2901773
+    },
+    {
+      "path": "videos\\S02\\36.mp4",
+      "status": "downloaded",
+      "bytes": 2843844
+    },
+    {
+      "path": "videos\\S02\\37.mp4",
+      "status": "downloaded",
+      "bytes": 2880707
+    },
+    {
+      "path": "videos\\S02\\20.mp4",
+      "status": "downloaded",
+      "bytes": 2838992
+    },
+    {
+      "path": "videos\\S02\\38.mp4",
+      "status": "downloaded",
+      "bytes": 2936768
+    },
+    {
+      "path": "videos\\S02\\39.mp4",
+      "status": "downloaded",
+      "bytes": 2879111
+    },
+    {
+      "path": "videos\\S02\\34.mp4",
+      "status": "downloaded",
+      "bytes": 2957136
+    },
+    {
+      "path": "videos\\S02\\7.mp4",
+      "status": "downloaded",
+      "bytes": 3713237
+    },
+    {
+      "path": "videos\\S02\\40.mp4",
+      "status": "downloaded",
+      "bytes": 2865830
+    },
+    {
+      "path": "videos\\S02\\44.mp4",
+      "status": "downloaded",
+      "bytes": 3110049
+    },
+    {
+      "path": "videos\\S02\\46.mp4",
+      "status": "downloaded",
+      "bytes": 2846203
+    },
+    {
+      "path": "videos\\S02\\45.mp4",
+      "status": "downloaded",
+      "bytes": 2774224
+    },
+    {
+      "path": "videos\\S02\\49.mp4",
+      "status": "downloaded",
+      "bytes": 2863790
+    },
+    {
+      "path": "videos\\S02\\48.mp4",
+      "status": "downloaded",
+      "bytes": 2934709
+    },
+    {
+      "path": "videos\\S02\\50.mp4",
+      "status": "downloaded",
+      "bytes": 2847911
+    },
+    {
+      "path": "videos\\S02\\47.mp4",
+      "status": "downloaded",
+      "bytes": 2927438
+    },
+    {
+      "path": "videos\\S02\\41.mp4",
+      "status": "downloaded",
+      "bytes": 3266995
+    },
+    {
+      "path": "videos\\S02\\42.mp4",
+      "status": "downloaded",
+      "bytes": 3248565
+    },
+    {
+      "path": "videos\\S02\\52.mp4",
+      "status": "downloaded",
+      "bytes": 2908550
+    },
+    {
+      "path": "videos\\S02\\51.mp4",
+      "status": "downloaded",
+      "bytes": 2857512
+    },
+    {
+      "path": "videos\\S02\\55.mp4",
+      "status": "downloaded",
+      "bytes": 2856590
+    },
+    {
+      "path": "videos\\S02\\54.mp4",
+      "status": "downloaded",
+      "bytes": 2901856
+    },
+    {
+      "path": "videos\\S02\\57.mp4",
+      "status": "downloaded",
+      "bytes": 3148663
+    },
+    {
+      "path": "videos\\S02\\53.mp4",
+      "status": "downloaded",
+      "bytes": 2924720
+    },
+    {
+      "path": "videos\\S03\\1.mp4",
+      "status": "reused",
+      "bytes": 3233138
+    },
+    {
+      "path": "videos\\S02\\56.mp4",
+      "status": "downloaded",
+      "bytes": 3083335
+    },
+    {
+      "path": "videos\\S02\\43.mp4",
+      "status": "downloaded",
+      "bytes": 3548395
+    },
+    {
+      "path": "videos\\S03\\3.mp4",
+      "status": "downloaded",
+      "bytes": 3463496
+    },
+    {
+      "path": "videos\\S02\\59.mp4",
+      "status": "downloaded",
+      "bytes": 3080986
+    },
+    {
+      "path": "videos\\S03\\6.mp4",
+      "status": "reused",
+      "bytes": 3224220
+    },
+    {
+      "path": "videos\\S02\\60.mp4",
+      "status": "downloaded",
+      "bytes": 2954237
+    },
+    {
+      "path": "videos\\S02\\58.mp4",
+      "status": "downloaded",
+      "bytes": 3172033
+    },
+    {
+      "path": "videos\\S03\\4.mp4",
+      "status": "downloaded",
+      "bytes": 3304479
+    },
+    {
+      "path": "videos\\S03\\8.mp4",
+      "status": "downloaded",
+      "bytes": 3492195
+    },
+    {
+      "path": "videos\\S04\\1.mp4",
+      "status": "reused",
+      "bytes": 3559467
+    },
+    {
+      "path": "videos\\S03\\10.mp4",
+      "status": "downloaded",
+      "bytes": 3205068
+    },
+    {
+      "path": "videos\\S03\\5.mp4",
+      "status": "downloaded",
+      "bytes": 3209183
+    },
+    {
+      "path": "videos\\S04\\2.mp4",
+      "status": "downloaded",
+      "bytes": 3611798
+    },
+    {
+      "path": "videos\\S04\\3.mp4",
+      "status": "downloaded",
+      "bytes": 3700568
+    },
+    {
+      "path": "videos\\S04\\4.mp4",
+      "status": "downloaded",
+      "bytes": 3466801
+    },
+    {
+      "path": "videos\\S03\\2.mp4",
+      "status": "downloaded",
+      "bytes": 4996848
+    },
+    {
+      "path": "videos\\S03\\7.mp4",
+      "status": "downloaded",
+      "bytes": 3300186
+    },
+    {
+      "path": "videos\\S04\\6.mp4",
+      "status": "downloaded",
+      "bytes": 3515700
+    },
+    {
+      "path": "videos\\S04\\7.mp4",
+      "status": "downloaded",
+      "bytes": 3531065
+    },
+    {
+      "path": "videos\\S04\\9.mp4",
+      "status": "downloaded",
+      "bytes": 3468113
+    },
+    {
+      "path": "videos\\S04\\10.mp4",
+      "status": "downloaded",
+      "bytes": 3388461
+    },
+    {
+      "path": "videos\\S04\\13.mp4",
+      "status": "reused",
+      "bytes": 3847972
+    },
+    {
+      "path": "videos\\S04\\11.mp4",
+      "status": "downloaded",
+      "bytes": 3739406
+    },
+    {
+      "path": "videos\\S04\\5.mp4",
+      "status": "downloaded",
+      "bytes": 3861442
+    },
+    {
+      "path": "videos\\S04\\12.mp4",
+      "status": "downloaded",
+      "bytes": 4487822
+    },
+    {
+      "path": "videos\\S04\\15.mp4",
+      "status": "downloaded",
+      "bytes": 3720869
+    },
+    {
+      "path": "videos\\S04\\16.mp4",
+      "status": "downloaded",
+      "bytes": 3411781
+    },
+    {
+      "path": "videos\\S04\\18.mp4",
+      "status": "downloaded",
+      "bytes": 3527516
+    },
+    {
+      "path": "videos\\S04\\19.mp4",
+      "status": "downloaded",
+      "bytes": 3347732
+    },
+    {
+      "path": "videos\\S04\\14.mp4",
+      "status": "downloaded",
+      "bytes": 3784028
+    },
+    {
+      "path": "videos\\S04\\22.mp4",
+      "status": "downloaded",
+      "bytes": 3828942
+    },
+    {
+      "path": "videos\\S04\\20.mp4",
+      "status": "downloaded",
+      "bytes": 3372510
+    },
+    {
+      "path": "videos\\S04\\21.mp4",
+      "status": "downloaded",
+      "bytes": 3758485
+    },
+    {
+      "path": "videos\\S03\\9.mp4",
+      "status": "downloaded",
+      "bytes": 3220333
+    },
+    {
+      "path": "videos\\S05\\1.mp4",
+      "status": "reused",
+      "bytes": 8887593
+    },
+    {
+      "path": "videos\\S04\\23.mp4",
+      "status": "downloaded",
+      "bytes": 3998636
+    },
+    {
+      "path": "videos\\S04\\24.mp4",
+      "status": "downloaded",
+      "bytes": 3967858
+    },
+    {
+      "path": "videos\\S04\\8.mp4",
+      "status": "downloaded",
+      "bytes": 3587490
+    },
+    {
+      "path": "videos\\S05\\2.mp4",
+      "status": "downloaded",
+      "bytes": 12073457
+    },
+    {
+      "path": "videos\\S05\\3.mp4",
+      "status": "downloaded",
+      "bytes": 9850051
+    },
+    {
+      "path": "videos\\S05\\6.mp4",
+      "status": "downloaded",
+      "bytes": 8538508
+    },
+    {
+      "path": "videos\\S05\\7.mp4",
+      "status": "downloaded",
+      "bytes": 8635214
+    },
+    {
+      "path": "videos\\S04\\17.mp4",
+      "status": "downloaded",
+      "bytes": 3492400
+    },
+    {
+      "path": "videos\\S05\\8.mp4",
+      "status": "downloaded",
+      "bytes": 8696306
+    },
+    {
+      "path": "videos\\S05\\9.mp4",
+      "status": "downloaded",
+      "bytes": 8572183
+    },
+    {
+      "path": "videos\\S04\\25.mp4",
+      "status": "downloaded",
+      "bytes": 6305875
+    },
+    {
+      "path": "videos\\S05\\12.mp4",
+      "status": "downloaded",
+      "bytes": 7600687
+    },
+    {
+      "path": "videos\\S05\\10.mp4",
+      "status": "downloaded",
+      "bytes": 8648221
+    },
+    {
+      "path": "videos\\S05\\13.mp4",
+      "status": "downloaded",
+      "bytes": 8011193
+    },
+    {
+      "path": "videos\\S05\\5.mp4",
+      "status": "downloaded",
+      "bytes": 9316033
+    },
+    {
+      "path": "videos\\S05\\11.mp4",
+      "status": "downloaded",
+      "bytes": 7610476
+    },
+    {
+      "path": "videos\\S05\\4.mp4",
+      "status": "downloaded",
+      "bytes": 9081909
+    },
+    {
+      "path": "videos\\S05\\15.mp4",
+      "status": "downloaded",
+      "bytes": 7386442
+    },
+    {
+      "path": "videos\\S05\\20.mp4",
+      "status": "downloaded",
+      "bytes": 7263881
+    },
+    {
+      "path": "videos\\S05\\18.mp4",
+      "status": "downloaded",
+      "bytes": 7622425
+    },
+    {
+      "path": "videos\\S05\\19.mp4",
+      "status": "downloaded",
+      "bytes": 7393926
+    },
+    {
+      "path": "videos\\S05\\23.mp4",
+      "status": "reused",
+      "bytes": 7668229
+    },
+    {
+      "path": "videos\\S05\\21.mp4",
+      "status": "downloaded",
+      "bytes": 7264242
+    },
+    {
+      "path": "videos\\S05\\22.mp4",
+      "status": "downloaded",
+      "bytes": 7418617
+    },
+    {
+      "path": "videos\\S05\\16.mp4",
+      "status": "downloaded",
+      "bytes": 7392648
+    },
+    {
+      "path": "videos\\S05\\25.mp4",
+      "status": "downloaded",
+      "bytes": 7232527
+    },
+    {
+      "path": "videos\\S05\\27.mp4",
+      "status": "downloaded",
+      "bytes": 7473197
+    },
+    {
+      "path": "videos\\S05\\28.mp4",
+      "status": "downloaded",
+      "bytes": 7489271
+    },
+    {
+      "path": "videos\\S05\\29.mp4",
+      "status": "downloaded",
+      "bytes": 7340544
+    },
+    {
+      "path": "videos\\S05\\14.mp4",
+      "status": "downloaded",
+      "bytes": 7824902
+    },
+    {
+      "path": "videos\\S05\\30.mp4",
+      "status": "downloaded",
+      "bytes": 8359087
+    },
+    {
+      "path": "videos\\S05\\33.mp4",
+      "status": "downloaded",
+      "bytes": 7669158
+    },
+    {
+      "path": "videos\\S05\\31.mp4",
+      "status": "downloaded",
+      "bytes": 7425943
+    },
+    {
+      "path": "videos\\S05\\26.mp4",
+      "status": "downloaded",
+      "bytes": 7219181
+    },
+    {
+      "path": "videos\\S05\\24.mp4",
+      "status": "downloaded",
+      "bytes": 7297829
+    },
+    {
+      "path": "videos\\S05\\17.mp4",
+      "status": "downloaded",
+      "bytes": 7557324
+    },
+    {
+      "path": "videos\\S05\\34.mp4",
+      "status": "downloaded",
+      "bytes": 7456231
+    },
+    {
+      "path": "videos\\S05\\38.mp4",
+      "status": "downloaded",
+      "bytes": 7646372
+    },
+    {
+      "path": "videos\\S05\\37.mp4",
+      "status": "downloaded",
+      "bytes": 7542789
+    },
+    {
+      "path": "videos\\S05\\39.mp4",
+      "status": "downloaded",
+      "bytes": 7469610
+    },
+    {
+      "path": "videos\\S05\\41.mp4",
+      "status": "downloaded",
+      "bytes": 7553598
+    },
+    {
+      "path": "videos\\S05\\42.mp4",
+      "status": "downloaded",
+      "bytes": 7539302
+    },
+    {
+      "path": "videos\\S05\\44.mp4",
+      "status": "downloaded",
+      "bytes": 7443091
+    },
+    {
+      "path": "videos\\S05\\43.mp4",
+      "status": "downloaded",
+      "bytes": 7646585
+    },
+    {
+      "path": "videos\\S06\\1.mp4",
+      "status": "reused",
+      "bytes": 7312347
+    },
+    {
+      "path": "videos\\S05\\40.mp4",
+      "status": "downloaded",
+      "bytes": 7448880
+    },
+    {
+      "path": "videos\\S06\\2.mp4",
+      "status": "downloaded",
+      "bytes": 7456507
+    },
+    {
+      "path": "videos\\S06\\3.mp4",
+      "status": "downloaded",
+      "bytes": 7658746
+    },
+    {
+      "path": "videos\\S05\\36.mp4",
+      "status": "downloaded",
+      "bytes": 7422319
+    },
+    {
+      "path": "videos\\S05\\45.mp4",
+      "status": "downloaded",
+      "bytes": 11697314
+    },
+    {
+      "path": "videos\\S06\\5.mp4",
+      "status": "downloaded",
+      "bytes": 7437200
+    },
+    {
+      "path": "videos\\S06\\4.mp4",
+      "status": "downloaded",
+      "bytes": 7513027
+    },
+    {
+      "path": "videos\\S06\\6.mp4",
+      "status": "downloaded",
+      "bytes": 7640475
+    },
+    {
+      "path": "videos\\S06\\7.mp4",
+      "status": "downloaded",
+      "bytes": 8023231
+    },
+    {
+      "path": "videos\\S05\\32.mp4",
+      "status": "downloaded",
+      "bytes": 7624901
+    },
+    {
+      "path": "videos\\S05\\35.mp4",
+      "status": "downloaded",
+      "bytes": 7406149
+    },
+    {
+      "path": "videos\\S06\\11.mp4",
+      "status": "downloaded",
+      "bytes": 8047892
+    },
+    {
+      "path": "videos\\S06\\12.mp4",
+      "status": "downloaded",
+      "bytes": 11788469
+    },
+    {
+      "path": "videos\\S06\\8.mp4",
+      "status": "downloaded",
+      "bytes": 11095333
+    },
+    {
+      "path": "videos\\S06\\14.mp4",
+      "status": "downloaded",
+      "bytes": 8032809
+    },
+    {
+      "path": "videos\\S06\\9.mp4",
+      "status": "downloaded",
+      "bytes": 8689967
+    },
+    {
+      "path": "videos\\S06\\13.mp4",
+      "status": "downloaded",
+      "bytes": 8183493
+    },
+    {
+      "path": "videos\\S06\\10.mp4",
+      "status": "downloaded",
+      "bytes": 7964069
+    },
+    {
+      "path": "videos\\S06\\15.mp4",
+      "status": "downloaded",
+      "bytes": 7819591
+    },
+    {
+      "path": "videos\\S06\\17.mp4",
+      "status": "downloaded",
+      "bytes": 8007725
+    },
+    {
+      "path": "videos\\S06\\21.mp4",
+      "status": "downloaded",
+      "bytes": 11654123
+    },
+    {
+      "path": "videos\\S06\\19.mp4",
+      "status": "downloaded",
+      "bytes": 7917463
+    },
+    {
+      "path": "videos\\S06\\18.mp4",
+      "status": "downloaded",
+      "bytes": 8010949
+    },
+    {
+      "path": "videos\\S06\\24.mp4",
+      "status": "downloaded",
+      "bytes": 8121446
+    },
+    {
+      "path": "videos\\S06\\26.mp4",
+      "status": "reused",
+      "bytes": 8054486
+    },
+    {
+      "path": "videos\\S06\\22.mp4",
+      "status": "downloaded",
+      "bytes": 11339466
+    },
+    {
+      "path": "videos\\S06\\25.mp4",
+      "status": "downloaded",
+      "bytes": 8044483
+    },
+    {
+      "path": "videos\\S06\\27.mp4",
+      "status": "downloaded",
+      "bytes": 8072919
+    },
+    {
+      "path": "videos\\S06\\30.mp4",
+      "status": "downloaded",
+      "bytes": 7860916
+    },
+    {
+      "path": "videos\\S06\\29.mp4",
+      "status": "downloaded",
+      "bytes": 7955784
+    },
+    {
+      "path": "videos\\S06\\28.mp4",
+      "status": "downloaded",
+      "bytes": 8211109
+    },
+    {
+      "path": "videos\\S06\\31.mp4",
+      "status": "downloaded",
+      "bytes": 8500663
+    },
+    {
+      "path": "videos\\S06\\23.mp4",
+      "status": "downloaded",
+      "bytes": 8364412
+    },
+    {
+      "path": "videos\\S06\\34.mp4",
+      "status": "downloaded",
+      "bytes": 7832857
+    },
+    {
+      "path": "videos\\S06\\16.mp4",
+      "status": "downloaded",
+      "bytes": 7859051
+    },
+    {
+      "path": "videos\\S06\\36.mp4",
+      "status": "downloaded",
+      "bytes": 8477012
+    },
+    {
+      "path": "videos\\S06\\35.mp4",
+      "status": "downloaded",
+      "bytes": 10128292
+    },
+    {
+      "path": "videos\\S06\\20.mp4",
+      "status": "downloaded",
+      "bytes": 15194131
+    },
+    {
+      "path": "videos\\S06\\33.mp4",
+      "status": "downloaded",
+      "bytes": 7950929
+    },
+    {
+      "path": "videos\\S06\\32.mp4",
+      "status": "downloaded",
+      "bytes": 7931027
+    },
+    {
+      "path": "videos\\S06\\38.mp4",
+      "status": "downloaded",
+      "bytes": 8016336
+    },
+    {
+      "path": "videos\\S06\\37.mp4",
+      "status": "downloaded",
+      "bytes": 7888882
+    },
+    {
+      "path": "videos\\S06\\42.mp4",
+      "status": "downloaded",
+      "bytes": 7900321
+    },
+    {
+      "path": "videos\\S06\\45.mp4",
+      "status": "downloaded",
+      "bytes": 7880244
+    },
+    {
+      "path": "videos\\S06\\40.mp4",
+      "status": "downloaded",
+      "bytes": 11384067
+    },
+    {
+      "path": "videos\\S06\\43.mp4",
+      "status": "downloaded",
+      "bytes": 10479412
+    },
+    {
+      "path": "videos\\S06\\44.mp4",
+      "status": "downloaded",
+      "bytes": 8151342
+    },
+    {
+      "path": "videos\\S06\\46.mp4",
+      "status": "downloaded",
+      "bytes": 7801060
+    },
+    {
+      "path": "videos\\S06\\48.mp4",
+      "status": "downloaded",
+      "bytes": 14384934
+    },
+    {
+      "path": "videos\\S07\\01.mp4",
+      "status": "reused",
+      "bytes": 8780545
+    },
+    {
+      "path": "videos\\S06\\41.mp4",
+      "status": "downloaded",
+      "bytes": 7946898
+    },
+    {
+      "path": "videos\\S06\\47.mp4",
+      "status": "downloaded",
+      "bytes": 8364453
+    },
+    {
+      "path": "videos\\S07\\03.mp4",
+      "status": "downloaded",
+      "bytes": 7433331
+    },
+    {
+      "path": "videos\\S07\\02.mp4",
+      "status": "downloaded",
+      "bytes": 8517585
+    },
+    {
+      "path": "videos\\S06\\39.mp4",
+      "status": "downloaded",
+      "bytes": 8797647
+    },
+    {
+      "path": "videos\\S06\\50.mp4",
+      "status": "downloaded",
+      "bytes": 9706213
+    },
+    {
+      "path": "videos\\S07\\08.mp4",
+      "status": "downloaded",
+      "bytes": 6814601
+    },
+    {
+      "path": "videos\\S07\\05.mp4",
+      "status": "downloaded",
+      "bytes": 10090970
+    },
+    {
+      "path": "videos\\S07\\07.mp4",
+      "status": "downloaded",
+      "bytes": 6748650
+    },
+    {
+      "path": "videos\\S07\\06.mp4",
+      "status": "downloaded",
+      "bytes": 8273518
+    },
+    {
+      "path": "videos\\S07\\09.mp4",
+      "status": "downloaded",
+      "bytes": 7144078
+    },
+    {
+      "path": "videos\\S07\\13.mp4",
+      "status": "reused",
+      "bytes": 10663281
+    },
+    {
+      "path": "videos\\S07\\10.mp4",
+      "status": "downloaded",
+      "bytes": 6815957
+    },
+    {
+      "path": "videos\\S07\\12.mp4",
+      "status": "downloaded",
+      "bytes": 10408782
+    },
+    {
+      "path": "videos\\S07\\14.mp4",
+      "status": "downloaded",
+      "bytes": 7071010
+    },
+    {
+      "path": "videos\\S07\\15.mp4",
+      "status": "downloaded",
+      "bytes": 6905661
+    },
+    {
+      "path": "videos\\S06\\49.mp4",
+      "status": "downloaded",
+      "bytes": 11506624
+    },
+    {
+      "path": "videos\\S07\\16.mp4",
+      "status": "downloaded",
+      "bytes": 6912306
+    },
+    {
+      "path": "videos\\S07\\18.mp4",
+      "status": "downloaded",
+      "bytes": 6964695
+    },
+    {
+      "path": "videos\\S07\\19.mp4",
+      "status": "downloaded",
+      "bytes": 6983061
+    },
+    {
+      "path": "videos\\S07\\04.mp4",
+      "status": "downloaded",
+      "bytes": 9187006
+    },
+    {
+      "path": "videos\\S07\\21.mp4",
+      "status": "downloaded",
+      "bytes": 6717971
+    },
+    {
+      "path": "videos\\S07\\11.mp4",
+      "status": "downloaded",
+      "bytes": 7012275
+    },
+    {
+      "path": "videos\\S07\\24.mp4",
+      "status": "downloaded",
+      "bytes": 6996997
+    },
+    {
+      "path": "videos\\S08\\1.mp4",
+      "status": "reused",
+      "bytes": 9728664
+    },
+    {
+      "path": "videos\\S07\\22.mp4",
+      "status": "downloaded",
+      "bytes": 6705660
+    },
+    {
+      "path": "videos\\S07\\17.mp4",
+      "status": "downloaded",
+      "bytes": 6879774
+    },
+    {
+      "path": "videos\\S07\\25.mp4",
+      "status": "downloaded",
+      "bytes": 6908402
+    },
+    {
+      "path": "videos\\S08\\2.mp4",
+      "status": "downloaded",
+      "bytes": 10236337
+    },
+    {
+      "path": "videos\\S08\\3.mp4",
+      "status": "downloaded",
+      "bytes": 10287543
+    },
+    {
+      "path": "videos\\S08\\5.mp4",
+      "status": "downloaded",
+      "bytes": 9814199
+    },
+    {
+      "path": "videos\\S08\\4.mp4",
+      "status": "downloaded",
+      "bytes": 9731859
+    },
+    {
+      "path": "videos\\S08\\8.mp4",
+      "status": "downloaded",
+      "bytes": 10322762
+    },
+    {
+      "path": "videos\\S08\\9.mp4",
+      "status": "downloaded",
+      "bytes": 9835421
+    },
+    {
+      "path": "videos\\S08\\11.mp4",
+      "status": "reused",
+      "bytes": 9754605
+    },
+    {
+      "path": "videos\\S08\\6.mp4",
+      "status": "downloaded",
+      "bytes": 9727215
+    },
+    {
+      "path": "videos\\S08\\12.mp4",
+      "status": "downloaded",
+      "bytes": 9964412
+    },
+    {
+      "path": "videos\\S07\\20.mp4",
+      "status": "downloaded",
+      "bytes": 7710331
+    },
+    {
+      "path": "videos\\S07\\23.mp4",
+      "status": "downloaded",
+      "bytes": 6933269
+    },
+    {
+      "path": "videos\\S08\\7.mp4",
+      "status": "downloaded",
+      "bytes": 9942276
+    },
+    {
+      "path": "videos\\S08\\15.mp4",
+      "status": "downloaded",
+      "bytes": 10012506
+    },
+    {
+      "path": "videos\\S08\\17.mp4",
+      "status": "downloaded",
+      "bytes": 10208889
+    },
+    {
+      "path": "videos\\S08\\14.mp4",
+      "status": "downloaded",
+      "bytes": 9946199
+    },
+    {
+      "path": "videos\\S08\\19.mp4",
+      "status": "downloaded",
+      "bytes": 10015875
+    },
+    {
+      "path": "videos\\S09\\1.mp4",
+      "status": "reused",
+      "bytes": 7121073
+    },
+    {
+      "path": "videos\\S08\\18.mp4",
+      "status": "downloaded",
+      "bytes": 10314821
+    },
+    {
+      "path": "videos\\S09\\3.mp4",
+      "status": "downloaded",
+      "bytes": 7342862
+    },
+    {
+      "path": "videos\\S09\\2.mp4",
+      "status": "downloaded",
+      "bytes": 7183691
+    },
+    {
+      "path": "videos\\S08\\20.mp4",
+      "status": "downloaded",
+      "bytes": 10061578
+    },
+    {
+      "path": "videos\\S08\\13.mp4",
+      "status": "downloaded",
+      "bytes": 10664897
+    },
+    {
+      "path": "videos\\S08\\10.mp4",
+      "status": "downloaded",
+      "bytes": 9697534
+    },
+    {
+      "path": "videos\\S09\\6.mp4",
+      "status": "downloaded",
+      "bytes": 7110882
+    },
+    {
+      "path": "videos\\S09\\8.mp4",
+      "status": "downloaded",
+      "bytes": 7203920
+    },
+    {
+      "path": "videos\\S09\\7.mp4",
+      "status": "downloaded",
+      "bytes": 6994323
+    },
+    {
+      "path": "videos\\S09\\11.mp4",
+      "status": "reused",
+      "bytes": 6981282
+    },
+    {
+      "path": "videos\\S09\\12.mp4",
+      "status": "downloaded",
+      "bytes": 7187734
+    },
+    {
+      "path": "videos\\S09\\10.mp4",
+      "status": "downloaded",
+      "bytes": 7218560
+    },
+    {
+      "path": "videos\\S09\\9.mp4",
+      "status": "downloaded",
+      "bytes": 7106103
+    },
+    {
+      "path": "videos\\S09\\5.mp4",
+      "status": "downloaded",
+      "bytes": 7219576
+    },
+    {
+      "path": "videos\\S09\\14.mp4",
+      "status": "downloaded",
+      "bytes": 7066913
+    },
+    {
+      "path": "videos\\S09\\13.mp4",
+      "status": "downloaded",
+      "bytes": 7307721
+    },
+    {
+      "path": "videos\\S08\\16.mp4",
+      "status": "downloaded",
+      "bytes": 9977378
+    },
+    {
+      "path": "videos\\S09\\4.mp4",
+      "status": "downloaded",
+      "bytes": 7092046
+    },
+    {
+      "path": "videos\\S09\\18.mp4",
+      "status": "downloaded",
+      "bytes": 7272276
+    },
+    {
+      "path": "videos\\S10\\1.mp4",
+      "status": "reused",
+      "bytes": 7469276
+    },
+    {
+      "path": "videos\\S09\\15.mp4",
+      "status": "downloaded",
+      "bytes": 6986618
+    },
+    {
+      "path": "videos\\S09\\19.mp4",
+      "status": "downloaded",
+      "bytes": 7030523
+    },
+    {
+      "path": "videos\\S10\\4.mp4",
+      "status": "downloaded",
+      "bytes": 7479074
+    },
+    {
+      "path": "videos\\S09\\17.mp4",
+      "status": "downloaded",
+      "bytes": 7344895
+    },
+    {
+      "path": "videos\\S10\\3.mp4",
+      "status": "downloaded",
+      "bytes": 7697287
+    },
+    {
+      "path": "videos\\S10\\2.mp4",
+      "status": "downloaded",
+      "bytes": 7598299
+    },
+    {
+      "path": "videos\\S09\\16.mp4",
+      "status": "downloaded",
+      "bytes": 6973857
+    },
+    {
+      "path": "videos\\S10\\8.mp4",
+      "status": "downloaded",
+      "bytes": 7698823
+    },
+    {
+      "path": "videos\\S10\\5.mp4",
+      "status": "downloaded",
+      "bytes": 7430949
+    },
+    {
+      "path": "videos\\S10\\11.mp4",
+      "status": "reused",
+      "bytes": 7461120
+    },
+    {
+      "path": "videos\\S10\\10.mp4",
+      "status": "downloaded",
+      "bytes": 7497540
+    },
+    {
+      "path": "videos\\S10\\9.mp4",
+      "status": "downloaded",
+      "bytes": 7533632
+    },
+    {
+      "path": "videos\\S10\\7.mp4",
+      "status": "downloaded",
+      "bytes": 7773869
+    },
+    {
+      "path": "videos\\S10\\12.mp4",
+      "status": "downloaded",
+      "bytes": 7514326
+    },
+    {
+      "path": "videos\\S10\\14.mp4",
+      "status": "downloaded",
+      "bytes": 7470798
+    },
+    {
+      "path": "videos\\S09\\20.mp4",
+      "status": "downloaded",
+      "bytes": 7055727
+    },
+    {
+      "path": "videos\\S10\\13.mp4",
+      "status": "downloaded",
+      "bytes": 7691419
+    },
+    {
+      "path": "videos\\S10\\16.mp4",
+      "status": "downloaded",
+      "bytes": 7435154
+    },
+    {
+      "path": "videos\\S10\\15.mp4",
+      "status": "downloaded",
+      "bytes": 7439088
+    },
+    {
+      "path": "videos\\S10\\19.mp4",
+      "status": "downloaded",
+      "bytes": 7471879
+    },
+    {
+      "path": "videos\\S10\\20.mp4",
+      "status": "downloaded",
+      "bytes": 7465121
+    },
+    {
+      "path": "videos\\S10\\17.mp4",
+      "status": "downloaded",
+      "bytes": 7541325
+    },
+    {
+      "path": "videos\\S10\\6.mp4",
+      "status": "downloaded",
+      "bytes": 7402959
+    },
+    {
+      "path": "videos\\S10\\18.mp4",
+      "status": "downloaded",
+      "bytes": 7671102
+    },
+    {
+      "path": "archives\\AIR_125.zip",
+      "status": "downloaded",
+      "bytes": 992984589
+    }
+  ]
+}

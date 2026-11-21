@@ -1,0 +1,9 @@
+{
+  "status": "completed_exploratory",
+  "normal_clips": 4,
+  "probe_clips": 2,
+  "report": "04_PT자료/08_Body_Chest_목표비교/index.html",
+  "timing_conclusion": "S02 검증 영상에서 부호만 고정한 추가 분석의 평가 3클립에서 호흡점 F1은 Body 조건이 높았습니다. Body 0.629, Chest 0.556. 이 값만으로 움직임 소실 보존의 우열을 결정하지 않습니다.",
+  "motion_conclusion": "화면 전체 정지 대조에서 공식 필터 후 출력 변동은 조건별 평균 원영상의 0.18~0.53%로 줄었습니다. 픽셀 변화 감소 대조에서는 79.3~90.6%가 남았습니다. 이 결과는 인위적 영상 대조이며 실제 흉부 변위 감소의 정답 비율이 아닙니다. 현재 파형 높이를 실제 움직임 강도로 바로 해석할 근거는 부족합니다. 실제 호흡 정지나 흉부만 멈추는 상황은 검증하지 않았습니다.",
+  "clinical_motion_stop_validated": false
+}

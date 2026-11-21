@@ -1,0 +1,139 @@
+{
+  "version": "oneclass_collection_design_v1",
+  "created_at": "2026-11-21T02:05:41.059604+09:00",
+  "status": "model_input_features_under_review_before_bulk",
+  "bulk_video_download_started": false,
+  "bulk_inference_started": false,
+  "modeling": {
+    "objective": "Single-class anomaly detection with waveform and motion time series",
+    "binary_classification": false,
+    "model_or_feature_ablation_requested": false
+  },
+  "extractor": {
+    "roi": "Official Body ROI from original public detector",
+    "waveform_model": "DeepPhys_Deep_Body_best.pth",
+    "waveform_model_sha256": "66e21247cce4f71056e500b9d67b1f1053f8df3c351abf75823f31d9294da4f8",
+    "preprocess_order": "320x180 frame -> Body crop -> DeepFlow at original crop size -> official standardization -> 96x96 DeepPhys input",
+    "fine_tuned_chest_detector_used": false,
+    "early_resize_before_flow": false,
+    "motion_branch": "Copy raw optical-flow statistics before official normalization; no low-motion threshold or per-clip feature Z-score"
+  },
+  "channels": [
+    {
+      "name": "waveform_detrended",
+      "kind": "waveform",
+      "definition": "Official cumulative integration and lambda=100 detrend, before bandpass"
+    },
+    {
+      "name": "waveform_filtered",
+      "kind": "waveform",
+      "definition": "Official 0.3-1.0Hz forward-backward bandpass output; offline batch signal"
+    },
+    {
+      "name": "motion_speed_mean",
+      "kind": "motion",
+      "definition": "Spatial mean sqrt((u/W/dt)^2+(v/H/dt)^2), before any flow Z-score",
+      "unit": "ROI fraction / second"
+    },
+    {
+      "name": "motion_speed_p90",
+      "kind": "motion",
+      "definition": "Spatial 90th percentile of the same normalized flow speed",
+      "unit": "ROI fraction / second"
+    },
+    {
+      "name": "motion_vx_mean",
+      "kind": "motion",
+      "definition": "Spatial mean u/W/dt before Z-score",
+      "unit": "ROI width fraction / second"
+    },
+    {
+      "name": "motion_vy_mean",
+      "kind": "motion",
+      "definition": "Spatial mean v/H/dt before Z-score",
+      "unit": "ROI height fraction / second"
+    },
+    {
+      "name": "pixel_change_rate",
+      "kind": "motion",
+      "definition": "Mean absolute adjacent grayscale pixel difference /255/dt in the same ROI",
+      "unit": "image intensity fraction / second"
+    }
+  ],
+  "time_alignment": {
+    "raw_archive_fps": "Native FPS and source timestamps retained",
+    "classifier_grid_hz_recommendation": 10,
+    "classifier_grid_status": "Derive a shared time grid from archived channels; no assumption that native frames have equal actual dt",
+    "motion_pair_convention": "u,v and pixel difference at t refer to frame[t] -> frame[t+1], same pairing used by released preprocessor",
+    "last_motion_sample": "Invalid, mask explicitly; never silently treat zero flow padding as a real stop"
+  },
+  "retention": {
+    "input_unit": "Entire provided numbered short clip; record actual duration rather than assume exactly 60s",
+    "drop_remainder_of_180_frames": false,
+    "implementation_requirement": "Keep official preprocessing sequence; infer the final partial DeepPhys batch instead of dropping it. Validate equivalence on complete chunks before bulk run."
+  },
+  "additional_archive_fields": [
+    "network_output",
+    "time_sec",
+    "source_frame_index",
+    "source_timestamp_sec",
+    "frame_dt_sec",
+    "sample_available_time_sec",
+    "motion_valid",
+    "roi_xywh",
+    "body_detection_valid",
+    "roi_brightness",
+    "roi_sharpness",
+    "native_flow_mean_magnitude",
+    "native_flow_p90_magnitude",
+    "native_flow_mean_u",
+    "native_flow_mean_v",
+    "native_pixel_change_mean",
+    "optional_reference_and_peak_annotations_not_model_inputs"
+  ],
+  "scaling": {
+    "store_before_model_feature_scaling": true,
+    "feature_scaler": "Fit on selected normal training partition only; reuse fixed parameters for deployment",
+    "per_window_motion_standardization": false
+  },
+  "quality": {
+    "extract_all_original_candidates": true,
+    "assume_every_original_is_normal": false,
+    "training_selection": "Review valid breathing-observable windows; retain flags for missing ROI/low visibility/recording failure; do not mix synthetic control folders into normal training"
+  },
+  "deployment_contract": {
+    "official_waveforms_are_offline": true,
+    "whole_clip_standardization_and_zero_phase_filter": true,
+    "requirement": "Training feature examples and Raspberry Pi downstream inference must use the same time window and processing context. Archived full-clip waveforms are not automatically a causal live detector; changing preprocessing normalization requires new model inference."
+  },
+  "dataset_scope": {
+    "folders": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10"
+    ],
+    "filename_rule": "numeric basename .mp4 in the folder itself",
+    "hdf_reference_required_for_prediction": false,
+    "separate_assets_not_part_of_this_scope": [
+      "AIR_125.zip",
+      "original_videos subfolders",
+      "root duplicate demo video"
+    ]
+  },
+  "tls_exception": "Per-request public-host exception matching existing workstation proxy setup",
+  "model_input_channels_finalized": false,
+  "channels_role": "Initial extraction/storage candidates, not mandatory model inputs",
+  "feature_selection_review": "model_input_review.json",
+  "face_observation_export": {
+    "design_file": "face_observation_design_v1.json",
+    "role": "Separate observation/alert metadata, not a confirmed respiration-model channel",
+    "implementation_status": "planned_not_implemented"
+  }
+}

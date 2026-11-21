@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-11-21T19:12:19.206582+09:00",
+  "status": "proposal_before_implementation",
+  "role": "Observation-state metadata for final alert logic, separate from the single-class respiratory model",
+  "proposed_fields": [
+    "capture_timestamp_sec",
+    "detection_executed",
+    "detector_execution_status",
+    "face_detected_raw",
+    "face_confidence",
+    "face_bbox_xywh",
+    "face_rotation_retry",
+    "body_detection_valid",
+    "face_infant_association_status"
+  ],
+  "implementation_notes": [
+    "Released face function returns a box or None; confidence is computed but not returned. Export needs extension.",
+    "get_roi_box substitutes the Body box when face detection fails; preserve face_bad and original outcome.",
+    "Use actual detection sample times; the released filled_boxes forward-holds observations between detection frames.",
+    "Detector errors, missing video, and face non-detections are different states.",
+    "Associate faces with the infant rather than accept the highest-confidence caregiver face."
+  ],
+  "alert_design": {
+    "face_absence_duration_sec_example": 5,
+    "duration_is_finalized": false,
+    "face_absence_is_breathing_stop_label": false,
+    "side_view_vs_occlusion_disambiguation_available": false,
+    "use_face_detection_to_cancel_respiration_alert": false,
+    "normal_model_output_proves_safety": false,
+    "notification_reason": "Face could not be confirmed; observation limitation",
+    "repeat_alert_policy": "Coalesce continued missing-face status; recovery confirmation and timing to be validated"
+  },
+  "requires_additional_work_for_pose_reason": [
+    "Infant face/pose or visibility annotations if side view must be distinguished from occlusion",
+    "Additional head-pose/visibility estimator if required; not provided by current box existence alone"
+  ],
+  "bulk_inference_started": false,
+  "live_alerts_enabled": false
+}

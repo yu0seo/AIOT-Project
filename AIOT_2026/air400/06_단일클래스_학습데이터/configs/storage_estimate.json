@@ -1,0 +1,3031 @@
+{
+  "checked_at": "2026-11-21T19:25:34.267082+09:00",
+  "scope": "Only S01-S10 folder-level numeric MP4 short clips",
+  "request_methods": "10 directory GETs and video HEAD only; no video bodies requested",
+  "video_body_bytes_downloaded": 0,
+  "video_count": 295,
+  "known_exact_size_count": 295,
+  "unknown_size_count": 0,
+  "all_sizes_known": true,
+  "total_video_bytes": 1846324124,
+  "total_video_GB_decimal": 1.846324124,
+  "total_video_GiB": 1.719523336738348,
+  "already_local_size_matched_count": 20,
+  "already_local_size_matched_bytes": 125231482,
+  "additional_video_count": 275,
+  "additional_video_bytes": 1721092642,
+  "additional_video_GB_decimal": 1.721092642,
+  "additional_video_GiB": 1.602892430499196,
+  "folders": [
+    {
+      "folder": "S01",
+      "count": 20,
+      "bytes": 52426840
+    },
+    {
+      "folder": "S02",
+      "count": 60,
+      "bytes": 179517916
+    },
+    {
+      "folder": "S03",
+      "count": 10,
+      "bytes": 34649146
+    },
+    {
+      "folder": "S04",
+      "count": 25,
+      "bytes": 94282737
+    },
+    {
+      "folder": "S05",
+      "count": 45,
+      "bytes": 359718345
+    },
+    {
+      "folder": "S06",
+      "count": 50,
+      "bytes": 440360832
+    },
+    {
+      "folder": "S07",
+      "count": 25,
+      "bytes": 191579716
+    },
+    {
+      "folder": "S08",
+      "count": 20,
+      "bytes": 200244970
+    },
+    {
+      "folder": "S09",
+      "count": 20,
+      "bytes": 142800582
+    },
+    {
+      "folder": "S10",
+      "count": 20,
+      "bytes": 150743040
+    }
+  ],
+  "elapsed_sec": 26.313089300001593,
+  "files": [
+    {
+      "folder": "S01",
+      "name": "1.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/1.mp4",
+      "relative_path": "videos/S01/1.mp4",
+      "content_length_bytes": 3070382,
+      "last_modified": "Thu, 18 Dec 2025 14:15:31 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 3070382
+    },
+    {
+      "folder": "S01",
+      "name": "2.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/2.mp4",
+      "relative_path": "videos/S01/2.mp4",
+      "content_length_bytes": 2563599,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "3.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/3.mp4",
+      "relative_path": "videos/S01/3.mp4",
+      "content_length_bytes": 2665051,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "4.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/4.mp4",
+      "relative_path": "videos/S01/4.mp4",
+      "content_length_bytes": 3092383,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "5.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/5.mp4",
+      "relative_path": "videos/S01/5.mp4",
+      "content_length_bytes": 2490306,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "6.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/6.mp4",
+      "relative_path": "videos/S01/6.mp4",
+      "content_length_bytes": 2685018,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "7.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/7.mp4",
+      "relative_path": "videos/S01/7.mp4",
+      "content_length_bytes": 2501786,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "8.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/8.mp4",
+      "relative_path": "videos/S01/8.mp4",
+      "content_length_bytes": 2529489,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "9.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/9.mp4",
+      "relative_path": "videos/S01/9.mp4",
+      "content_length_bytes": 2919185,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "10.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/10.mp4",
+      "relative_path": "videos/S01/10.mp4",
+      "content_length_bytes": 2489061,
+      "last_modified": "Thu, 18 Dec 2025 14:15:31 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "11.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/11.mp4",
+      "relative_path": "videos/S01/11.mp4",
+      "content_length_bytes": 2639442,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 2639442
+    },
+    {
+      "folder": "S01",
+      "name": "12.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/12.mp4",
+      "relative_path": "videos/S01/12.mp4",
+      "content_length_bytes": 2524948,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "13.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/13.mp4",
+      "relative_path": "videos/S01/13.mp4",
+      "content_length_bytes": 2628288,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "14.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/14.mp4",
+      "relative_path": "videos/S01/14.mp4",
+      "content_length_bytes": 2653091,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "15.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/15.mp4",
+      "relative_path": "videos/S01/15.mp4",
+      "content_length_bytes": 2518795,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "16.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/16.mp4",
+      "relative_path": "videos/S01/16.mp4",
+      "content_length_bytes": 2537316,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "17.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/17.mp4",
+      "relative_path": "videos/S01/17.mp4",
+      "content_length_bytes": 2414339,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "18.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/18.mp4",
+      "relative_path": "videos/S01/18.mp4",
+      "content_length_bytes": 2557215,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "19.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/19.mp4",
+      "relative_path": "videos/S01/19.mp4",
+      "content_length_bytes": 2473267,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S01",
+      "name": "20.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/20.mp4",
+      "relative_path": "videos/S01/20.mp4",
+      "content_length_bytes": 2473879,
+      "last_modified": "Thu, 18 Dec 2025 14:15:32 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "1.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/1.mp4",
+      "relative_path": "videos/S02/1.mp4",
+      "content_length_bytes": 2878334,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 2878334
+    },
+    {
+      "folder": "S02",
+      "name": "2.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/2.mp4",
+      "relative_path": "videos/S02/2.mp4",
+      "content_length_bytes": 2846613,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "3.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/3.mp4",
+      "relative_path": "videos/S02/3.mp4",
+      "content_length_bytes": 2849396,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "4.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/4.mp4",
+      "relative_path": "videos/S02/4.mp4",
+      "content_length_bytes": 2877399,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "5.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/5.mp4",
+      "relative_path": "videos/S02/5.mp4",
+      "content_length_bytes": 2868799,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "6.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/6.mp4",
+      "relative_path": "videos/S02/6.mp4",
+      "content_length_bytes": 3434781,
+      "last_modified": "Thu, 18 Dec 2025 14:15:38 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "7.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/7.mp4",
+      "relative_path": "videos/S02/7.mp4",
+      "content_length_bytes": 3713237,
+      "last_modified": "Thu, 18 Dec 2025 14:15:38 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "8.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/8.mp4",
+      "relative_path": "videos/S02/8.mp4",
+      "content_length_bytes": 3032246,
+      "last_modified": "Thu, 18 Dec 2025 14:15:38 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "9.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/9.mp4",
+      "relative_path": "videos/S02/9.mp4",
+      "content_length_bytes": 2968326,
+      "last_modified": "Thu, 18 Dec 2025 14:15:38 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "10.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/10.mp4",
+      "relative_path": "videos/S02/10.mp4",
+      "content_length_bytes": 2887852,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "11.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/11.mp4",
+      "relative_path": "videos/S02/11.mp4",
+      "content_length_bytes": 2846048,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "12.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/12.mp4",
+      "relative_path": "videos/S02/12.mp4",
+      "content_length_bytes": 2933062,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "13.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/13.mp4",
+      "relative_path": "videos/S02/13.mp4",
+      "content_length_bytes": 2951085,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "14.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/14.mp4",
+      "relative_path": "videos/S02/14.mp4",
+      "content_length_bytes": 2879750,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "15.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/15.mp4",
+      "relative_path": "videos/S02/15.mp4",
+      "content_length_bytes": 2844531,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "16.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/16.mp4",
+      "relative_path": "videos/S02/16.mp4",
+      "content_length_bytes": 2874669,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "17.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/17.mp4",
+      "relative_path": "videos/S02/17.mp4",
+      "content_length_bytes": 2939102,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "18.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/18.mp4",
+      "relative_path": "videos/S02/18.mp4",
+      "content_length_bytes": 3125389,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "19.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/19.mp4",
+      "relative_path": "videos/S02/19.mp4",
+      "content_length_bytes": 2878931,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "20.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/20.mp4",
+      "relative_path": "videos/S02/20.mp4",
+      "content_length_bytes": 2838992,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "21.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/21.mp4",
+      "relative_path": "videos/S02/21.mp4",
+      "content_length_bytes": 2896026,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 2896026
+    },
+    {
+      "folder": "S02",
+      "name": "22.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/22.mp4",
+      "relative_path": "videos/S02/22.mp4",
+      "content_length_bytes": 2950272,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "23.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/23.mp4",
+      "relative_path": "videos/S02/23.mp4",
+      "content_length_bytes": 3733121,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "24.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/24.mp4",
+      "relative_path": "videos/S02/24.mp4",
+      "content_length_bytes": 2910563,
+      "last_modified": "Thu, 18 Dec 2025 14:15:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "25.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/25.mp4",
+      "relative_path": "videos/S02/25.mp4",
+      "content_length_bytes": 2912449,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "26.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/26.mp4",
+      "relative_path": "videos/S02/26.mp4",
+      "content_length_bytes": 2882826,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "27.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/27.mp4",
+      "relative_path": "videos/S02/27.mp4",
+      "content_length_bytes": 2893453,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "28.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/28.mp4",
+      "relative_path": "videos/S02/28.mp4",
+      "content_length_bytes": 2932779,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "29.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/29.mp4",
+      "relative_path": "videos/S02/29.mp4",
+      "content_length_bytes": 2859732,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "30.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/30.mp4",
+      "relative_path": "videos/S02/30.mp4",
+      "content_length_bytes": 2825967,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "31.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/31.mp4",
+      "relative_path": "videos/S02/31.mp4",
+      "content_length_bytes": 2814995,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "32.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/32.mp4",
+      "relative_path": "videos/S02/32.mp4",
+      "content_length_bytes": 3093934,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "33.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/33.mp4",
+      "relative_path": "videos/S02/33.mp4",
+      "content_length_bytes": 3821327,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "34.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/34.mp4",
+      "relative_path": "videos/S02/34.mp4",
+      "content_length_bytes": 2957136,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "35.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/35.mp4",
+      "relative_path": "videos/S02/35.mp4",
+      "content_length_bytes": 2901773,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "36.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/36.mp4",
+      "relative_path": "videos/S02/36.mp4",
+      "content_length_bytes": 2843844,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "37.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/37.mp4",
+      "relative_path": "videos/S02/37.mp4",
+      "content_length_bytes": 2880707,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "38.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/38.mp4",
+      "relative_path": "videos/S02/38.mp4",
+      "content_length_bytes": 2936768,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "39.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/39.mp4",
+      "relative_path": "videos/S02/39.mp4",
+      "content_length_bytes": 2879111,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "40.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/40.mp4",
+      "relative_path": "videos/S02/40.mp4",
+      "content_length_bytes": 2865830,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "41.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/41.mp4",
+      "relative_path": "videos/S02/41.mp4",
+      "content_length_bytes": 3266995,
+      "last_modified": "Thu, 18 Dec 2025 14:15:36 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "42.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/42.mp4",
+      "relative_path": "videos/S02/42.mp4",
+      "content_length_bytes": 3248565,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "43.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/43.mp4",
+      "relative_path": "videos/S02/43.mp4",
+      "content_length_bytes": 3548395,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "44.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/44.mp4",
+      "relative_path": "videos/S02/44.mp4",
+      "content_length_bytes": 3110049,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "45.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/45.mp4",
+      "relative_path": "videos/S02/45.mp4",
+      "content_length_bytes": 2774224,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "46.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/46.mp4",
+      "relative_path": "videos/S02/46.mp4",
+      "content_length_bytes": 2846203,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "47.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/47.mp4",
+      "relative_path": "videos/S02/47.mp4",
+      "content_length_bytes": 2927438,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "48.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/48.mp4",
+      "relative_path": "videos/S02/48.mp4",
+      "content_length_bytes": 2934709,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "49.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/49.mp4",
+      "relative_path": "videos/S02/49.mp4",
+      "content_length_bytes": 2863790,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "50.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/50.mp4",
+      "relative_path": "videos/S02/50.mp4",
+      "content_length_bytes": 2847911,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "51.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/51.mp4",
+      "relative_path": "videos/S02/51.mp4",
+      "content_length_bytes": 2857512,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "52.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/52.mp4",
+      "relative_path": "videos/S02/52.mp4",
+      "content_length_bytes": 2908550,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "53.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/53.mp4",
+      "relative_path": "videos/S02/53.mp4",
+      "content_length_bytes": 2924720,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "54.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/54.mp4",
+      "relative_path": "videos/S02/54.mp4",
+      "content_length_bytes": 2901856,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "55.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/55.mp4",
+      "relative_path": "videos/S02/55.mp4",
+      "content_length_bytes": 2856590,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "56.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/56.mp4",
+      "relative_path": "videos/S02/56.mp4",
+      "content_length_bytes": 3083335,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "57.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/57.mp4",
+      "relative_path": "videos/S02/57.mp4",
+      "content_length_bytes": 3148663,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "58.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/58.mp4",
+      "relative_path": "videos/S02/58.mp4",
+      "content_length_bytes": 3172033,
+      "last_modified": "Thu, 18 Dec 2025 14:15:37 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "59.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/59.mp4",
+      "relative_path": "videos/S02/59.mp4",
+      "content_length_bytes": 3080986,
+      "last_modified": "Thu, 18 Dec 2025 14:15:38 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S02",
+      "name": "60.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/60.mp4",
+      "relative_path": "videos/S02/60.mp4",
+      "content_length_bytes": 2954237,
+      "last_modified": "Thu, 18 Dec 2025 14:15:38 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S03",
+      "name": "1.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/1.mp4",
+      "relative_path": "videos/S03/1.mp4",
+      "content_length_bytes": 3233138,
+      "last_modified": "Thu, 18 Dec 2025 14:15:42 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 3233138
+    },
+    {
+      "folder": "S03",
+      "name": "2.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/2.mp4",
+      "relative_path": "videos/S03/2.mp4",
+      "content_length_bytes": 4996848,
+      "last_modified": "Thu, 18 Dec 2025 14:15:42 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S03",
+      "name": "3.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/3.mp4",
+      "relative_path": "videos/S03/3.mp4",
+      "content_length_bytes": 3463496,
+      "last_modified": "Thu, 18 Dec 2025 14:15:42 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S03",
+      "name": "4.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/4.mp4",
+      "relative_path": "videos/S03/4.mp4",
+      "content_length_bytes": 3304479,
+      "last_modified": "Thu, 18 Dec 2025 14:15:42 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S03",
+      "name": "5.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/5.mp4",
+      "relative_path": "videos/S03/5.mp4",
+      "content_length_bytes": 3209183,
+      "last_modified": "Thu, 18 Dec 2025 14:15:42 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S03",
+      "name": "6.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/6.mp4",
+      "relative_path": "videos/S03/6.mp4",
+      "content_length_bytes": 3224220,
+      "last_modified": "Thu, 18 Dec 2025 14:15:42 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 3224220
+    },
+    {
+      "folder": "S03",
+      "name": "7.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/7.mp4",
+      "relative_path": "videos/S03/7.mp4",
+      "content_length_bytes": 3300186,
+      "last_modified": "Thu, 18 Dec 2025 14:15:42 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S03",
+      "name": "8.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/8.mp4",
+      "relative_path": "videos/S03/8.mp4",
+      "content_length_bytes": 3492195,
+      "last_modified": "Thu, 18 Dec 2025 14:15:42 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S03",
+      "name": "9.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/9.mp4",
+      "relative_path": "videos/S03/9.mp4",
+      "content_length_bytes": 3220333,
+      "last_modified": "Thu, 18 Dec 2025 14:15:42 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S03",
+      "name": "10.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/10.mp4",
+      "relative_path": "videos/S03/10.mp4",
+      "content_length_bytes": 3205068,
+      "last_modified": "Thu, 18 Dec 2025 14:15:42 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "1.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/1.mp4",
+      "relative_path": "videos/S04/1.mp4",
+      "content_length_bytes": 3559467,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 3559467
+    },
+    {
+      "folder": "S04",
+      "name": "2.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/2.mp4",
+      "relative_path": "videos/S04/2.mp4",
+      "content_length_bytes": 3611798,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "3.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/3.mp4",
+      "relative_path": "videos/S04/3.mp4",
+      "content_length_bytes": 3700568,
+      "last_modified": "Thu, 18 Dec 2025 14:15:46 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "4.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/4.mp4",
+      "relative_path": "videos/S04/4.mp4",
+      "content_length_bytes": 3466801,
+      "last_modified": "Thu, 18 Dec 2025 14:15:46 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "5.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/5.mp4",
+      "relative_path": "videos/S04/5.mp4",
+      "content_length_bytes": 3861442,
+      "last_modified": "Thu, 18 Dec 2025 14:15:46 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "6.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/6.mp4",
+      "relative_path": "videos/S04/6.mp4",
+      "content_length_bytes": 3515700,
+      "last_modified": "Thu, 18 Dec 2025 14:15:46 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "7.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/7.mp4",
+      "relative_path": "videos/S04/7.mp4",
+      "content_length_bytes": 3531065,
+      "last_modified": "Thu, 18 Dec 2025 14:15:46 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "8.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/8.mp4",
+      "relative_path": "videos/S04/8.mp4",
+      "content_length_bytes": 3587490,
+      "last_modified": "Thu, 18 Dec 2025 14:15:46 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "9.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/9.mp4",
+      "relative_path": "videos/S04/9.mp4",
+      "content_length_bytes": 3468113,
+      "last_modified": "Thu, 18 Dec 2025 14:15:46 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "10.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/10.mp4",
+      "relative_path": "videos/S04/10.mp4",
+      "content_length_bytes": 3388461,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "11.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/11.mp4",
+      "relative_path": "videos/S04/11.mp4",
+      "content_length_bytes": 3739406,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "12.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/12.mp4",
+      "relative_path": "videos/S04/12.mp4",
+      "content_length_bytes": 4487822,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "13.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/13.mp4",
+      "relative_path": "videos/S04/13.mp4",
+      "content_length_bytes": 3847972,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 3847972
+    },
+    {
+      "folder": "S04",
+      "name": "14.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/14.mp4",
+      "relative_path": "videos/S04/14.mp4",
+      "content_length_bytes": 3784028,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "15.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/15.mp4",
+      "relative_path": "videos/S04/15.mp4",
+      "content_length_bytes": 3720869,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "16.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/16.mp4",
+      "relative_path": "videos/S04/16.mp4",
+      "content_length_bytes": 3411781,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "17.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/17.mp4",
+      "relative_path": "videos/S04/17.mp4",
+      "content_length_bytes": 3492400,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "18.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/18.mp4",
+      "relative_path": "videos/S04/18.mp4",
+      "content_length_bytes": 3527516,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "19.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/19.mp4",
+      "relative_path": "videos/S04/19.mp4",
+      "content_length_bytes": 3347732,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "20.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/20.mp4",
+      "relative_path": "videos/S04/20.mp4",
+      "content_length_bytes": 3372510,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "21.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/21.mp4",
+      "relative_path": "videos/S04/21.mp4",
+      "content_length_bytes": 3758485,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "22.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/22.mp4",
+      "relative_path": "videos/S04/22.mp4",
+      "content_length_bytes": 3828942,
+      "last_modified": "Thu, 18 Dec 2025 14:15:45 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "23.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/23.mp4",
+      "relative_path": "videos/S04/23.mp4",
+      "content_length_bytes": 3998636,
+      "last_modified": "Thu, 18 Dec 2025 14:15:46 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "24.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/24.mp4",
+      "relative_path": "videos/S04/24.mp4",
+      "content_length_bytes": 3967858,
+      "last_modified": "Thu, 18 Dec 2025 14:15:46 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S04",
+      "name": "25.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/25.mp4",
+      "relative_path": "videos/S04/25.mp4",
+      "content_length_bytes": 6305875,
+      "last_modified": "Thu, 18 Dec 2025 14:15:46 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "1.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/1.mp4",
+      "relative_path": "videos/S05/1.mp4",
+      "content_length_bytes": 8887593,
+      "last_modified": "Thu, 18 Dec 2025 14:15:53 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 8887593
+    },
+    {
+      "folder": "S05",
+      "name": "2.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/2.mp4",
+      "relative_path": "videos/S05/2.mp4",
+      "content_length_bytes": 12073457,
+      "last_modified": "Thu, 18 Dec 2025 14:15:54 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "3.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/3.mp4",
+      "relative_path": "videos/S05/3.mp4",
+      "content_length_bytes": 9850051,
+      "last_modified": "Thu, 18 Dec 2025 14:15:56 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "4.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/4.mp4",
+      "relative_path": "videos/S05/4.mp4",
+      "content_length_bytes": 9081909,
+      "last_modified": "Thu, 18 Dec 2025 14:15:58 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "5.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/5.mp4",
+      "relative_path": "videos/S05/5.mp4",
+      "content_length_bytes": 9316033,
+      "last_modified": "Thu, 18 Dec 2025 14:15:59 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "6.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/6.mp4",
+      "relative_path": "videos/S05/6.mp4",
+      "content_length_bytes": 8538508,
+      "last_modified": "Thu, 18 Dec 2025 14:15:59 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "7.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/7.mp4",
+      "relative_path": "videos/S05/7.mp4",
+      "content_length_bytes": 8635214,
+      "last_modified": "Thu, 18 Dec 2025 14:15:59 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "8.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/8.mp4",
+      "relative_path": "videos/S05/8.mp4",
+      "content_length_bytes": 8696306,
+      "last_modified": "Thu, 18 Dec 2025 14:15:59 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "9.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/9.mp4",
+      "relative_path": "videos/S05/9.mp4",
+      "content_length_bytes": 8572183,
+      "last_modified": "Thu, 18 Dec 2025 14:15:59 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "10.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/10.mp4",
+      "relative_path": "videos/S05/10.mp4",
+      "content_length_bytes": 8648221,
+      "last_modified": "Thu, 18 Dec 2025 14:15:53 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "11.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/11.mp4",
+      "relative_path": "videos/S05/11.mp4",
+      "content_length_bytes": 7610476,
+      "last_modified": "Thu, 18 Dec 2025 14:15:53 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "12.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/12.mp4",
+      "relative_path": "videos/S05/12.mp4",
+      "content_length_bytes": 7600687,
+      "last_modified": "Thu, 18 Dec 2025 14:15:53 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "13.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/13.mp4",
+      "relative_path": "videos/S05/13.mp4",
+      "content_length_bytes": 8011193,
+      "last_modified": "Thu, 18 Dec 2025 14:15:54 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "14.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/14.mp4",
+      "relative_path": "videos/S05/14.mp4",
+      "content_length_bytes": 7824902,
+      "last_modified": "Thu, 18 Dec 2025 14:15:54 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "15.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/15.mp4",
+      "relative_path": "videos/S05/15.mp4",
+      "content_length_bytes": 7386442,
+      "last_modified": "Thu, 18 Dec 2025 14:15:54 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "16.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/16.mp4",
+      "relative_path": "videos/S05/16.mp4",
+      "content_length_bytes": 7392648,
+      "last_modified": "Thu, 18 Dec 2025 14:15:54 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "17.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/17.mp4",
+      "relative_path": "videos/S05/17.mp4",
+      "content_length_bytes": 7557324,
+      "last_modified": "Thu, 18 Dec 2025 14:15:54 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "18.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/18.mp4",
+      "relative_path": "videos/S05/18.mp4",
+      "content_length_bytes": 7622425,
+      "last_modified": "Thu, 18 Dec 2025 14:15:54 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "19.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/19.mp4",
+      "relative_path": "videos/S05/19.mp4",
+      "content_length_bytes": 7393926,
+      "last_modified": "Thu, 18 Dec 2025 14:15:54 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "20.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/20.mp4",
+      "relative_path": "videos/S05/20.mp4",
+      "content_length_bytes": 7263881,
+      "last_modified": "Thu, 18 Dec 2025 14:15:54 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "21.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/21.mp4",
+      "relative_path": "videos/S05/21.mp4",
+      "content_length_bytes": 7264242,
+      "last_modified": "Thu, 18 Dec 2025 14:15:55 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "22.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/22.mp4",
+      "relative_path": "videos/S05/22.mp4",
+      "content_length_bytes": 7418617,
+      "last_modified": "Thu, 18 Dec 2025 14:15:55 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "23.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/23.mp4",
+      "relative_path": "videos/S05/23.mp4",
+      "content_length_bytes": 7668229,
+      "last_modified": "Thu, 18 Dec 2025 14:15:55 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 7668229
+    },
+    {
+      "folder": "S05",
+      "name": "24.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/24.mp4",
+      "relative_path": "videos/S05/24.mp4",
+      "content_length_bytes": 7297829,
+      "last_modified": "Thu, 18 Dec 2025 14:15:55 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "25.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/25.mp4",
+      "relative_path": "videos/S05/25.mp4",
+      "content_length_bytes": 7232527,
+      "last_modified": "Thu, 18 Dec 2025 14:15:55 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "26.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/26.mp4",
+      "relative_path": "videos/S05/26.mp4",
+      "content_length_bytes": 7219181,
+      "last_modified": "Thu, 18 Dec 2025 14:15:55 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "27.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/27.mp4",
+      "relative_path": "videos/S05/27.mp4",
+      "content_length_bytes": 7473197,
+      "last_modified": "Thu, 18 Dec 2025 14:15:56 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "28.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/28.mp4",
+      "relative_path": "videos/S05/28.mp4",
+      "content_length_bytes": 7489271,
+      "last_modified": "Thu, 18 Dec 2025 14:15:56 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "29.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/29.mp4",
+      "relative_path": "videos/S05/29.mp4",
+      "content_length_bytes": 7340544,
+      "last_modified": "Thu, 18 Dec 2025 14:15:56 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "30.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/30.mp4",
+      "relative_path": "videos/S05/30.mp4",
+      "content_length_bytes": 8359087,
+      "last_modified": "Thu, 18 Dec 2025 14:15:56 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "31.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/31.mp4",
+      "relative_path": "videos/S05/31.mp4",
+      "content_length_bytes": 7425943,
+      "last_modified": "Thu, 18 Dec 2025 14:15:56 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "32.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/32.mp4",
+      "relative_path": "videos/S05/32.mp4",
+      "content_length_bytes": 7624901,
+      "last_modified": "Thu, 18 Dec 2025 14:15:56 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "33.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/33.mp4",
+      "relative_path": "videos/S05/33.mp4",
+      "content_length_bytes": 7669158,
+      "last_modified": "Thu, 18 Dec 2025 14:15:56 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "34.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/34.mp4",
+      "relative_path": "videos/S05/34.mp4",
+      "content_length_bytes": 7456231,
+      "last_modified": "Thu, 18 Dec 2025 14:15:57 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "35.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/35.mp4",
+      "relative_path": "videos/S05/35.mp4",
+      "content_length_bytes": 7406149,
+      "last_modified": "Thu, 18 Dec 2025 14:15:57 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "36.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/36.mp4",
+      "relative_path": "videos/S05/36.mp4",
+      "content_length_bytes": 7422319,
+      "last_modified": "Thu, 18 Dec 2025 14:15:57 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "37.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/37.mp4",
+      "relative_path": "videos/S05/37.mp4",
+      "content_length_bytes": 7542789,
+      "last_modified": "Thu, 18 Dec 2025 14:15:57 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "38.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/38.mp4",
+      "relative_path": "videos/S05/38.mp4",
+      "content_length_bytes": 7646372,
+      "last_modified": "Thu, 18 Dec 2025 14:15:57 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "39.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/39.mp4",
+      "relative_path": "videos/S05/39.mp4",
+      "content_length_bytes": 7469610,
+      "last_modified": "Thu, 18 Dec 2025 14:15:57 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "40.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/40.mp4",
+      "relative_path": "videos/S05/40.mp4",
+      "content_length_bytes": 7448880,
+      "last_modified": "Thu, 18 Dec 2025 14:15:58 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "41.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/41.mp4",
+      "relative_path": "videos/S05/41.mp4",
+      "content_length_bytes": 7553598,
+      "last_modified": "Thu, 18 Dec 2025 14:15:58 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "42.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/42.mp4",
+      "relative_path": "videos/S05/42.mp4",
+      "content_length_bytes": 7539302,
+      "last_modified": "Thu, 18 Dec 2025 14:15:58 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "43.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/43.mp4",
+      "relative_path": "videos/S05/43.mp4",
+      "content_length_bytes": 7646585,
+      "last_modified": "Thu, 18 Dec 2025 14:15:58 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "44.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/44.mp4",
+      "relative_path": "videos/S05/44.mp4",
+      "content_length_bytes": 7443091,
+      "last_modified": "Thu, 18 Dec 2025 14:15:58 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S05",
+      "name": "45.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/45.mp4",
+      "relative_path": "videos/S05/45.mp4",
+      "content_length_bytes": 11697314,
+      "last_modified": "Thu, 18 Dec 2025 14:15:59 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "1.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/1.mp4",
+      "relative_path": "videos/S06/1.mp4",
+      "content_length_bytes": 7312347,
+      "last_modified": "Thu, 18 Dec 2025 14:16:05 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 7312347
+    },
+    {
+      "folder": "S06",
+      "name": "2.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/2.mp4",
+      "relative_path": "videos/S06/2.mp4",
+      "content_length_bytes": 7456507,
+      "last_modified": "Thu, 18 Dec 2025 14:16:06 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "3.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/3.mp4",
+      "relative_path": "videos/S06/3.mp4",
+      "content_length_bytes": 7658746,
+      "last_modified": "Thu, 18 Dec 2025 14:16:08 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "4.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/4.mp4",
+      "relative_path": "videos/S06/4.mp4",
+      "content_length_bytes": 7513027,
+      "last_modified": "Thu, 18 Dec 2025 14:16:09 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "5.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/5.mp4",
+      "relative_path": "videos/S06/5.mp4",
+      "content_length_bytes": 7437200,
+      "last_modified": "Thu, 18 Dec 2025 14:16:10 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "6.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/6.mp4",
+      "relative_path": "videos/S06/6.mp4",
+      "content_length_bytes": 7640475,
+      "last_modified": "Thu, 18 Dec 2025 14:16:11 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "7.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/7.mp4",
+      "relative_path": "videos/S06/7.mp4",
+      "content_length_bytes": 8023231,
+      "last_modified": "Thu, 18 Dec 2025 14:16:11 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "8.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/8.mp4",
+      "relative_path": "videos/S06/8.mp4",
+      "content_length_bytes": 11095333,
+      "last_modified": "Thu, 18 Dec 2025 14:16:11 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "9.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/9.mp4",
+      "relative_path": "videos/S06/9.mp4",
+      "content_length_bytes": 8689967,
+      "last_modified": "Thu, 18 Dec 2025 14:16:11 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "10.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/10.mp4",
+      "relative_path": "videos/S06/10.mp4",
+      "content_length_bytes": 7964069,
+      "last_modified": "Thu, 18 Dec 2025 14:16:05 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "11.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/11.mp4",
+      "relative_path": "videos/S06/11.mp4",
+      "content_length_bytes": 8047892,
+      "last_modified": "Thu, 18 Dec 2025 14:16:05 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "12.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/12.mp4",
+      "relative_path": "videos/S06/12.mp4",
+      "content_length_bytes": 11788469,
+      "last_modified": "Thu, 18 Dec 2025 14:16:05 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "13.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/13.mp4",
+      "relative_path": "videos/S06/13.mp4",
+      "content_length_bytes": 8183493,
+      "last_modified": "Thu, 18 Dec 2025 14:16:05 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "14.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/14.mp4",
+      "relative_path": "videos/S06/14.mp4",
+      "content_length_bytes": 8032809,
+      "last_modified": "Thu, 18 Dec 2025 14:16:06 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "15.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/15.mp4",
+      "relative_path": "videos/S06/15.mp4",
+      "content_length_bytes": 7819591,
+      "last_modified": "Thu, 18 Dec 2025 14:16:06 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "16.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/16.mp4",
+      "relative_path": "videos/S06/16.mp4",
+      "content_length_bytes": 7859051,
+      "last_modified": "Thu, 18 Dec 2025 14:16:06 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "17.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/17.mp4",
+      "relative_path": "videos/S06/17.mp4",
+      "content_length_bytes": 8007725,
+      "last_modified": "Thu, 18 Dec 2025 14:16:06 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "18.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/18.mp4",
+      "relative_path": "videos/S06/18.mp4",
+      "content_length_bytes": 8010949,
+      "last_modified": "Thu, 18 Dec 2025 14:16:06 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "19.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/19.mp4",
+      "relative_path": "videos/S06/19.mp4",
+      "content_length_bytes": 7917463,
+      "last_modified": "Thu, 18 Dec 2025 14:16:06 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "20.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/20.mp4",
+      "relative_path": "videos/S06/20.mp4",
+      "content_length_bytes": 15194131,
+      "last_modified": "Thu, 18 Dec 2025 14:16:07 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "21.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/21.mp4",
+      "relative_path": "videos/S06/21.mp4",
+      "content_length_bytes": 11654123,
+      "last_modified": "Thu, 18 Dec 2025 14:16:07 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "22.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/22.mp4",
+      "relative_path": "videos/S06/22.mp4",
+      "content_length_bytes": 11339466,
+      "last_modified": "Thu, 18 Dec 2025 14:16:07 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "23.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/23.mp4",
+      "relative_path": "videos/S06/23.mp4",
+      "content_length_bytes": 8364412,
+      "last_modified": "Thu, 18 Dec 2025 14:16:07 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "24.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/24.mp4",
+      "relative_path": "videos/S06/24.mp4",
+      "content_length_bytes": 8121446,
+      "last_modified": "Thu, 18 Dec 2025 14:16:07 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "25.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/25.mp4",
+      "relative_path": "videos/S06/25.mp4",
+      "content_length_bytes": 8044483,
+      "last_modified": "Thu, 18 Dec 2025 14:16:07 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "26.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/26.mp4",
+      "relative_path": "videos/S06/26.mp4",
+      "content_length_bytes": 8054486,
+      "last_modified": "Thu, 18 Dec 2025 14:16:07 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 8054486
+    },
+    {
+      "folder": "S06",
+      "name": "27.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/27.mp4",
+      "relative_path": "videos/S06/27.mp4",
+      "content_length_bytes": 8072919,
+      "last_modified": "Thu, 18 Dec 2025 14:16:07 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "28.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/28.mp4",
+      "relative_path": "videos/S06/28.mp4",
+      "content_length_bytes": 8211109,
+      "last_modified": "Thu, 18 Dec 2025 14:16:08 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "29.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/29.mp4",
+      "relative_path": "videos/S06/29.mp4",
+      "content_length_bytes": 7955784,
+      "last_modified": "Thu, 18 Dec 2025 14:16:08 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "30.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/30.mp4",
+      "relative_path": "videos/S06/30.mp4",
+      "content_length_bytes": 7860916,
+      "last_modified": "Thu, 18 Dec 2025 14:16:08 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "31.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/31.mp4",
+      "relative_path": "videos/S06/31.mp4",
+      "content_length_bytes": 8500663,
+      "last_modified": "Thu, 18 Dec 2025 14:16:08 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "32.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/32.mp4",
+      "relative_path": "videos/S06/32.mp4",
+      "content_length_bytes": 7931027,
+      "last_modified": "Thu, 18 Dec 2025 14:16:08 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "33.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/33.mp4",
+      "relative_path": "videos/S06/33.mp4",
+      "content_length_bytes": 7950929,
+      "last_modified": "Thu, 18 Dec 2025 14:16:08 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "34.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/34.mp4",
+      "relative_path": "videos/S06/34.mp4",
+      "content_length_bytes": 7832857,
+      "last_modified": "Thu, 18 Dec 2025 14:16:08 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "35.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/35.mp4",
+      "relative_path": "videos/S06/35.mp4",
+      "content_length_bytes": 10128292,
+      "last_modified": "Thu, 18 Dec 2025 14:16:08 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "36.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/36.mp4",
+      "relative_path": "videos/S06/36.mp4",
+      "content_length_bytes": 8477012,
+      "last_modified": "Thu, 18 Dec 2025 14:16:09 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "37.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/37.mp4",
+      "relative_path": "videos/S06/37.mp4",
+      "content_length_bytes": 7888882,
+      "last_modified": "Thu, 18 Dec 2025 14:16:09 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "38.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/38.mp4",
+      "relative_path": "videos/S06/38.mp4",
+      "content_length_bytes": 8016336,
+      "last_modified": "Thu, 18 Dec 2025 14:16:09 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "39.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/39.mp4",
+      "relative_path": "videos/S06/39.mp4",
+      "content_length_bytes": 8797647,
+      "last_modified": "Thu, 18 Dec 2025 14:16:09 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "40.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/40.mp4",
+      "relative_path": "videos/S06/40.mp4",
+      "content_length_bytes": 11384067,
+      "last_modified": "Thu, 18 Dec 2025 14:16:09 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "41.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/41.mp4",
+      "relative_path": "videos/S06/41.mp4",
+      "content_length_bytes": 7946898,
+      "last_modified": "Thu, 18 Dec 2025 14:16:09 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "42.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/42.mp4",
+      "relative_path": "videos/S06/42.mp4",
+      "content_length_bytes": 7900321,
+      "last_modified": "Thu, 18 Dec 2025 14:16:09 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "43.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/43.mp4",
+      "relative_path": "videos/S06/43.mp4",
+      "content_length_bytes": 10479412,
+      "last_modified": "Thu, 18 Dec 2025 14:16:10 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "44.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/44.mp4",
+      "relative_path": "videos/S06/44.mp4",
+      "content_length_bytes": 8151342,
+      "last_modified": "Thu, 18 Dec 2025 14:16:10 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "45.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/45.mp4",
+      "relative_path": "videos/S06/45.mp4",
+      "content_length_bytes": 7880244,
+      "last_modified": "Thu, 18 Dec 2025 14:16:10 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "46.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/46.mp4",
+      "relative_path": "videos/S06/46.mp4",
+      "content_length_bytes": 7801060,
+      "last_modified": "Thu, 18 Dec 2025 14:16:10 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "47.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/47.mp4",
+      "relative_path": "videos/S06/47.mp4",
+      "content_length_bytes": 8364453,
+      "last_modified": "Thu, 18 Dec 2025 14:16:10 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "48.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/48.mp4",
+      "relative_path": "videos/S06/48.mp4",
+      "content_length_bytes": 14384934,
+      "last_modified": "Thu, 18 Dec 2025 14:16:10 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "49.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/49.mp4",
+      "relative_path": "videos/S06/49.mp4",
+      "content_length_bytes": 11506624,
+      "last_modified": "Thu, 18 Dec 2025 14:16:10 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S06",
+      "name": "50.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/50.mp4",
+      "relative_path": "videos/S06/50.mp4",
+      "content_length_bytes": 9706213,
+      "last_modified": "Thu, 18 Dec 2025 14:16:11 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "01.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/01.mp4",
+      "relative_path": "videos/S07/01.mp4",
+      "content_length_bytes": 8780545,
+      "last_modified": "Thu, 18 Dec 2025 14:16:17 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 8780545
+    },
+    {
+      "folder": "S07",
+      "name": "02.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/02.mp4",
+      "relative_path": "videos/S07/02.mp4",
+      "content_length_bytes": 8517585,
+      "last_modified": "Thu, 18 Dec 2025 14:16:17 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "03.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/03.mp4",
+      "relative_path": "videos/S07/03.mp4",
+      "content_length_bytes": 7433331,
+      "last_modified": "Thu, 18 Dec 2025 14:16:17 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "04.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/04.mp4",
+      "relative_path": "videos/S07/04.mp4",
+      "content_length_bytes": 9187006,
+      "last_modified": "Thu, 18 Dec 2025 14:16:17 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "05.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/05.mp4",
+      "relative_path": "videos/S07/05.mp4",
+      "content_length_bytes": 10090970,
+      "last_modified": "Thu, 18 Dec 2025 14:16:17 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "06.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/06.mp4",
+      "relative_path": "videos/S07/06.mp4",
+      "content_length_bytes": 8273518,
+      "last_modified": "Thu, 18 Dec 2025 14:16:17 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "07.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/07.mp4",
+      "relative_path": "videos/S07/07.mp4",
+      "content_length_bytes": 6748650,
+      "last_modified": "Thu, 18 Dec 2025 14:16:17 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "08.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/08.mp4",
+      "relative_path": "videos/S07/08.mp4",
+      "content_length_bytes": 6814601,
+      "last_modified": "Thu, 18 Dec 2025 14:16:18 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "09.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/09.mp4",
+      "relative_path": "videos/S07/09.mp4",
+      "content_length_bytes": 7144078,
+      "last_modified": "Thu, 18 Dec 2025 14:16:18 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "10.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/10.mp4",
+      "relative_path": "videos/S07/10.mp4",
+      "content_length_bytes": 6815957,
+      "last_modified": "Thu, 18 Dec 2025 14:16:18 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "11.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/11.mp4",
+      "relative_path": "videos/S07/11.mp4",
+      "content_length_bytes": 7012275,
+      "last_modified": "Thu, 18 Dec 2025 14:16:18 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "12.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/12.mp4",
+      "relative_path": "videos/S07/12.mp4",
+      "content_length_bytes": 10408782,
+      "last_modified": "Thu, 18 Dec 2025 14:16:18 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "13.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/13.mp4",
+      "relative_path": "videos/S07/13.mp4",
+      "content_length_bytes": 10663281,
+      "last_modified": "Thu, 18 Dec 2025 14:16:18 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 10663281
+    },
+    {
+      "folder": "S07",
+      "name": "14.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/14.mp4",
+      "relative_path": "videos/S07/14.mp4",
+      "content_length_bytes": 7071010,
+      "last_modified": "Thu, 18 Dec 2025 14:16:18 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "15.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/15.mp4",
+      "relative_path": "videos/S07/15.mp4",
+      "content_length_bytes": 6905661,
+      "last_modified": "Thu, 18 Dec 2025 14:16:18 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "16.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/16.mp4",
+      "relative_path": "videos/S07/16.mp4",
+      "content_length_bytes": 6912306,
+      "last_modified": "Thu, 18 Dec 2025 14:16:19 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "17.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/17.mp4",
+      "relative_path": "videos/S07/17.mp4",
+      "content_length_bytes": 6879774,
+      "last_modified": "Thu, 18 Dec 2025 14:16:19 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "18.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/18.mp4",
+      "relative_path": "videos/S07/18.mp4",
+      "content_length_bytes": 6964695,
+      "last_modified": "Thu, 18 Dec 2025 14:16:19 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "19.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/19.mp4",
+      "relative_path": "videos/S07/19.mp4",
+      "content_length_bytes": 6983061,
+      "last_modified": "Thu, 18 Dec 2025 14:16:19 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "20.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/20.mp4",
+      "relative_path": "videos/S07/20.mp4",
+      "content_length_bytes": 7710331,
+      "last_modified": "Thu, 18 Dec 2025 14:16:19 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "21.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/21.mp4",
+      "relative_path": "videos/S07/21.mp4",
+      "content_length_bytes": 6717971,
+      "last_modified": "Thu, 18 Dec 2025 14:16:19 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "22.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/22.mp4",
+      "relative_path": "videos/S07/22.mp4",
+      "content_length_bytes": 6705660,
+      "last_modified": "Thu, 18 Dec 2025 14:16:19 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "23.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/23.mp4",
+      "relative_path": "videos/S07/23.mp4",
+      "content_length_bytes": 6933269,
+      "last_modified": "Thu, 18 Dec 2025 14:16:20 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "24.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/24.mp4",
+      "relative_path": "videos/S07/24.mp4",
+      "content_length_bytes": 6996997,
+      "last_modified": "Thu, 18 Dec 2025 14:16:20 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S07",
+      "name": "25.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/25.mp4",
+      "relative_path": "videos/S07/25.mp4",
+      "content_length_bytes": 6908402,
+      "last_modified": "Thu, 18 Dec 2025 14:16:20 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "1.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/1.mp4",
+      "relative_path": "videos/S08/1.mp4",
+      "content_length_bytes": 9728664,
+      "last_modified": "Thu, 18 Dec 2025 14:16:25 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 9728664
+    },
+    {
+      "folder": "S08",
+      "name": "2.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/2.mp4",
+      "relative_path": "videos/S08/2.mp4",
+      "content_length_bytes": 10236337,
+      "last_modified": "Thu, 18 Dec 2025 14:16:27 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "3.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/3.mp4",
+      "relative_path": "videos/S08/3.mp4",
+      "content_length_bytes": 10287543,
+      "last_modified": "Thu, 18 Dec 2025 14:16:28 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "4.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/4.mp4",
+      "relative_path": "videos/S08/4.mp4",
+      "content_length_bytes": 9731859,
+      "last_modified": "Thu, 18 Dec 2025 14:16:28 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "5.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/5.mp4",
+      "relative_path": "videos/S08/5.mp4",
+      "content_length_bytes": 9814199,
+      "last_modified": "Thu, 18 Dec 2025 14:16:28 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "6.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/6.mp4",
+      "relative_path": "videos/S08/6.mp4",
+      "content_length_bytes": 9727215,
+      "last_modified": "Thu, 18 Dec 2025 14:16:28 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "7.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/7.mp4",
+      "relative_path": "videos/S08/7.mp4",
+      "content_length_bytes": 9942276,
+      "last_modified": "Thu, 18 Dec 2025 14:16:28 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "8.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/8.mp4",
+      "relative_path": "videos/S08/8.mp4",
+      "content_length_bytes": 10322762,
+      "last_modified": "Thu, 18 Dec 2025 14:16:28 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "9.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/9.mp4",
+      "relative_path": "videos/S08/9.mp4",
+      "content_length_bytes": 9835421,
+      "last_modified": "Thu, 18 Dec 2025 14:16:28 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "10.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/10.mp4",
+      "relative_path": "videos/S08/10.mp4",
+      "content_length_bytes": 9697534,
+      "last_modified": "Thu, 18 Dec 2025 14:16:26 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "11.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/11.mp4",
+      "relative_path": "videos/S08/11.mp4",
+      "content_length_bytes": 9754605,
+      "last_modified": "Thu, 18 Dec 2025 14:16:26 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 9754605
+    },
+    {
+      "folder": "S08",
+      "name": "12.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/12.mp4",
+      "relative_path": "videos/S08/12.mp4",
+      "content_length_bytes": 9964412,
+      "last_modified": "Thu, 18 Dec 2025 14:16:26 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "13.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/13.mp4",
+      "relative_path": "videos/S08/13.mp4",
+      "content_length_bytes": 10664897,
+      "last_modified": "Thu, 18 Dec 2025 14:16:26 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "14.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/14.mp4",
+      "relative_path": "videos/S08/14.mp4",
+      "content_length_bytes": 9946199,
+      "last_modified": "Thu, 18 Dec 2025 14:16:26 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "15.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/15.mp4",
+      "relative_path": "videos/S08/15.mp4",
+      "content_length_bytes": 10012506,
+      "last_modified": "Thu, 18 Dec 2025 14:16:26 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "16.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/16.mp4",
+      "relative_path": "videos/S08/16.mp4",
+      "content_length_bytes": 9977378,
+      "last_modified": "Thu, 18 Dec 2025 14:16:27 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "17.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/17.mp4",
+      "relative_path": "videos/S08/17.mp4",
+      "content_length_bytes": 10208889,
+      "last_modified": "Thu, 18 Dec 2025 14:16:27 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "18.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/18.mp4",
+      "relative_path": "videos/S08/18.mp4",
+      "content_length_bytes": 10314821,
+      "last_modified": "Thu, 18 Dec 2025 14:16:27 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "19.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/19.mp4",
+      "relative_path": "videos/S08/19.mp4",
+      "content_length_bytes": 10015875,
+      "last_modified": "Thu, 18 Dec 2025 14:16:27 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S08",
+      "name": "20.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/20.mp4",
+      "relative_path": "videos/S08/20.mp4",
+      "content_length_bytes": 10061578,
+      "last_modified": "Thu, 18 Dec 2025 14:16:27 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "1.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/1.mp4",
+      "relative_path": "videos/S09/1.mp4",
+      "content_length_bytes": 7121073,
+      "last_modified": "Thu, 18 Dec 2025 14:16:32 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 7121073
+    },
+    {
+      "folder": "S09",
+      "name": "2.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/2.mp4",
+      "relative_path": "videos/S09/2.mp4",
+      "content_length_bytes": 7183691,
+      "last_modified": "Thu, 18 Dec 2025 14:16:34 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "3.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/3.mp4",
+      "relative_path": "videos/S09/3.mp4",
+      "content_length_bytes": 7342862,
+      "last_modified": "Thu, 18 Dec 2025 14:16:34 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "4.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/4.mp4",
+      "relative_path": "videos/S09/4.mp4",
+      "content_length_bytes": 7092046,
+      "last_modified": "Thu, 18 Dec 2025 14:16:34 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "5.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/5.mp4",
+      "relative_path": "videos/S09/5.mp4",
+      "content_length_bytes": 7219576,
+      "last_modified": "Thu, 18 Dec 2025 14:16:34 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "6.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/6.mp4",
+      "relative_path": "videos/S09/6.mp4",
+      "content_length_bytes": 7110882,
+      "last_modified": "Thu, 18 Dec 2025 14:16:34 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "7.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/7.mp4",
+      "relative_path": "videos/S09/7.mp4",
+      "content_length_bytes": 6994323,
+      "last_modified": "Thu, 18 Dec 2025 14:16:34 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "8.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/8.mp4",
+      "relative_path": "videos/S09/8.mp4",
+      "content_length_bytes": 7203920,
+      "last_modified": "Thu, 18 Dec 2025 14:16:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "9.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/9.mp4",
+      "relative_path": "videos/S09/9.mp4",
+      "content_length_bytes": 7106103,
+      "last_modified": "Thu, 18 Dec 2025 14:16:35 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "10.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/10.mp4",
+      "relative_path": "videos/S09/10.mp4",
+      "content_length_bytes": 7218560,
+      "last_modified": "Thu, 18 Dec 2025 14:16:33 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "11.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/11.mp4",
+      "relative_path": "videos/S09/11.mp4",
+      "content_length_bytes": 6981282,
+      "last_modified": "Thu, 18 Dec 2025 14:16:33 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 6981282
+    },
+    {
+      "folder": "S09",
+      "name": "12.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/12.mp4",
+      "relative_path": "videos/S09/12.mp4",
+      "content_length_bytes": 7187734,
+      "last_modified": "Thu, 18 Dec 2025 14:16:33 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "13.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/13.mp4",
+      "relative_path": "videos/S09/13.mp4",
+      "content_length_bytes": 7307721,
+      "last_modified": "Thu, 18 Dec 2025 14:16:33 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "14.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/14.mp4",
+      "relative_path": "videos/S09/14.mp4",
+      "content_length_bytes": 7066913,
+      "last_modified": "Thu, 18 Dec 2025 14:16:33 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "15.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/15.mp4",
+      "relative_path": "videos/S09/15.mp4",
+      "content_length_bytes": 6986618,
+      "last_modified": "Thu, 18 Dec 2025 14:16:33 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "16.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/16.mp4",
+      "relative_path": "videos/S09/16.mp4",
+      "content_length_bytes": 6973857,
+      "last_modified": "Thu, 18 Dec 2025 14:16:33 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "17.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/17.mp4",
+      "relative_path": "videos/S09/17.mp4",
+      "content_length_bytes": 7344895,
+      "last_modified": "Thu, 18 Dec 2025 14:16:33 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "18.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/18.mp4",
+      "relative_path": "videos/S09/18.mp4",
+      "content_length_bytes": 7272276,
+      "last_modified": "Thu, 18 Dec 2025 14:16:33 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "19.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/19.mp4",
+      "relative_path": "videos/S09/19.mp4",
+      "content_length_bytes": 7030523,
+      "last_modified": "Thu, 18 Dec 2025 14:16:34 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S09",
+      "name": "20.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/20.mp4",
+      "relative_path": "videos/S09/20.mp4",
+      "content_length_bytes": 7055727,
+      "last_modified": "Thu, 18 Dec 2025 14:16:34 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "1.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/1.mp4",
+      "relative_path": "videos/S10/1.mp4",
+      "content_length_bytes": 7469276,
+      "last_modified": "Thu, 18 Dec 2025 14:16:38 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 7469276
+    },
+    {
+      "folder": "S10",
+      "name": "2.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/2.mp4",
+      "relative_path": "videos/S10/2.mp4",
+      "content_length_bytes": 7598299,
+      "last_modified": "Thu, 18 Dec 2025 14:16:39 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "3.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/3.mp4",
+      "relative_path": "videos/S10/3.mp4",
+      "content_length_bytes": 7697287,
+      "last_modified": "Thu, 18 Dec 2025 14:16:40 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "4.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/4.mp4",
+      "relative_path": "videos/S10/4.mp4",
+      "content_length_bytes": 7479074,
+      "last_modified": "Thu, 18 Dec 2025 14:16:40 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "5.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/5.mp4",
+      "relative_path": "videos/S10/5.mp4",
+      "content_length_bytes": 7430949,
+      "last_modified": "Thu, 18 Dec 2025 14:16:40 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "6.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/6.mp4",
+      "relative_path": "videos/S10/6.mp4",
+      "content_length_bytes": 7402959,
+      "last_modified": "Thu, 18 Dec 2025 14:16:40 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "7.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/7.mp4",
+      "relative_path": "videos/S10/7.mp4",
+      "content_length_bytes": 7773869,
+      "last_modified": "Thu, 18 Dec 2025 14:16:40 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "8.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/8.mp4",
+      "relative_path": "videos/S10/8.mp4",
+      "content_length_bytes": 7698823,
+      "last_modified": "Thu, 18 Dec 2025 14:16:40 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "9.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/9.mp4",
+      "relative_path": "videos/S10/9.mp4",
+      "content_length_bytes": 7533632,
+      "last_modified": "Thu, 18 Dec 2025 14:16:40 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "10.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/10.mp4",
+      "relative_path": "videos/S10/10.mp4",
+      "content_length_bytes": 7497540,
+      "last_modified": "Thu, 18 Dec 2025 14:16:38 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "11.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/11.mp4",
+      "relative_path": "videos/S10/11.mp4",
+      "content_length_bytes": 7461120,
+      "last_modified": "Thu, 18 Dec 2025 14:16:38 GMT",
+      "existing_local_file_size_matches": true,
+      "local_size_bytes": 7461120
+    },
+    {
+      "folder": "S10",
+      "name": "12.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/12.mp4",
+      "relative_path": "videos/S10/12.mp4",
+      "content_length_bytes": 7514326,
+      "last_modified": "Thu, 18 Dec 2025 14:16:38 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "13.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/13.mp4",
+      "relative_path": "videos/S10/13.mp4",
+      "content_length_bytes": 7691419,
+      "last_modified": "Thu, 18 Dec 2025 14:16:38 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "14.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/14.mp4",
+      "relative_path": "videos/S10/14.mp4",
+      "content_length_bytes": 7470798,
+      "last_modified": "Thu, 18 Dec 2025 14:16:39 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "15.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/15.mp4",
+      "relative_path": "videos/S10/15.mp4",
+      "content_length_bytes": 7439088,
+      "last_modified": "Thu, 18 Dec 2025 14:16:39 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "16.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/16.mp4",
+      "relative_path": "videos/S10/16.mp4",
+      "content_length_bytes": 7435154,
+      "last_modified": "Thu, 18 Dec 2025 14:16:39 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "17.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/17.mp4",
+      "relative_path": "videos/S10/17.mp4",
+      "content_length_bytes": 7541325,
+      "last_modified": "Thu, 18 Dec 2025 14:16:39 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "18.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/18.mp4",
+      "relative_path": "videos/S10/18.mp4",
+      "content_length_bytes": 7671102,
+      "last_modified": "Thu, 18 Dec 2025 14:16:39 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "19.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/19.mp4",
+      "relative_path": "videos/S10/19.mp4",
+      "content_length_bytes": 7471879,
+      "last_modified": "Thu, 18 Dec 2025 14:16:39 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    },
+    {
+      "folder": "S10",
+      "name": "20.mp4",
+      "url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/20.mp4",
+      "relative_path": "videos/S10/20.mp4",
+      "content_length_bytes": 7465121,
+      "last_modified": "Thu, 18 Dec 2025 14:16:39 GMT",
+      "existing_local_file_size_matches": false,
+      "local_size_bytes": 0
+    }
+  ],
+  "not_included": [
+    "original_videos long recordings",
+    "AIR_125 archive",
+    "root duplicate demo",
+    "weights/environments",
+    "new HDF5 and preview videos"
+  ]
+}

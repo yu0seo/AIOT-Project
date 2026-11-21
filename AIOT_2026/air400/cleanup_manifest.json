@@ -1,0 +1,296 @@
+{
+  "scope": "AIOT_2026 only",
+  "created_at": "2026-11-20T21:27:01.4430952+09:00",
+  "items": [
+    {
+      "path": "pc/DRIVING_CSV.md",
+      "bytes": 8900,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/FEATURE_PIPELINE.md",
+      "bytes": 8798,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/SEGMENTATION.md",
+      "bytes": 6745,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/IDD_INSPECTION.md",
+      "bytes": 9895,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/inspect_idd.py",
+      "bytes": 16939,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/segment_video.py",
+      "bytes": 28240,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/screen_selection.py",
+      "bytes": 6637,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/cctv_geometry.py",
+      "bytes": 10772,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/driving_features.py",
+      "bytes": 12839,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/export_idd_features.py",
+      "bytes": 6146,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/model_features.py",
+      "bytes": 14872,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/prepare_cctv.py",
+      "bytes": 1415,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/verify_model_inputs.py",
+      "bytes": 4284,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/requirements-features.txt",
+      "bytes": 194,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/requirements-segmentation.txt",
+      "bytes": 45,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/tests/test_model_features.py",
+      "bytes": 13299,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/tests/test_driving_features.py",
+      "bytes": 5321,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "pc/tests/test_cctv_geometry.py",
+      "bytes": 4528,
+      "reason": "Verified retired IDD/vehicle-analysis source, documentation, or test"
+    },
+    {
+      "path": "data/vendor/cctv",
+      "bytes": 3340039,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/feature_tests/cctv_integration_833061db",
+      "bytes": 4065933,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/feature_tests/idd_pixel_integration.csv",
+      "bytes": 26273,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/cctv-integration-path.txt",
+      "bytes": 44,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-screen.err.log",
+      "bytes": 221,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-screen.log",
+      "bytes": 70,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-12492.json",
+      "bytes": 701,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-13764.json",
+      "bytes": 1288,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-22012.json",
+      "bytes": 999,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-22772.json",
+      "bytes": 1287,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-24740.json",
+      "bytes": 808,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-25868.json",
+      "bytes": 845,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-28348.json",
+      "bytes": 404,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-29244.json",
+      "bytes": 628,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-29728.json",
+      "bytes": 654,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-30260.json",
+      "bytes": 596,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-30348.json",
+      "bytes": 626,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-3044.json",
+      "bytes": 595,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-31920.json",
+      "bytes": 472,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-32996.json",
+      "bytes": 507,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-33036.json",
+      "bytes": 315,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-33628.json",
+      "bytes": 524,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-33684.json",
+      "bytes": 787,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "data/runtime/segmentation-status-7032.json",
+      "bytes": 209,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/air400_analyze_benchmark.cpython-312.pyc",
+      "bytes": 29211,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/air400_audit_roi.cpython-312.pyc",
+      "bytes": 4820,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/air400_benchmark.cpython-312.pyc",
+      "bytes": 42009,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/air400_flow_bridge.cpython-312.pyc",
+      "bytes": 8782,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/air400_prepare_benchmark.cpython-312.pyc",
+      "bytes": 11349,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/air400_validate_benchmark.cpython-312.pyc",
+      "bytes": 6364,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/cctv_geometry.cpython-312.pyc",
+      "bytes": 18515,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/driving_features.cpython-312.pyc",
+      "bytes": 19055,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/export_idd_features.cpython-312.pyc",
+      "bytes": 10171,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/inspect_idd.cpython-312.pyc",
+      "bytes": 28025,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/model_features.cpython-312.pyc",
+      "bytes": 24488,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/screen_selection.cpython-312.pyc",
+      "bytes": 12221,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/__pycache__/verify_model_inputs.cpython-312.pyc",
+      "bytes": 6514,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/tests/__pycache__/test_cctv_geometry.cpython-312.pyc",
+      "bytes": 9526,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/tests/__pycache__/test_driving_features.cpython-312.pyc",
+      "bytes": 10202,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    },
+    {
+      "path": "pc/tests/__pycache__/test_model_features.cpython-312.pyc",
+      "bytes": 27877,
+      "reason": "Verified traffic-surveillance source / car CSV integration fixture / retired segmentation log / obsolete bytecode"
+    }
+  ]
+}

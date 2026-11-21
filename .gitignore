@@ -1,6 +1,20 @@
 # Project data
 /AIOT_2026/data/
 
+# AIR-400 local datasets, weights, and generated results
+/AIOT_2026/air400/00_공통자료/
+/AIOT_2026/air400/01_파인튜닝전/
+/AIOT_2026/air400/02_Chest_파인튜닝/
+/AIOT_2026/air400/03_파인튜닝후/
+/AIOT_2026/air400/04_PT자료/
+/AIOT_2026/air400/05_기존모델비교실험/
+/AIOT_2026/air400/06_단일클래스_학습데이터/hdf5/
+/AIOT_2026/air400/06_단일클래스_학습데이터/metadata/
+/AIOT_2026/air400/06_단일클래스_학습데이터/previews/
+/AIOT_2026/air400/06_단일클래스_학습데이터/index.json
+/AIOT_2026/air400/06_단일클래스_학습데이터/model_input_candidates*.npz
+/AIOT_2026/air400/07_이상탐지_모델비교/
+
 # macOS metadata and resource forks
 .DS_Store
 ._*

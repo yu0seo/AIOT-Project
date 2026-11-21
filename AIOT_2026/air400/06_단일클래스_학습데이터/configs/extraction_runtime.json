@@ -1,0 +1,24 @@
+{
+  "python": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "opencv_loaded_version": "4.11.0",
+  "packages": {
+    "torch": "2.14.0+cu130",
+    "torchvision": "0.29.0+cu130",
+    "opencv-contrib-python-headless": "4.11.0.86",
+    "numpy": "2.2.3",
+    "scipy": "1.18.1",
+    "h5py": "3.14.0",
+    "ultralytics": "8.3.96",
+    "PyYAML": "6.0.2",
+    "yt-dlp": "2026.10.26",
+    "imageio-ffmpeg": "0.8.1"
+  },
+  "cuda_policy": {
+    "gpu_work_serialized_between_workers": true,
+    "deepphys_batch_frames": 16,
+    "empty_cache_after_each_gpu_stage": true,
+    "cpu_flow_workers_air400": 8,
+    "cpu_flow_workers_air125": 4
+  }
+}

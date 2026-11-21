@@ -102,7 +102,7 @@ def main():
     url = args.url or f"tcp://{args.host}:{args.port}"
     capture = None
     receiver = None
-    window = "Road Eye - PC video (Q / ESC to quit)"
+    window = "Pi Camera - PC video (Q / ESC to quit)"
     window_open = False
     try:
         model = None

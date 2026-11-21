@@ -1,0 +1,21 @@
+{
+  "recorded_at": "2026-11-21T02:14:25.613985+09:00",
+  "status": "input_selection_under_review",
+  "user_decisions_retained": {
+    "single_class": true,
+    "new_model_comparison_requested": false,
+    "bulk_extraction_started": false
+  },
+  "clarifications": {
+    "both_waveforms_required_as_model_inputs": false,
+    "pre_bandpass_archive_can_be_separate": true,
+    "benefit_of_global_body_motion_features_demonstrated": false,
+    "seven_channels_were_initial_candidates_not_validated_required_inputs": true
+  },
+  "alternatives_for_discussion": [
+    "waveform-derived breath intervals and periodicity (no new independent information)",
+    "video observation-quality indicators (not breathing ground truth)",
+    "localized thoracoabdominal image-displacement signal (requires separate extraction/tracking; unimplemented)"
+  ],
+  "final_model_input_channels": null
+}

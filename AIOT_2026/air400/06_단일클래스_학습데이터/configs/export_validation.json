@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-11-21T22:46:35.050223+09:00",
+  "passed": true,
+  "segments": 809,
+  "waveform_values": 242700,
+  "face_observations": 25079,
+  "dataset_segments": {
+    "air-125": 224,
+    "air-400": 585
+  },
+  "source_videos": 415,
+  "review_flags": {
+    "extraction_quality_flagged": 77,
+    "body_detected_in_under_half_observations_review": 93,
+    "segments_with_unavailable_interval_features": 1
+  },
+  "normal_training_labels_assigned": false,
+  "protocol_sha256": "5179f236cf236722d831a44c9e5f416fe81f22d003f222843adbf910e114eae1"
+}

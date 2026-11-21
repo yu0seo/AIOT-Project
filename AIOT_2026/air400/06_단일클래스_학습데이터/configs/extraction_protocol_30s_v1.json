@@ -1,0 +1,40 @@
+{
+  "version": "deepphys_body_10hz_30s_v1",
+  "fps": 10,
+  "window_sec": 30,
+  "frames_per_window": 300,
+  "model": "DeepPhys_Deep_Body_best.pth",
+  "roi": "Official Body; original public detectors, no Chest fine-tuning",
+  "preprocess": "10Hz timestamp-nearest frames -> 320x180 -> official Body crop -> DeepFlow at crop size -> official normalization -> 96x96",
+  "postprocess": "Official cumsum, lambda=100 detrend, 0.3-1.0Hz Butterworth filtfilt within each 30s window",
+  "face_detection_step_frames": 10,
+  "face_detection_last_frame": true,
+  "face_role": "Separate observation/alert metadata, not a respiratory model input",
+  "face_association": "Geometric body containment only; infant identity not certified",
+  "peak_rule": {
+    "polarity": 1,
+    "minimum_distance_sec": 1.0,
+    "prominence_in_window_std": 0.25,
+    "status": "Fixed engineering extraction rule; estimated peaks, not true breath labels"
+  },
+  "filter_edge_flag_sec": 2,
+  "rolling_feature_window_sec": 10,
+  "rolling_step_sec": 1,
+  "training_selection": "All sources remain unreviewed candidates, not automatically labeled normal",
+  "scaling": "No downstream scaler fitted; fit on selected training partition only",
+  "reference_labels_as_inputs": false,
+  "drop_180_frame_remainder": false,
+  "partial_video_tail": "Document tails shorter than 30 seconds; do not pad or loop video",
+  "model_time_context": "Whole 30s normalization and noncausal filtfilt; identical window context required in deployment",
+  "weights_sha256": {
+    "DeepPhys_Deep_Body_best.pth": "66e21247cce4f71056e500b9d67b1f1053f8df3c351abf75823f31d9294da4f8",
+    "yolov8m.pt": "5d4a90cdc7a21786cc59cd19778e9eafff836df9e2da32524737c7ee6efe4fe5",
+    "yolov8n-face.pt": "d545bf1add5aa736a4febac4f4f9245a6d596cd0fe70d5d57989fe0cb9e626ca"
+  },
+  "source_sha256": {
+    "processors\\pre_processor.py": "7e84821205b34717f3f2cfc5d7c5efa45ae29dc4f99f7664835f6cce74fd7631",
+    "processors\\post_processor.py": "19f52166b903e4b868a4dca223f0017e78db4dbbf09ae1bbee52e46d65e79208",
+    "models\\deep_phys.py": "b4f000a3b689a0ac351323d44d32cf6b4a012dcea041429ccfb9c7d63da0dec9"
+  },
+  "protocol_sha256": "5179f236cf236722d831a44c9e5f416fe81f22d003f222843adbf910e114eae1"
+}

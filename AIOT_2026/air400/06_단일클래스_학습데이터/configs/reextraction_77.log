@@ -1,0 +1,290 @@
+Decoding air-125_S01_001
+Extracted air-125_S01_001_000-030: 300 waveform points, 16 peaks, 31 face observations; 13.6s
+Replaced 1/77: air-125_S01_001_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1582MiB; wave_delta=9.12739e-06
+Extracted air-125_S01_001_030-060: 300 waveform points, 14 peaks, 31 face observations; 12.8s
+Replaced 2/77: air-125_S01_001_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1641MiB; wave_delta=1.00523e-05
+Decoding air-125_S01_002
+Extracted air-125_S01_002_000-030: 300 waveform points, 16 peaks, 31 face observations; 11.7s
+Replaced 3/77: air-125_S01_002_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1752MiB; wave_delta=1.01401e-05
+Extracted air-125_S01_002_030-060: 300 waveform points, 16 peaks, 31 face observations; 11.8s
+Replaced 4/77: air-125_S01_002_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1583MiB; wave_delta=5.13853e-06
+Decoding air-125_S01_003
+Extracted air-125_S01_003_000-030: 300 waveform points, 17 peaks, 31 face observations; 10.9s
+Replaced 5/77: air-125_S01_003_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1616MiB; wave_delta=6.86457e-06
+Extracted air-125_S01_003_030-060: 300 waveform points, 15 peaks, 31 face observations; 10.8s
+Replaced 6/77: air-125_S01_003_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1588MiB; wave_delta=6.22188e-06
+Decoding air-125_S01_004
+Extracted air-125_S01_004_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.8s
+Replaced 7/77: air-125_S01_004_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1588MiB; wave_delta=8.41799e-06
+Extracted air-125_S01_004_030-060: 300 waveform points, 16 peaks, 31 face observations; 10.7s
+Replaced 8/77: air-125_S01_004_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1589MiB; wave_delta=4.8447e-06
+Decoding air-125_S01_005
+Extracted air-125_S01_005_000-030: 300 waveform points, 18 peaks, 31 face observations; 11.0s
+Replaced 9/77: air-125_S01_005_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1586MiB; wave_delta=5.94914e-06
+Extracted air-125_S01_005_030-060: 300 waveform points, 16 peaks, 31 face observations; 10.7s
+Replaced 10/77: air-125_S01_005_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1586MiB; wave_delta=9.67077e-06
+Decoding air-125_S01_006
+Extracted air-125_S01_006_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.8s
+Replaced 11/77: air-125_S01_006_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1585MiB; wave_delta=8.58604e-06
+Extracted air-125_S01_006_030-060: 300 waveform points, 15 peaks, 31 face observations; 10.9s
+Replaced 12/77: air-125_S01_006_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1580MiB; wave_delta=6.58313e-06
+Decoding air-125_S01_007
+Extracted air-125_S01_007_000-030: 300 waveform points, 17 peaks, 31 face observations; 10.8s
+Replaced 13/77: air-125_S01_007_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1586MiB; wave_delta=9.10907e-06
+Extracted air-125_S01_007_030-060: 300 waveform points, 17 peaks, 31 face observations; 11.1s
+Replaced 14/77: air-125_S01_007_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1586MiB; wave_delta=9.21738e-06
+Decoding air-125_S01_008
+Extracted air-125_S01_008_000-030: 300 waveform points, 19 peaks, 31 face observations; 10.9s
+Replaced 15/77: air-125_S01_008_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1586MiB; wave_delta=5.114e-06
+Extracted air-125_S01_008_030-060: 300 waveform points, 13 peaks, 31 face observations; 11.3s
+Replaced 16/77: air-125_S01_008_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1630MiB; wave_delta=7.92462e-06
+Decoding air-125_S01_009
+Extracted air-125_S01_009_000-030: 300 waveform points, 18 peaks, 31 face observations; 11.8s
+Replaced 17/77: air-125_S01_009_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1642MiB; wave_delta=7.55347e-06
+Extracted air-125_S01_009_030-060: 300 waveform points, 15 peaks, 31 face observations; 11.7s
+Replaced 18/77: air-125_S01_009_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1640MiB; wave_delta=9.66702e-06
+Decoding air-125_S01_010
+Extracted air-125_S01_010_000-030: 300 waveform points, 16 peaks, 31 face observations; 11.6s
+Replaced 19/77: air-125_S01_010_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1632MiB; wave_delta=1.65421e-05
+Extracted air-125_S01_010_030-060: 300 waveform points, 15 peaks, 31 face observations; 11.5s
+Replaced 20/77: air-125_S01_010_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1632MiB; wave_delta=9.77742e-06
+Decoding air-125_S01_011
+Extracted air-125_S01_011_000-030: 300 waveform points, 17 peaks, 31 face observations; 11.6s
+Replaced 21/77: air-125_S01_011_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1682MiB; wave_delta=1.01457e-05
+Extracted air-125_S01_011_030-060: 300 waveform points, 17 peaks, 31 face observations; 11.9s
+Replaced 22/77: air-125_S01_011_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1605MiB; wave_delta=5.0616e-06
+Decoding air-125_S01_015
+Traceback (most recent call last):
+  File "C:\Users\dndud\OneDrive\Desktop\coding_folder\AIOT-Project\AIOT_2026\air400\scripts\reextract_flagged_30s.py", line 123, in main
+    changed = stored_face_update(old, state)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dndud\OneDrive\Desktop\coding_folder\AIOT-Project\AIOT_2026\air400\scripts\reextract_flagged_30s.py", line 62, in stored_face_update
+    derived = ex.face_arrays(records, meta["segment_start_sec"], state)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dndud\OneDrive\Desktop\coding_folder\AIOT-Project\AIOT_2026\air400\scripts\extract_oneclass_30s.py", line 305, in face_arrays
+    "partial_error": np.array([r["partial_error"] for r in records], bool),
+                               ~^^^^^^^^^^^^^^^^^
+KeyError: 'partial_error'
+Traceback (most recent call last):
+  File "C:\Users\dndud\OneDrive\Desktop\coding_folder\AIOT-Project\AIOT_2026\air400\scripts\reextract_flagged_30s.py", line 190, in <module>
+    main()
+  File "C:\Users\dndud\OneDrive\Desktop\coding_folder\AIOT-Project\AIOT_2026\air400\scripts\reextract_flagged_30s.py", line 123, in main
+    changed = stored_face_update(old, state)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dndud\OneDrive\Desktop\coding_folder\AIOT-Project\AIOT_2026\air400\scripts\reextract_flagged_30s.py", line 62, in stored_face_update
+    derived = ex.face_arrays(records, meta["segment_start_sec"], state)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dndud\OneDrive\Desktop\coding_folder\AIOT-Project\AIOT_2026\air400\scripts\extract_oneclass_30s.py", line 305, in face_arrays
+    "partial_error": np.array([r["partial_error"] for r in records], bool),
+                               ~^^^^^^^^^^^^^^^^^
+KeyError: 'partial_error'
+Decoding air-125_S01_015
+Extracted air-125_S01_015_030-060: 300 waveform points, 14 peaks, 31 face observations; 11.2s
+Replaced 23/77: air-125_S01_015_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1597MiB; wave_delta=1.33668e-05
+Decoding air-125_S01_017
+Extracted air-125_S01_017_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.8s
+Replaced 24/77: air-125_S01_017_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1590MiB; wave_delta=1.822e-05
+Extracted air-125_S01_017_030-060: 300 waveform points, 17 peaks, 31 face observations; 10.7s
+Replaced 25/77: air-125_S01_017_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1584MiB; wave_delta=9.15427e-06
+Decoding air-125_S01_018
+Extracted air-125_S01_018_000-030: 300 waveform points, 16 peaks, 31 face observations; 10.6s
+Replaced 26/77: air-125_S01_018_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1589MiB; wave_delta=9.25353e-06
+Extracted air-125_S01_018_030-060: 300 waveform points, 15 peaks, 31 face observations; 11.0s
+Replaced 27/77: air-125_S01_018_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1592MiB; wave_delta=0
+Decoding air-125_S01_019
+Extracted air-125_S01_019_000-030: 300 waveform points, 17 peaks, 31 face observations; 10.9s
+Replaced 28/77: air-125_S01_019_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1593MiB; wave_delta=0
+Decoding air-125_S01_020
+Extracted air-125_S01_020_030-060: 300 waveform points, 16 peaks, 31 face observations; 12.0s
+Replaced 29/77: air-125_S01_020_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1640MiB; wave_delta=0
+Decoding air-125_S01_021
+Extracted air-125_S01_021_000-030: 300 waveform points, 17 peaks, 31 face observations; 11.4s
+Replaced 30/77: air-125_S01_021_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1662MiB; wave_delta=0
+Extracted air-125_S01_021_030-060: 300 waveform points, 18 peaks, 31 face observations; 12.3s
+Replaced 31/77: air-125_S01_021_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1634MiB; wave_delta=0
+Decoding air-125_S06_004
+Extracted air-125_S06_004_000-030: 300 waveform points, 20 peaks, 31 face observations; 11.1s
+Replaced 32/77: air-125_S06_004_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1596MiB; wave_delta=0
+Extracted air-125_S06_004_030-060: 300 waveform points, 19 peaks, 31 face observations; 11.4s
+Replaced 33/77: air-125_S06_004_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1596MiB; wave_delta=0
+Decoding air-125_S06_005
+Extracted air-125_S06_005_000-030: 300 waveform points, 19 peaks, 31 face observations; 10.9s
+Replaced 34/77: air-125_S06_005_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1601MiB; wave_delta=0
+Extracted air-125_S06_005_030-060: 300 waveform points, 20 peaks, 31 face observations; 10.9s
+Replaced 35/77: air-125_S06_005_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1602MiB; wave_delta=0
+Decoding air-125_S06_007
+Extracted air-125_S06_007_000-030: 300 waveform points, 18 peaks, 31 face observations; 11.1s
+Replaced 36/77: air-125_S06_007_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1585MiB; wave_delta=0
+Extracted air-125_S06_007_030-060: 300 waveform points, 18 peaks, 31 face observations; 10.9s
+Replaced 37/77: air-125_S06_007_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1587MiB; wave_delta=0
+Decoding air-125_S06_008
+Extracted air-125_S06_008_000-030: 300 waveform points, 20 peaks, 31 face observations; 10.8s
+Replaced 38/77: air-125_S06_008_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1557MiB; wave_delta=0
+Extracted air-125_S06_008_030-060: 300 waveform points, 19 peaks, 31 face observations; 11.1s
+Replaced 39/77: air-125_S06_008_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1550MiB; wave_delta=0
+Decoding air-125_S06_009
+Extracted air-125_S06_009_000-030: 300 waveform points, 19 peaks, 31 face observations; 10.7s
+Replaced 40/77: air-125_S06_009_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1557MiB; wave_delta=0
+Extracted air-125_S06_009_030-060: 300 waveform points, 20 peaks, 31 face observations; 11.1s
+Replaced 41/77: air-125_S06_009_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1556MiB; wave_delta=0
+Decoding air-125_S06_010
+Extracted air-125_S06_010_000-030: 300 waveform points, 20 peaks, 31 face observations; 10.6s
+Replaced 42/77: air-125_S06_010_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1552MiB; wave_delta=0
+Extracted air-125_S06_010_030-060: 300 waveform points, 19 peaks, 31 face observations; 10.7s
+Replaced 43/77: air-125_S06_010_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1553MiB; wave_delta=0
+Decoding air-125_S07_001
+Extracted air-125_S07_001_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.9s
+Replaced 44/77: air-125_S07_001_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1559MiB; wave_delta=0
+Decoding air-125_S07_002
+Extracted air-125_S07_002_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.6s
+Replaced 45/77: air-125_S07_002_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1554MiB; wave_delta=0
+Decoding air-125_S07_003
+Extracted air-125_S07_003_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.5s
+Replaced 46/77: air-125_S07_003_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1553MiB; wave_delta=0
+Decoding air-125_S07_004
+Extracted air-125_S07_004_000-030: 300 waveform points, 16 peaks, 31 face observations; 10.6s
+Replaced 47/77: air-125_S07_004_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1554MiB; wave_delta=0
+Decoding air-125_S07_005
+Extracted air-125_S07_005_000-030: 300 waveform points, 16 peaks, 31 face observations; 10.5s
+Replaced 48/77: air-125_S07_005_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1574MiB; wave_delta=0
+Decoding air-125_S07_006
+Extracted air-125_S07_006_000-030: 300 waveform points, 14 peaks, 31 face observations; 10.7s
+Replaced 49/77: air-125_S07_006_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1567MiB; wave_delta=0
+Decoding air-125_S07_007
+Extracted air-125_S07_007_000-030: 300 waveform points, 14 peaks, 31 face observations; 10.9s
+Replaced 50/77: air-125_S07_007_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1556MiB; wave_delta=0
+Decoding air-125_S07_008
+Extracted air-125_S07_008_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.9s
+Replaced 51/77: air-125_S07_008_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1556MiB; wave_delta=0
+Decoding air-125_S07_009
+Extracted air-125_S07_009_000-030: 300 waveform points, 14 peaks, 31 face observations; 10.5s
+Replaced 52/77: air-125_S07_009_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1555MiB; wave_delta=0
+Decoding air-125_S07_010
+Extracted air-125_S07_010_000-030: 300 waveform points, 16 peaks, 31 face observations; 11.1s
+Replaced 53/77: air-125_S07_010_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1576MiB; wave_delta=0
+Decoding air-125_S07_011
+Extracted air-125_S07_011_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.9s
+Replaced 54/77: air-125_S07_011_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1555MiB; wave_delta=0
+Decoding air-400_S01_11
+Extracted air-400_S01_11_000-030: 300 waveform points, 18 peaks, 31 face observations; 10.8s
+Replaced 55/77: air-400_S01_11_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1561MiB; wave_delta=9.67065e-06
+Extracted air-400_S01_11_030-060: 300 waveform points, 17 peaks, 31 face observations; 10.5s
+Replaced 56/77: air-400_S01_11_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1543MiB; wave_delta=1.1308e-05
+Decoding air-400_S01_12
+Extracted air-400_S01_12_000-030: 300 waveform points, 16 peaks, 31 face observations; 10.7s
+Replaced 57/77: air-400_S01_12_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1568MiB; wave_delta=9.16117e-06
+Extracted air-400_S01_12_030-060: 300 waveform points, 14 peaks, 31 face observations; 10.7s
+Replaced 58/77: air-400_S01_12_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1545MiB; wave_delta=1.032e-05
+Decoding air-400_S01_13
+Extracted air-400_S01_13_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.6s
+Replaced 59/77: air-400_S01_13_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1546MiB; wave_delta=1.79614e-05
+Extracted air-400_S01_13_030-060: 300 waveform points, 17 peaks, 31 face observations; 10.7s
+Replaced 60/77: air-400_S01_13_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1545MiB; wave_delta=9.15171e-06
+Decoding air-400_S01_14
+Extracted air-400_S01_14_000-030: 300 waveform points, 14 peaks, 31 face observations; 10.5s
+Replaced 61/77: air-400_S01_14_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1547MiB; wave_delta=9.12636e-06
+Extracted air-400_S01_14_030-060: 300 waveform points, 14 peaks, 31 face observations; 10.7s
+Replaced 62/77: air-400_S01_14_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1545MiB; wave_delta=9.21642e-06
+Decoding air-400_S01_15
+Extracted air-400_S01_15_000-030: 300 waveform points, 13 peaks, 31 face observations; 10.6s
+Replaced 63/77: air-400_S01_15_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1545MiB; wave_delta=4.60754e-06
+Extracted air-400_S01_15_030-060: 300 waveform points, 17 peaks, 31 face observations; 10.9s
+Replaced 64/77: air-400_S01_15_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1545MiB; wave_delta=9.17651e-06
+Decoding air-400_S01_16
+Extracted air-400_S01_16_000-030: 300 waveform points, 14 peaks, 31 face observations; 10.8s
+Replaced 65/77: air-400_S01_16_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1545MiB; wave_delta=4.61583e-06
+Extracted air-400_S01_16_030-060: 300 waveform points, 17 peaks, 31 face observations; 10.7s
+Replaced 66/77: air-400_S01_16_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1549MiB; wave_delta=9.51813e-06
+Decoding air-400_S01_17
+Extracted air-400_S01_17_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.9s
+Replaced 67/77: air-400_S01_17_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1560MiB; wave_delta=9.95076e-06
+Extracted air-400_S01_17_030-060: 300 waveform points, 16 peaks, 31 face observations; 10.6s
+Replaced 68/77: air-400_S01_17_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1547MiB; wave_delta=9.12896e-06
+Decoding air-400_S01_18
+Extracted air-400_S01_18_000-030: 300 waveform points, 18 peaks, 31 face observations; 10.8s
+Replaced 69/77: air-400_S01_18_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1546MiB; wave_delta=9.3308e-06
+Extracted air-400_S01_18_030-060: 300 waveform points, 18 peaks, 31 face observations; 10.7s
+Replaced 70/77: air-400_S01_18_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1572MiB; wave_delta=1.58452e-05
+Decoding air-400_S01_19
+Extracted air-400_S01_19_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.6s
+Replaced 71/77: air-400_S01_19_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1567MiB; wave_delta=9.39298e-06
+Extracted air-400_S01_19_030-060: 300 waveform points, 16 peaks, 31 face observations; 10.7s
+Replaced 72/77: air-400_S01_19_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1563MiB; wave_delta=1.16458e-06
+Decoding air-400_S01_20
+Extracted air-400_S01_20_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.6s
+Replaced 73/77: air-400_S01_20_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1548MiB; wave_delta=1.73846e-05
+Decoding air-400_S01_4
+Extracted air-400_S01_4_000-030: 300 waveform points, 15 peaks, 31 face observations; 10.6s
+Replaced 74/77: air-400_S01_4_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1548MiB; wave_delta=1.0055e-05
+Extracted air-400_S01_4_030-060: 300 waveform points, 16 peaks, 31 face observations; 10.7s
+Replaced 75/77: air-400_S01_4_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1542MiB; wave_delta=1.35234e-05
+Decoding air-400_S01_5
+Extracted air-400_S01_5_000-030: 300 waveform points, 13 peaks, 31 face observations; 10.6s
+Replaced 76/77: air-400_S01_5_000-030; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1548MiB; wave_delta=9.63065e-06
+Extracted air-400_S01_5_030-060: 300 waveform points, 14 peaks, 31 face observations; 11.0s
+Replaced 77/77: air-400_S01_5_030-060; body=0.000; errors={'body_execution_errors': 0, 'face_execution_errors': 0, 'face_partial_errors': 0, 'body_success_observations': 0}; GPU=1543MiB; wave_delta=9.21477e-06
+{
+  "checked_at": "2026-11-21T22:46:35.050223+09:00",
+  "passed": true,
+  "segments": 809,
+  "waveform_values": 242700,
+  "face_observations": 25079,
+  "dataset_segments": {
+    "air-125": 224,
+    "air-400": 585
+  },
+  "source_videos": 415,
+  "review_flags": {
+    "extraction_quality_flagged": 77,
+    "body_detected_in_under_half_observations_review": 93,
+    "segments_with_unavailable_interval_features": 1
+  },
+  "normal_training_labels_assigned": false,
+  "protocol_sha256": "5179f236cf236722d831a44c9e5f416fe81f22d003f222843adbf910e114eae1"
+}
+{
+  "completed_at": "2026-11-21T22:46:35.133312+09:00",
+  "source_videos_available": 415,
+  "source_videos_exported": 415,
+  "segments": 809,
+  "expected_segments_for_decoded_sources": 809,
+  "incomplete_source_windows": [],
+  "dataset_video_count": {
+    "air-400": 295,
+    "air-125": 120
+  },
+  "dataset_segment_count": {
+    "air-125": 224,
+    "air-400": 585
+  },
+  "sources_without_exports": [],
+  "exact_duplicate_source_video_sets": [],
+  "air125_archive_video_count": 99,
+  "air125_total_available_video_count": 120,
+  "air125_external_prepared_video_count": 21,
+  "normal_labels_assigned": false,
+  "anomaly_model_trained": false,
+  "fps": 10,
+  "window_sec": 30,
+  "waveform_shape": [
+    809,
+    300,
+    1
+  ],
+  "interval_feature_shape": [
+    809,
+    9
+  ],
+  "rolling_interval_feature_shape": [
+    809,
+    21,
+    9
+  ],
+  "face_observations": 25079,
+  "availability": "Whole-window normalization and filtfilt outputs become available at the 30s input end",
+  "computable_summary_candidates": 731,
+  "other_candidates_flagged": 78,
+  "computable_subset": "model_input_candidates_computable.npz",
+  "computable_subset_is_not_confirmed_normal": true
+}
+REEXTRACTION_COMPLETE {"replaced": 77, "body_detection_recovered": 0, "still_no_body": 77, "body_execution_errors": 0, "face_execution_errors": 0, "face_partial_errors": 0, "largest_waveform_difference": 1.8219976910871516e-05, "minimum_waveform_correlation": 0.9999999999338013, "maximum_waveform_relative_rmse": 1.2234649339331465e-05, "summary_unchanged_count": 77, "gpu_max_used_mib_after_window": 1752, "gpu_max_torch_reserved_mib": 346.0, "dataset_counts": {"air-125": 54, "air-400": 23}}

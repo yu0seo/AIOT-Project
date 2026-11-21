@@ -1,0 +1,6 @@
+{
+  "time": "2026-11-21T02:05:13.604764+09:00",
+  "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+  "bulk_extraction_started": false,
+  "resolved_by_successful_inventory_at": "2026-11-21T02:05:46.729592+09:00"
+}

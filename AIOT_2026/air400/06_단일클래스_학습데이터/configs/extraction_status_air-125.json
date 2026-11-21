@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-11-21T21:37:44.816440+09:00",
+  "source_count": 0,
+  "finished_sources": 0,
+  "segments": 0,
+  "errors": [],
+  "sources": [],
+  "protocol_sha256": "5179f236cf236722d831a44c9e5f416fe81f22d003f222843adbf910e114eae1",
+  "complete": true,
+  "all_exported_segments": 659
+}

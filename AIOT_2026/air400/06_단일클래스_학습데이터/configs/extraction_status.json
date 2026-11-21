@@ -1,0 +1,1434 @@
+{
+  "started_at": "2026-11-21T20:48:47.608369+09:00",
+  "source_count": 203,
+  "finished_sources": 203,
+  "segments": 401,
+  "errors": [],
+  "sources": [
+    {
+      "id": "air-400_S04_1",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_3",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_4",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_5",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_6",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_7",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_8",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_9",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_10",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_11",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_12",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_13",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_14",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_15",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_16",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_17",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_18",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_19",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_20",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_21",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_22",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_23",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_24",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S04_25",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_1",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_2",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_3",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_4",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_5",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_6",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_7",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_8",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_9",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_10",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_11",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_12",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_13",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_14",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_15",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_16",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_17",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_18",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_19",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_20",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_21",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_22",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_23",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_24",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_25",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_26",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_27",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_28",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_29",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_30",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_31",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_32",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_33",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_34",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_35",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_36",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_37",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_38",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_39",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_40",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_41",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_42",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_43",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_44",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S05_45",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_1",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_2",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_3",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_4",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_5",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_6",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_7",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_8",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_9",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_10",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_11",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_12",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_13",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_14",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_15",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_16",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_17",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_18",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_19",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_20",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_21",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_22",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_23",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_24",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_25",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_26",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_27",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_28",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_29",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_30",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_31",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_32",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_33",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_34",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_35",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_36",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_37",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_38",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_39",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_40",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_41",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_42",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_43",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_44",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_45",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_46",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_47",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_48",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_49",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S06_50",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S07_02",
+      "segments": 2,
+      "duration_sec": 60.266666666666666,
+      "tail_sec": 0.2666666666666657,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_03",
+      "segments": 2,
+      "duration_sec": 60.266666666666666,
+      "tail_sec": 0.2666666666666657,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_04",
+      "segments": 2,
+      "duration_sec": 60.266666666666666,
+      "tail_sec": 0.2666666666666657,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_05",
+      "segments": 1,
+      "duration_sec": 59.8,
+      "tail_sec": 29.799999999999997,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_06",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_07",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_08",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_09",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_10",
+      "segments": 1,
+      "duration_sec": 59.599999999999994,
+      "tail_sec": 29.599999999999994,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_11",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_12",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_13",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_14",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_15",
+      "segments": 1,
+      "duration_sec": 59.66666666666667,
+      "tail_sec": 29.66666666666667,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_16",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_17",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_18",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_19",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_20",
+      "segments": 1,
+      "duration_sec": 59.599999999999994,
+      "tail_sec": 29.599999999999994,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_21",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_22",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_23",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_24",
+      "segments": 2,
+      "duration_sec": 60.133333333333326,
+      "tail_sec": 0.13333333333332575,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S07_25",
+      "segments": 1,
+      "duration_sec": 59.599999999999994,
+      "tail_sec": 29.599999999999994,
+      "native_fps": 15.0
+    },
+    {
+      "id": "air-400_S08_1",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_2",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_3",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_4",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_5",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_6",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_7",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_8",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_9",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_10",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_11",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_12",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_13",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_14",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_15",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_16",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_17",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_18",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_19",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S08_20",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_1",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_2",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_3",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_4",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_5",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_6",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_7",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_8",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_9",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_10",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_11",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_12",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_13",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_14",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_15",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_16",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_17",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_18",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_19",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S09_20",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_1",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_2",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_3",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_4",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_5",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_6",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_7",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_8",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_9",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_10",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_11",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_12",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_13",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_14",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_15",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_16",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_17",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_18",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_19",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    },
+    {
+      "id": "air-400_S10_20",
+      "segments": 2,
+      "duration_sec": 60.800000000000004,
+      "tail_sec": 0.8000000000000043,
+      "native_fps": 10.0
+    }
+  ],
+  "protocol_sha256": "5179f236cf236722d831a44c9e5f416fe81f22d003f222843adbf910e114eae1",
+  "complete": true,
+  "updated_at": "2026-11-21T22:03:54.264200+09:00",
+  "all_exported_segments": 809
+}

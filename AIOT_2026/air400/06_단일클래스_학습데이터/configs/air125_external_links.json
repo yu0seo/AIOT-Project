@@ -1,0 +1,815 @@
+{
+  "source": "AIOT_2026\\air400\\00_공통자료\\datasets\\AIR_125\\s06-s07-s08-yt-links.xlsx",
+  "rows": [
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A1",
+          "value": "subject",
+          "hyperlink": null
+        },
+        {
+          "cell": "B1",
+          "value": "video",
+          "hyperlink": null
+        },
+        {
+          "cell": "C1",
+          "value": "link",
+          "hyperlink": null
+        },
+        {
+          "cell": "D1",
+          "value": "start time\n(mm:ss)",
+          "hyperlink": null
+        },
+        {
+          "cell": "E1",
+          "value": "end time\n(mm:ss)",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A2",
+          "value": "S06",
+          "hyperlink": null
+        },
+        {
+          "cell": "B2",
+          "value": "001",
+          "hyperlink": null
+        },
+        {
+          "cell": "C2",
+          "value": "https://www.youtube.com/watch?v=Auk_nWJK-ng",
+          "hyperlink": "https://www.youtube.com/watch?v=Auk_nWJK-ng"
+        },
+        {
+          "cell": "D2",
+          "value": "10:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E2",
+          "value": "11:01",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A3",
+          "value": "S06",
+          "hyperlink": null
+        },
+        {
+          "cell": "B3",
+          "value": "002",
+          "hyperlink": null
+        },
+        {
+          "cell": "C3",
+          "value": "https://www.youtube.com/watch?v=Auk_nWJK-ng",
+          "hyperlink": "https://www.youtube.com/watch?v=Auk_nWJK-ng"
+        },
+        {
+          "cell": "D3",
+          "value": "13:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E3",
+          "value": "14:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A4",
+          "value": "S06",
+          "hyperlink": null
+        },
+        {
+          "cell": "B4",
+          "value": "003",
+          "hyperlink": null
+        },
+        {
+          "cell": "C4",
+          "value": "https://www.youtube.com/watch?v=Auk_nWJK-ng",
+          "hyperlink": "https://www.youtube.com/watch?v=Auk_nWJK-ng"
+        },
+        {
+          "cell": "D4",
+          "value": "15:30",
+          "hyperlink": null
+        },
+        {
+          "cell": "E4",
+          "value": "16:30",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "S06",
+          "hyperlink": null
+        },
+        {
+          "cell": "B5",
+          "value": "004",
+          "hyperlink": null
+        },
+        {
+          "cell": "C5",
+          "value": "https://www.youtube.com/watch?v=Auk_nWJK-ng",
+          "hyperlink": "https://www.youtube.com/watch?v=Auk_nWJK-ng"
+        },
+        {
+          "cell": "D5",
+          "value": "22:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E5",
+          "value": "23:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "S06",
+          "hyperlink": null
+        },
+        {
+          "cell": "B6",
+          "value": "005",
+          "hyperlink": null
+        },
+        {
+          "cell": "C6",
+          "value": "https://www.youtube.com/watch?v=Auk_nWJK-ng",
+          "hyperlink": "https://www.youtube.com/watch?v=Auk_nWJK-ng"
+        },
+        {
+          "cell": "D6",
+          "value": "23:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E6",
+          "value": "24:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "S06",
+          "hyperlink": null
+        },
+        {
+          "cell": "B7",
+          "value": "006",
+          "hyperlink": null
+        },
+        {
+          "cell": "C7",
+          "value": "https://www.youtube.com/watch?v=Auk_nWJK-ng",
+          "hyperlink": "https://www.youtube.com/watch?v=Auk_nWJK-ng"
+        },
+        {
+          "cell": "D7",
+          "value": "24:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E7",
+          "value": "25:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A8",
+          "value": "S06",
+          "hyperlink": null
+        },
+        {
+          "cell": "B8",
+          "value": "007",
+          "hyperlink": null
+        },
+        {
+          "cell": "C8",
+          "value": "https://www.youtube.com/watch?v=Auk_nWJK-ng",
+          "hyperlink": "https://www.youtube.com/watch?v=Auk_nWJK-ng"
+        },
+        {
+          "cell": "D8",
+          "value": "25:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E8",
+          "value": "26:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "S06",
+          "hyperlink": null
+        },
+        {
+          "cell": "B9",
+          "value": "008",
+          "hyperlink": null
+        },
+        {
+          "cell": "C9",
+          "value": "https://www.youtube.com/watch?v=Auk_nWJK-ng",
+          "hyperlink": "https://www.youtube.com/watch?v=Auk_nWJK-ng"
+        },
+        {
+          "cell": "D9",
+          "value": "26:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E9",
+          "value": "27:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A10",
+          "value": "S06",
+          "hyperlink": null
+        },
+        {
+          "cell": "B10",
+          "value": "009",
+          "hyperlink": null
+        },
+        {
+          "cell": "C10",
+          "value": "https://www.youtube.com/watch?v=Auk_nWJK-ng",
+          "hyperlink": "https://www.youtube.com/watch?v=Auk_nWJK-ng"
+        },
+        {
+          "cell": "D10",
+          "value": "27:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E10",
+          "value": "28:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A11",
+          "value": "S06",
+          "hyperlink": null
+        },
+        {
+          "cell": "B11",
+          "value": "010",
+          "hyperlink": null
+        },
+        {
+          "cell": "C11",
+          "value": "https://www.youtube.com/watch?v=Auk_nWJK-ng",
+          "hyperlink": "https://www.youtube.com/watch?v=Auk_nWJK-ng"
+        },
+        {
+          "cell": "D11",
+          "value": "28:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E11",
+          "value": "29:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A12",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B12",
+          "value": "001",
+          "hyperlink": null
+        },
+        {
+          "cell": "C12",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D12",
+          "value": "00:58:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E12",
+          "value": "01:54:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A13",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B13",
+          "value": "002",
+          "hyperlink": null
+        },
+        {
+          "cell": "C13",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D13",
+          "value": "01:57:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E13",
+          "value": "02:52:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A14",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B14",
+          "value": "003",
+          "hyperlink": null
+        },
+        {
+          "cell": "C14",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D14",
+          "value": "02:53:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E14",
+          "value": "03:49:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A15",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B15",
+          "value": "004",
+          "hyperlink": null
+        },
+        {
+          "cell": "C15",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D15",
+          "value": "03:51:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E15",
+          "value": "04:47:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A16",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B16",
+          "value": "005",
+          "hyperlink": null
+        },
+        {
+          "cell": "C16",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D16",
+          "value": "04:49:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E16",
+          "value": "05:45:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A17",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B17",
+          "value": "006",
+          "hyperlink": null
+        },
+        {
+          "cell": "C17",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D17",
+          "value": "05:48:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E17",
+          "value": "06:42:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A18",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B18",
+          "value": "007",
+          "hyperlink": null
+        },
+        {
+          "cell": "C18",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D18",
+          "value": "06:44:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E18",
+          "value": "07:40:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A19",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B19",
+          "value": "008",
+          "hyperlink": null
+        },
+        {
+          "cell": "C19",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D19",
+          "value": "07:42:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E19",
+          "value": "08:37:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A20",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B20",
+          "value": "009",
+          "hyperlink": null
+        },
+        {
+          "cell": "C20",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D20",
+          "value": "08:40:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E20",
+          "value": "09:35:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A21",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B21",
+          "value": "010",
+          "hyperlink": null
+        },
+        {
+          "cell": "C21",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D21",
+          "value": "09:36:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E21",
+          "value": "10:32:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A22",
+          "value": "S07",
+          "hyperlink": null
+        },
+        {
+          "cell": "B22",
+          "value": "011",
+          "hyperlink": null
+        },
+        {
+          "cell": "C22",
+          "value": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie",
+          "hyperlink": "https://www.youtube.com/watch?v=zTTjVdpJziw&ab_channel=hammypie"
+        },
+        {
+          "cell": "D22",
+          "value": "10:34:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E22",
+          "value": "11:30:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A23",
+          "value": "S08",
+          "hyperlink": null
+        },
+        {
+          "cell": "B23",
+          "value": "002",
+          "hyperlink": null
+        },
+        {
+          "cell": "C23",
+          "value": "https://www.youtube.com/watch?v=6b_uzwmCAXI&ab_channel=SweetDream",
+          "hyperlink": null
+        },
+        {
+          "cell": "D23",
+          "value": "01:00:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E23",
+          "value": "02:00:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A24",
+          "value": "S08",
+          "hyperlink": null
+        },
+        {
+          "cell": "B24",
+          "value": "003",
+          "hyperlink": null
+        },
+        {
+          "cell": "C24",
+          "value": "https://www.youtube.com/watch?v=6b_uzwmCAXI&ab_channel=SweetDream",
+          "hyperlink": null
+        },
+        {
+          "cell": "D24",
+          "value": "02:00:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E24",
+          "value": "03:00:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A25",
+          "value": "S08",
+          "hyperlink": null
+        },
+        {
+          "cell": "B25",
+          "value": "004",
+          "hyperlink": null
+        },
+        {
+          "cell": "C25",
+          "value": "https://www.youtube.com/watch?v=6b_uzwmCAXI&ab_channel=SweetDream",
+          "hyperlink": null
+        },
+        {
+          "cell": "D25",
+          "value": "03:00:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E25",
+          "value": "04:00:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A26",
+          "value": "S08",
+          "hyperlink": null
+        },
+        {
+          "cell": "B26",
+          "value": "005",
+          "hyperlink": null
+        },
+        {
+          "cell": "C26",
+          "value": "https://www.youtube.com/watch?v=6b_uzwmCAXI&ab_channel=SweetDream",
+          "hyperlink": null
+        },
+        {
+          "cell": "D26",
+          "value": "05:30:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E26",
+          "value": "06:30:00",
+          "hyperlink": null
+        }
+      ]
+    },
+    {
+      "sheet": "Sheet1",
+      "cells": [
+        {
+          "cell": "A27",
+          "value": "S08",
+          "hyperlink": null
+        },
+        {
+          "cell": "B27",
+          "value": "006",
+          "hyperlink": null
+        },
+        {
+          "cell": "C27",
+          "value": "https://www.youtube.com/watch?v=6b_uzwmCAXI&ab_channel=SweetDream",
+          "hyperlink": "https://www.youtube.com/watch?v=6b_uzwmCAXI&ab_channel=SweetDream"
+        },
+        {
+          "cell": "D27",
+          "value": "07:30:00",
+          "hyperlink": null
+        },
+        {
+          "cell": "E27",
+          "value": "08:30:00",
+          "hyperlink": null
+        }
+      ]
+    }
+  ]
+}

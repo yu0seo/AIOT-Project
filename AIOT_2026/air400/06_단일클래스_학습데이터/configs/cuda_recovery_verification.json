@@ -1,0 +1,8 @@
+{
+  "reason": "CUDA memory contention during concurrent extraction",
+  "completed_files_checked_before_resume": 218,
+  "completed_files_with_face_execution_errors": 0,
+  "new_batch16_vs32_max_abs_difference": 9.5367431640625e-07,
+  "parallel_vs_official_flow_max_abs_difference": 0.0,
+  "recovery": "Preserved completed exports, restarted CUDA contexts, serialized GPU phases, smaller inference batches, resume incomplete sources; stop immediately on CUDA errors"
+}

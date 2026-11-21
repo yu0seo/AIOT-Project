@@ -1,0 +1,1153 @@
+{
+  "archive": "archives\\AIR_125.zip",
+  "archive_sha256": "c4075061e71fbf3e9dff87759608a9e9f47a60ec4c2170e53642ac62b9cdb116",
+  "files": [
+    {
+      "path": "datasets\\AIR_125\\.DS_Store",
+      "bytes": 6148,
+      "crc32": 4049527057
+    },
+    {
+      "path": "datasets\\AIR_125\\s06-s07-s08-yt-links.xlsx",
+      "bytes": 10766,
+      "crc32": 4175271570
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\008.mp4",
+      "bytes": 9882610,
+      "crc32": 1059854518
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\014.hdf5",
+      "bytes": 20560,
+      "crc32": 554488161
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\002.hdf5",
+      "bytes": 20560,
+      "crc32": 3812579916
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\009.mp4",
+      "bytes": 9766092,
+      "crc32": 2052729673
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\018.hdf5",
+      "bytes": 15760,
+      "crc32": 2968948291
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\019.hdf5",
+      "bytes": 15760,
+      "crc32": 3354981915
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\019.mp4",
+      "bytes": 21743482,
+      "crc32": 217315742
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\003.hdf5",
+      "bytes": 20560,
+      "crc32": 986090773
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\015.hdf5",
+      "bytes": 15760,
+      "crc32": 460413804
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\018.mp4",
+      "bytes": 21915008,
+      "crc32": 2078972771
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\008.hdf5",
+      "bytes": 15760,
+      "crc32": 2658039918
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\012.hdf5",
+      "bytes": 20560,
+      "crc32": 1822903447
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\004.hdf5",
+      "bytes": 20560,
+      "crc32": 2634795977
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\005.hdf5",
+      "bytes": 20560,
+      "crc32": 3083910420
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\013.hdf5",
+      "bytes": 20560,
+      "crc32": 3882235563
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\009.hdf5",
+      "bytes": 15760,
+      "crc32": 3447801752
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\006.hdf5",
+      "bytes": 15760,
+      "crc32": 3563122552
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\010.hdf5",
+      "bytes": 15760,
+      "crc32": 3613970613
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\011.hdf5",
+      "bytes": 20560,
+      "crc32": 3680030700
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\007.hdf5",
+      "bytes": 15760,
+      "crc32": 3061956794
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\001.mp4",
+      "bytes": 32543360,
+      "crc32": 1191643883
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\015.mp4",
+      "bytes": 21927425,
+      "crc32": 3971630660
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\016.hdf5",
+      "bytes": 15760,
+      "crc32": 3139874954
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\014.mp4",
+      "bytes": 13293171,
+      "crc32": 2625170987
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\016.mp4",
+      "bytes": 22141474,
+      "crc32": 3488591071
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\002.mp4",
+      "bytes": 33509108,
+      "crc32": 3444651628
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\003.mp4",
+      "bytes": 33170445,
+      "crc32": 1135663376
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\017.mp4",
+      "bytes": 21915401,
+      "crc32": 1358532510
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\013.mp4",
+      "bytes": 12933393,
+      "crc32": 2821804936
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\007.mp4",
+      "bytes": 9939404,
+      "crc32": 4149207620
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\006.mp4",
+      "bytes": 9925473,
+      "crc32": 4159090514
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\012.mp4",
+      "bytes": 12952334,
+      "crc32": 481475787
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\004.mp4",
+      "bytes": 31642124,
+      "crc32": 3391531056
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\010.mp4",
+      "bytes": 9826853,
+      "crc32": 4002223278
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\017.hdf5",
+      "bytes": 15760,
+      "crc32": 4096987794
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\001.hdf5",
+      "bytes": 20560,
+      "crc32": 2158766711
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\011.mp4",
+      "bytes": 13668314,
+      "crc32": 2498622736
+    },
+    {
+      "path": "datasets\\AIR_125\\S05\\005.mp4",
+      "bytes": 33216710,
+      "crc32": 1849893664
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\008.mp4",
+      "bytes": 9991051,
+      "crc32": 1525265056
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\014.hdf5",
+      "bytes": 20560,
+      "crc32": 2318643951
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\002.hdf5",
+      "bytes": 15760,
+      "crc32": 1164039006
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\009.mp4",
+      "bytes": 10038062,
+      "crc32": 819005772
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\003.hdf5",
+      "bytes": 15760,
+      "crc32": 205796439
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\015.hdf5",
+      "bytes": 20560,
+      "crc32": 2749311246
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\008.hdf5",
+      "bytes": 15760,
+      "crc32": 2082540945
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\012.hdf5",
+      "bytes": 20560,
+      "crc32": 561879497
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\004.hdf5",
+      "bytes": 15760,
+      "crc32": 158949701
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\005.hdf5",
+      "bytes": 15760,
+      "crc32": 1212177207
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\013.hdf5",
+      "bytes": 20560,
+      "crc32": 338103124
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\009.hdf5",
+      "bytes": 15760,
+      "crc32": 2616602195
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\006.hdf5",
+      "bytes": 15760,
+      "crc32": 1675385734
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\010.hdf5",
+      "bytes": 15760,
+      "crc32": 3553118536
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\011.hdf5",
+      "bytes": 20560,
+      "crc32": 766177159
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\007.hdf5",
+      "bytes": 15760,
+      "crc32": 3016919038
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\001.mp4",
+      "bytes": 9103763,
+      "crc32": 2844082490
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\015.mp4",
+      "bytes": 13651584,
+      "crc32": 2067797912
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\014.mp4",
+      "bytes": 14446798,
+      "crc32": 2672252988
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\002.mp4",
+      "bytes": 9141251,
+      "crc32": 1940177360
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\003.mp4",
+      "bytes": 9077704,
+      "crc32": 4181329027
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\013.mp4",
+      "bytes": 14261484,
+      "crc32": 2914519291
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\007.mp4",
+      "bytes": 10023133,
+      "crc32": 3350110622
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\006.mp4",
+      "bytes": 10051783,
+      "crc32": 653793422
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\012.mp4",
+      "bytes": 14105001,
+      "crc32": 3326581600
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\004.mp4",
+      "bytes": 9211701,
+      "crc32": 3547296112
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\010.mp4",
+      "bytes": 10160563,
+      "crc32": 1688518161
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\001.hdf5",
+      "bytes": 15760,
+      "crc32": 52639026
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\011.mp4",
+      "bytes": 13411827,
+      "crc32": 3881582807
+    },
+    {
+      "path": "datasets\\AIR_125\\S02\\005.mp4",
+      "bytes": 9053522,
+      "crc32": 226355549
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\008.mp4",
+      "bytes": 6074881,
+      "crc32": 3192079486
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\014.hdf5",
+      "bytes": 15760,
+      "crc32": 2014271447
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\002.hdf5",
+      "bytes": 14800,
+      "crc32": 12255835
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\009.mp4",
+      "bytes": 6039468,
+      "crc32": 4206662828
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\018.hdf5",
+      "bytes": 15760,
+      "crc32": 1470119830
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\019.hdf5",
+      "bytes": 15760,
+      "crc32": 2647790372
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\019.mp4",
+      "bytes": 8152797,
+      "crc32": 427998507
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\003.hdf5",
+      "bytes": 14800,
+      "crc32": 1101640872
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\015.hdf5",
+      "bytes": 15760,
+      "crc32": 1755371981
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\018.mp4",
+      "bytes": 8168711,
+      "crc32": 1015135231
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\008.hdf5",
+      "bytes": 15760,
+      "crc32": 3215367214
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\012.hdf5",
+      "bytes": 15760,
+      "crc32": 2083518837
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\004.hdf5",
+      "bytes": 14800,
+      "crc32": 1175872719
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\005.hdf5",
+      "bytes": 14800,
+      "crc32": 1847431983
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\013.hdf5",
+      "bytes": 15760,
+      "crc32": 576709087
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\009.hdf5",
+      "bytes": 15760,
+      "crc32": 3458462799
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\006.hdf5",
+      "bytes": 15760,
+      "crc32": 1906836464
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\010.hdf5",
+      "bytes": 15760,
+      "crc32": 2944211176
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\011.hdf5",
+      "bytes": 15760,
+      "crc32": 248108111
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\007.hdf5",
+      "bytes": 15760,
+      "crc32": 3833656050
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\001.mp4",
+      "bytes": 7821888,
+      "crc32": 1829919400
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\015.mp4",
+      "bytes": 6097893,
+      "crc32": 4211664464
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\016.hdf5",
+      "bytes": 15760,
+      "crc32": 217359800
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\014.mp4",
+      "bytes": 6139968,
+      "crc32": 2284789182
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\016.mp4",
+      "bytes": 8152114,
+      "crc32": 3743073173
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\002.mp4",
+      "bytes": 7792164,
+      "crc32": 520919567
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\003.mp4",
+      "bytes": 7783836,
+      "crc32": 2639230845
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\017.mp4",
+      "bytes": 8136783,
+      "crc32": 688590191
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\013.mp4",
+      "bytes": 6115044,
+      "crc32": 1177430310
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\007.mp4",
+      "bytes": 6100462,
+      "crc32": 984584206
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\006.mp4",
+      "bytes": 6077935,
+      "crc32": 439420529
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\012.mp4",
+      "bytes": 6112756,
+      "crc32": 3507683889
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\004.mp4",
+      "bytes": 7773076,
+      "crc32": 1719284110
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\010.mp4",
+      "bytes": 5927286,
+      "crc32": 3143385549
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\017.hdf5",
+      "bytes": 15760,
+      "crc32": 3076884714
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\001.hdf5",
+      "bytes": 14800,
+      "crc32": 356626099
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\011.mp4",
+      "bytes": 5978992,
+      "crc32": 963002483
+    },
+    {
+      "path": "datasets\\AIR_125\\S03\\005.mp4",
+      "bytes": 7812590,
+      "crc32": 1125461084
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\008.mp4",
+      "bytes": 5783328,
+      "crc32": 1115439563
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\020.mp4",
+      "bytes": 7018120,
+      "crc32": 2674922260
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\014.hdf5",
+      "bytes": 15760,
+      "crc32": 2008081458
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\002.hdf5",
+      "bytes": 15760,
+      "crc32": 4128241367
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\021.mp4",
+      "bytes": 5416632,
+      "crc32": 1553474725
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\009.mp4",
+      "bytes": 5787624,
+      "crc32": 3060836940
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\022.hdf5",
+      "bytes": 15760,
+      "crc32": 1691051745
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\023.mp4",
+      "bytes": 5394363,
+      "crc32": 2025209401
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\018.hdf5",
+      "bytes": 15760,
+      "crc32": 947339679
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\022.mp4",
+      "bytes": 5351478,
+      "crc32": 3401431094
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\019.hdf5",
+      "bytes": 15760,
+      "crc32": 345569939
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\023.hdf5",
+      "bytes": 15760,
+      "crc32": 397057576
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\025.mp4",
+      "bytes": 5359078,
+      "crc32": 1427806053
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\019.mp4",
+      "bytes": 7166587,
+      "crc32": 1923272376
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\003.hdf5",
+      "bytes": 15760,
+      "crc32": 2207884207
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\015.hdf5",
+      "bytes": 15760,
+      "crc32": 469040613
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\018.mp4",
+      "bytes": 6983825,
+      "crc32": 1338768320
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\024.mp4",
+      "bytes": 5345116,
+      "crc32": 2095354234
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\024.hdf5",
+      "bytes": 15760,
+      "crc32": 2697284142
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\008.hdf5",
+      "bytes": 15760,
+      "crc32": 3896317555
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\012.hdf5",
+      "bytes": 15760,
+      "crc32": 4175919349
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\004.hdf5",
+      "bytes": 15760,
+      "crc32": 1804017875
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\005.hdf5",
+      "bytes": 15760,
+      "crc32": 3417780187
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\013.hdf5",
+      "bytes": 15760,
+      "crc32": 2460484739
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\009.hdf5",
+      "bytes": 15760,
+      "crc32": 1325121742
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\025.hdf5",
+      "bytes": 15760,
+      "crc32": 556116389
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\006.hdf5",
+      "bytes": 15760,
+      "crc32": 162806367
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\010.hdf5",
+      "bytes": 15760,
+      "crc32": 2729488813
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\011.hdf5",
+      "bytes": 15760,
+      "crc32": 4147897768
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\007.hdf5",
+      "bytes": 15760,
+      "crc32": 683074557
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\001.mp4",
+      "bytes": 5821313,
+      "crc32": 3621973335
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\015.mp4",
+      "bytes": 7225707,
+      "crc32": 3662804959
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\016.hdf5",
+      "bytes": 15760,
+      "crc32": 2153313327
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\014.mp4",
+      "bytes": 6588352,
+      "crc32": 2839774458
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\016.mp4",
+      "bytes": 7189420,
+      "crc32": 2610564765
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\002.mp4",
+      "bytes": 5951658,
+      "crc32": 1593385855
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\003.mp4",
+      "bytes": 5805004,
+      "crc32": 397899723
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\017.mp4",
+      "bytes": 6986235,
+      "crc32": 3358981176
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\020.hdf5",
+      "bytes": 15760,
+      "crc32": 3807624424
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\021.hdf5",
+      "bytes": 15760,
+      "crc32": 3713928953
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\013.mp4",
+      "bytes": 6809292,
+      "crc32": 2794991943
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\007.mp4",
+      "bytes": 5810724,
+      "crc32": 3496592782
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\006.mp4",
+      "bytes": 5834574,
+      "crc32": 714257565
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\012.mp4",
+      "bytes": 6777479,
+      "crc32": 738627242
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\004.mp4",
+      "bytes": 5777750,
+      "crc32": 3379123264
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\010.mp4",
+      "bytes": 5800427,
+      "crc32": 2524575737
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\017.hdf5",
+      "bytes": 15760,
+      "crc32": 2665348685
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\001.hdf5",
+      "bytes": 15760,
+      "crc32": 3481481473
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\011.mp4",
+      "bytes": 6771060,
+      "crc32": 3146956283
+    },
+    {
+      "path": "datasets\\AIR_125\\S04\\005.mp4",
+      "bytes": 5771796,
+      "crc32": 1530123235
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\008.mp4",
+      "bytes": 14130604,
+      "crc32": 1850650307
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\020.mp4",
+      "bytes": 7090937,
+      "crc32": 3840546300
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\014.hdf5",
+      "bytes": 15760,
+      "crc32": 960073473
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\002.hdf5",
+      "bytes": 20560,
+      "crc32": 1001187738
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\021.mp4",
+      "bytes": 7015896,
+      "crc32": 322179212
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\009.mp4",
+      "bytes": 17023222,
+      "crc32": 3668799809
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\018.hdf5",
+      "bytes": 15760,
+      "crc32": 2910253286
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\019.hdf5",
+      "bytes": 15760,
+      "crc32": 2004946057
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\019.mp4",
+      "bytes": 6479712,
+      "crc32": 3191083400
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\003.hdf5",
+      "bytes": 20560,
+      "crc32": 1652070774
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\015.hdf5",
+      "bytes": 15760,
+      "crc32": 2224409427
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\018.mp4",
+      "bytes": 6442223,
+      "crc32": 2299631199
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\008.hdf5",
+      "bytes": 20560,
+      "crc32": 651362165
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\012.hdf5",
+      "bytes": 15760,
+      "crc32": 3139969505
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\004.hdf5",
+      "bytes": 20560,
+      "crc32": 1513564918
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\005.hdf5",
+      "bytes": 20560,
+      "crc32": 2007618602
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\013.hdf5",
+      "bytes": 15760,
+      "crc32": 2506771001
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\009.hdf5",
+      "bytes": 20560,
+      "crc32": 274126992
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\006.hdf5",
+      "bytes": 20560,
+      "crc32": 3709639056
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\010.hdf5",
+      "bytes": 20560,
+      "crc32": 3936450073
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\011.hdf5",
+      "bytes": 20560,
+      "crc32": 4282882782
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\007.hdf5",
+      "bytes": 20560,
+      "crc32": 2718767080
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\001.mp4",
+      "bytes": 17851806,
+      "crc32": 569022356
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\015.mp4",
+      "bytes": 6778374,
+      "crc32": 1831413674
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\016.hdf5",
+      "bytes": 15760,
+      "crc32": 2751314327
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\014.mp4",
+      "bytes": 5695924,
+      "crc32": 1540652917
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\016.mp4",
+      "bytes": 6614814,
+      "crc32": 2305951163
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\002.mp4",
+      "bytes": 16914613,
+      "crc32": 4233478133
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\003.mp4",
+      "bytes": 18342181,
+      "crc32": 3778849678
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\017.mp4",
+      "bytes": 6440099,
+      "crc32": 1008358736
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\020.hdf5",
+      "bytes": 15760,
+      "crc32": 2924357847
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\021.hdf5",
+      "bytes": 15760,
+      "crc32": 3290088849
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\013.mp4",
+      "bytes": 5695084,
+      "crc32": 3666750112
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\007.mp4",
+      "bytes": 15200601,
+      "crc32": 3094913050
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\006.mp4",
+      "bytes": 13539512,
+      "crc32": 2962671173
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\012.mp4",
+      "bytes": 5699160,
+      "crc32": 3709471459
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\004.mp4",
+      "bytes": 17631908,
+      "crc32": 2325584368
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\010.mp4",
+      "bytes": 15849543,
+      "crc32": 3880498004
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\017.hdf5",
+      "bytes": 15760,
+      "crc32": 148171134
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\001.hdf5",
+      "bytes": 20560,
+      "crc32": 621137521
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\011.mp4",
+      "bytes": 13347513,
+      "crc32": 3645275433
+    },
+    {
+      "path": "datasets\\AIR_125\\S01\\005.mp4",
+      "bytes": 13932995,
+      "crc32": 2703713670
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\002.hdf5",
+      "bytes": 35792,
+      "crc32": 1611459572
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\.DS_Store",
+      "bytes": 6148,
+      "crc32": 1837629546
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\003.hdf5",
+      "bytes": 35104,
+      "crc32": 2790431126
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\008.hdf5",
+      "bytes": 34960,
+      "crc32": 147505430
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\004.hdf5",
+      "bytes": 34960,
+      "crc32": 3998628847
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\005.hdf5",
+      "bytes": 34960,
+      "crc32": 1416906016
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\009.hdf5",
+      "bytes": 34960,
+      "crc32": 688287747
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\006.hdf5",
+      "bytes": 34960,
+      "crc32": 2629840181
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\010.hdf5",
+      "bytes": 34960,
+      "crc32": 3962341322
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\007.hdf5",
+      "bytes": 34960,
+      "crc32": 305254696
+    },
+    {
+      "path": "datasets\\AIR_125\\S06\\001.hdf5",
+      "bytes": 35488,
+      "crc32": 296481360
+    },
+    {
+      "path": "datasets\\AIR_125\\S08\\002.hdf5",
+      "bytes": 34912,
+      "crc32": 1760904901
+    },
+    {
+      "path": "datasets\\AIR_125\\S08\\.DS_Store",
+      "bytes": 6148,
+      "crc32": 1837629546
+    },
+    {
+      "path": "datasets\\AIR_125\\S08\\003.hdf5",
+      "bytes": 34816,
+      "crc32": 1394542836
+    },
+    {
+      "path": "datasets\\AIR_125\\S08\\004.hdf5",
+      "bytes": 35312,
+      "crc32": 684841108
+    },
+    {
+      "path": "datasets\\AIR_125\\S08\\005.hdf5",
+      "bytes": 34960,
+      "crc32": 3972768160
+    },
+    {
+      "path": "datasets\\AIR_125\\S08\\006.hdf5",
+      "bytes": 35152,
+      "crc32": 2299175685
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\002.hdf5",
+      "bytes": 33040,
+      "crc32": 66244610
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\.DS_Store",
+      "bytes": 6148,
+      "crc32": 1837629546
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\003.hdf5",
+      "bytes": 33264,
+      "crc32": 3330140911
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\008.hdf5",
+      "bytes": 33440,
+      "crc32": 233096480
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\004.hdf5",
+      "bytes": 33088,
+      "crc32": 4216946675
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\005.hdf5",
+      "bytes": 33104,
+      "crc32": 2266750365
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\009.hdf5",
+      "bytes": 32688,
+      "crc32": 349760067
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\006.hdf5",
+      "bytes": 33120,
+      "crc32": 327035182
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\010.hdf5",
+      "bytes": 33280,
+      "crc32": 3861757504
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\011.hdf5",
+      "bytes": 33424,
+      "crc32": 2765693730
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\007.hdf5",
+      "bytes": 33232,
+      "crc32": 3767349103
+    },
+    {
+      "path": "datasets\\AIR_125\\S07\\001.hdf5",
+      "bytes": 33520,
+      "crc32": 1054247284
+    }
+  ],
+  "video_count": 99,
+  "excluded": "__MACOSX resource forks; no original_videos or processed previews downloaded"
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "synthetic 0.5Hz intervals are 2sec with zero variability",
+    "flat waveform retains missing interval mask",
+    "30FPS to 10Hz selects unique actual frames",
+    "face absence continues across 30sec windows",
+    "face reappearance clears missing duration"
+  ]
+}

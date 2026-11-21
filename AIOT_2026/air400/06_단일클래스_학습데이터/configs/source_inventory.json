@@ -1,0 +1,4488 @@
+{
+  "enumerated_at": "2026-11-21T02:05:46.729592+09:00",
+  "base_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/",
+  "scope": "S01-S10 folder-level numbered .mp4 short clips; actual durations still to be decoded",
+  "listing_only": true,
+  "numbered_video_count": 295,
+  "paired_reference_count": 275,
+  "without_reference_count": 20,
+  "subjects": [
+    {
+      "folder": "S01",
+      "numbered_video_count": 20,
+      "paired_reference_count": 20
+    },
+    {
+      "folder": "S02",
+      "numbered_video_count": 60,
+      "paired_reference_count": 40
+    },
+    {
+      "folder": "S03",
+      "numbered_video_count": 10,
+      "paired_reference_count": 10
+    },
+    {
+      "folder": "S04",
+      "numbered_video_count": 25,
+      "paired_reference_count": 25
+    },
+    {
+      "folder": "S05",
+      "numbered_video_count": 45,
+      "paired_reference_count": 45
+    },
+    {
+      "folder": "S06",
+      "numbered_video_count": 50,
+      "paired_reference_count": 50
+    },
+    {
+      "folder": "S07",
+      "numbered_video_count": 25,
+      "paired_reference_count": 25
+    },
+    {
+      "folder": "S08",
+      "numbered_video_count": 20,
+      "paired_reference_count": 20
+    },
+    {
+      "folder": "S09",
+      "numbered_video_count": 20,
+      "paired_reference_count": 20
+    },
+    {
+      "folder": "S10",
+      "numbered_video_count": 20,
+      "paired_reference_count": 20
+    }
+  ],
+  "samples": [
+    {
+      "id": "S01_1",
+      "folder": "S01",
+      "clip": "1",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/1.mp4",
+      "video_relative_path": "videos/S01/1.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/1.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_2",
+      "folder": "S01",
+      "clip": "2",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/2.mp4",
+      "video_relative_path": "videos/S01/2.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/2.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_3",
+      "folder": "S01",
+      "clip": "3",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/3.mp4",
+      "video_relative_path": "videos/S01/3.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/3.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_4",
+      "folder": "S01",
+      "clip": "4",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/4.mp4",
+      "video_relative_path": "videos/S01/4.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/4.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_5",
+      "folder": "S01",
+      "clip": "5",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/5.mp4",
+      "video_relative_path": "videos/S01/5.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/5.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_6",
+      "folder": "S01",
+      "clip": "6",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/6.mp4",
+      "video_relative_path": "videos/S01/6.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/6.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_7",
+      "folder": "S01",
+      "clip": "7",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/7.mp4",
+      "video_relative_path": "videos/S01/7.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/7.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_8",
+      "folder": "S01",
+      "clip": "8",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/8.mp4",
+      "video_relative_path": "videos/S01/8.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/8.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_9",
+      "folder": "S01",
+      "clip": "9",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/9.mp4",
+      "video_relative_path": "videos/S01/9.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/9.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_10",
+      "folder": "S01",
+      "clip": "10",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/10.mp4",
+      "video_relative_path": "videos/S01/10.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/10.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_11",
+      "folder": "S01",
+      "clip": "11",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/11.mp4",
+      "video_relative_path": "videos/S01/11.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/11.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_12",
+      "folder": "S01",
+      "clip": "12",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/12.mp4",
+      "video_relative_path": "videos/S01/12.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/12.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_13",
+      "folder": "S01",
+      "clip": "13",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/13.mp4",
+      "video_relative_path": "videos/S01/13.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/13.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_14",
+      "folder": "S01",
+      "clip": "14",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/14.mp4",
+      "video_relative_path": "videos/S01/14.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/14.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_15",
+      "folder": "S01",
+      "clip": "15",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/15.mp4",
+      "video_relative_path": "videos/S01/15.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/15.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_16",
+      "folder": "S01",
+      "clip": "16",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/16.mp4",
+      "video_relative_path": "videos/S01/16.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/16.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_17",
+      "folder": "S01",
+      "clip": "17",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/17.mp4",
+      "video_relative_path": "videos/S01/17.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/17.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_18",
+      "folder": "S01",
+      "clip": "18",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/18.mp4",
+      "video_relative_path": "videos/S01/18.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/18.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_19",
+      "folder": "S01",
+      "clip": "19",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/19.mp4",
+      "video_relative_path": "videos/S01/19.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/19.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S01_20",
+      "folder": "S01",
+      "clip": "20",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/20.mp4",
+      "video_relative_path": "videos/S01/20.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S01/out/20.hdf5",
+      "csv_annotation_files": [
+        "S03_127Feb2025_07h58m02s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_1",
+      "folder": "S02",
+      "clip": "1",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/1.mp4",
+      "video_relative_path": "videos/S02/1.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/1.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_2",
+      "folder": "S02",
+      "clip": "2",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/2.mp4",
+      "video_relative_path": "videos/S02/2.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/2.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_3",
+      "folder": "S02",
+      "clip": "3",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/3.mp4",
+      "video_relative_path": "videos/S02/3.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/3.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_4",
+      "folder": "S02",
+      "clip": "4",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/4.mp4",
+      "video_relative_path": "videos/S02/4.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/4.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_5",
+      "folder": "S02",
+      "clip": "5",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/5.mp4",
+      "video_relative_path": "videos/S02/5.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/5.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_6",
+      "folder": "S02",
+      "clip": "6",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/6.mp4",
+      "video_relative_path": "videos/S02/6.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/6.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_7",
+      "folder": "S02",
+      "clip": "7",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/7.mp4",
+      "video_relative_path": "videos/S02/7.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/7.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_8",
+      "folder": "S02",
+      "clip": "8",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/8.mp4",
+      "video_relative_path": "videos/S02/8.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/8.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_9",
+      "folder": "S02",
+      "clip": "9",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/9.mp4",
+      "video_relative_path": "videos/S02/9.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/9.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_10",
+      "folder": "S02",
+      "clip": "10",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/10.mp4",
+      "video_relative_path": "videos/S02/10.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/10.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_11",
+      "folder": "S02",
+      "clip": "11",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/11.mp4",
+      "video_relative_path": "videos/S02/11.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/11.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_12",
+      "folder": "S02",
+      "clip": "12",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/12.mp4",
+      "video_relative_path": "videos/S02/12.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/12.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_13",
+      "folder": "S02",
+      "clip": "13",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/13.mp4",
+      "video_relative_path": "videos/S02/13.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/13.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_14",
+      "folder": "S02",
+      "clip": "14",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/14.mp4",
+      "video_relative_path": "videos/S02/14.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/14.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_15",
+      "folder": "S02",
+      "clip": "15",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/15.mp4",
+      "video_relative_path": "videos/S02/15.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/15.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_16",
+      "folder": "S02",
+      "clip": "16",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/16.mp4",
+      "video_relative_path": "videos/S02/16.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/16.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_17",
+      "folder": "S02",
+      "clip": "17",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/17.mp4",
+      "video_relative_path": "videos/S02/17.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/17.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_18",
+      "folder": "S02",
+      "clip": "18",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/18.mp4",
+      "video_relative_path": "videos/S02/18.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/18.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_19",
+      "folder": "S02",
+      "clip": "19",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/19.mp4",
+      "video_relative_path": "videos/S02/19.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/19.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_20",
+      "folder": "S02",
+      "clip": "20",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/20.mp4",
+      "video_relative_path": "videos/S02/20.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/20.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_21",
+      "folder": "S02",
+      "clip": "21",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/21.mp4",
+      "video_relative_path": "videos/S02/21.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/21.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_22",
+      "folder": "S02",
+      "clip": "22",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/22.mp4",
+      "video_relative_path": "videos/S02/22.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/22.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_23",
+      "folder": "S02",
+      "clip": "23",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/23.mp4",
+      "video_relative_path": "videos/S02/23.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/23.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_24",
+      "folder": "S02",
+      "clip": "24",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/24.mp4",
+      "video_relative_path": "videos/S02/24.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/24.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_25",
+      "folder": "S02",
+      "clip": "25",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/25.mp4",
+      "video_relative_path": "videos/S02/25.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/25.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_26",
+      "folder": "S02",
+      "clip": "26",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/26.mp4",
+      "video_relative_path": "videos/S02/26.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/26.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_27",
+      "folder": "S02",
+      "clip": "27",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/27.mp4",
+      "video_relative_path": "videos/S02/27.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/27.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_28",
+      "folder": "S02",
+      "clip": "28",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/28.mp4",
+      "video_relative_path": "videos/S02/28.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/28.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_29",
+      "folder": "S02",
+      "clip": "29",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/29.mp4",
+      "video_relative_path": "videos/S02/29.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/29.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_30",
+      "folder": "S02",
+      "clip": "30",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/30.mp4",
+      "video_relative_path": "videos/S02/30.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/30.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_31",
+      "folder": "S02",
+      "clip": "31",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/31.mp4",
+      "video_relative_path": "videos/S02/31.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/31.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_32",
+      "folder": "S02",
+      "clip": "32",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/32.mp4",
+      "video_relative_path": "videos/S02/32.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/32.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_33",
+      "folder": "S02",
+      "clip": "33",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/33.mp4",
+      "video_relative_path": "videos/S02/33.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/33.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_34",
+      "folder": "S02",
+      "clip": "34",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/34.mp4",
+      "video_relative_path": "videos/S02/34.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/34.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_35",
+      "folder": "S02",
+      "clip": "35",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/35.mp4",
+      "video_relative_path": "videos/S02/35.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/35.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_36",
+      "folder": "S02",
+      "clip": "36",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/36.mp4",
+      "video_relative_path": "videos/S02/36.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/36.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_37",
+      "folder": "S02",
+      "clip": "37",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/37.mp4",
+      "video_relative_path": "videos/S02/37.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/37.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_38",
+      "folder": "S02",
+      "clip": "38",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/38.mp4",
+      "video_relative_path": "videos/S02/38.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/38.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_39",
+      "folder": "S02",
+      "clip": "39",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/39.mp4",
+      "video_relative_path": "videos/S02/39.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/39.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_40",
+      "folder": "S02",
+      "clip": "40",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/40.mp4",
+      "video_relative_path": "videos/S02/40.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/out/40.hdf5",
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_41",
+      "folder": "S02",
+      "clip": "41",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/41.mp4",
+      "video_relative_path": "videos/S02/41.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_42",
+      "folder": "S02",
+      "clip": "42",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/42.mp4",
+      "video_relative_path": "videos/S02/42.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_43",
+      "folder": "S02",
+      "clip": "43",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/43.mp4",
+      "video_relative_path": "videos/S02/43.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_44",
+      "folder": "S02",
+      "clip": "44",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/44.mp4",
+      "video_relative_path": "videos/S02/44.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_45",
+      "folder": "S02",
+      "clip": "45",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/45.mp4",
+      "video_relative_path": "videos/S02/45.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_46",
+      "folder": "S02",
+      "clip": "46",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/46.mp4",
+      "video_relative_path": "videos/S02/46.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_47",
+      "folder": "S02",
+      "clip": "47",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/47.mp4",
+      "video_relative_path": "videos/S02/47.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_48",
+      "folder": "S02",
+      "clip": "48",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/48.mp4",
+      "video_relative_path": "videos/S02/48.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_49",
+      "folder": "S02",
+      "clip": "49",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/49.mp4",
+      "video_relative_path": "videos/S02/49.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_50",
+      "folder": "S02",
+      "clip": "50",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/50.mp4",
+      "video_relative_path": "videos/S02/50.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_51",
+      "folder": "S02",
+      "clip": "51",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/51.mp4",
+      "video_relative_path": "videos/S02/51.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_52",
+      "folder": "S02",
+      "clip": "52",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/52.mp4",
+      "video_relative_path": "videos/S02/52.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_53",
+      "folder": "S02",
+      "clip": "53",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/53.mp4",
+      "video_relative_path": "videos/S02/53.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_54",
+      "folder": "S02",
+      "clip": "54",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/54.mp4",
+      "video_relative_path": "videos/S02/54.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_55",
+      "folder": "S02",
+      "clip": "55",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/55.mp4",
+      "video_relative_path": "videos/S02/55.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_56",
+      "folder": "S02",
+      "clip": "56",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/56.mp4",
+      "video_relative_path": "videos/S02/56.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_57",
+      "folder": "S02",
+      "clip": "57",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/57.mp4",
+      "video_relative_path": "videos/S02/57.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_58",
+      "folder": "S02",
+      "clip": "58",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/58.mp4",
+      "video_relative_path": "videos/S02/58.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_59",
+      "folder": "S02",
+      "clip": "59",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/59.mp4",
+      "video_relative_path": "videos/S02/59.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S02_60",
+      "folder": "S02",
+      "clip": "60",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S02/60.mp4",
+      "video_relative_path": "videos/S02/60.mp4",
+      "reference_available": false,
+      "reference_url": null,
+      "csv_annotation_files": [
+        "S08_127Feb2025_09h06m00s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S03_1",
+      "folder": "S03",
+      "clip": "1",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/1.mp4",
+      "video_relative_path": "videos/S03/1.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/out/1.hdf5",
+      "csv_annotation_files": [
+        "S09_127Feb2025_08h09m11s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S03_2",
+      "folder": "S03",
+      "clip": "2",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/2.mp4",
+      "video_relative_path": "videos/S03/2.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/out/2.hdf5",
+      "csv_annotation_files": [
+        "S09_127Feb2025_08h09m11s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S03_3",
+      "folder": "S03",
+      "clip": "3",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/3.mp4",
+      "video_relative_path": "videos/S03/3.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/out/3.hdf5",
+      "csv_annotation_files": [
+        "S09_127Feb2025_08h09m11s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S03_4",
+      "folder": "S03",
+      "clip": "4",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/4.mp4",
+      "video_relative_path": "videos/S03/4.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/out/4.hdf5",
+      "csv_annotation_files": [
+        "S09_127Feb2025_08h09m11s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S03_5",
+      "folder": "S03",
+      "clip": "5",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/5.mp4",
+      "video_relative_path": "videos/S03/5.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/out/5.hdf5",
+      "csv_annotation_files": [
+        "S09_127Feb2025_08h09m11s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S03_6",
+      "folder": "S03",
+      "clip": "6",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/6.mp4",
+      "video_relative_path": "videos/S03/6.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/out/6.hdf5",
+      "csv_annotation_files": [
+        "S09_127Feb2025_08h09m11s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S03_7",
+      "folder": "S03",
+      "clip": "7",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/7.mp4",
+      "video_relative_path": "videos/S03/7.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/out/7.hdf5",
+      "csv_annotation_files": [
+        "S09_127Feb2025_08h09m11s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S03_8",
+      "folder": "S03",
+      "clip": "8",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/8.mp4",
+      "video_relative_path": "videos/S03/8.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/out/8.hdf5",
+      "csv_annotation_files": [
+        "S09_127Feb2025_08h09m11s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S03_9",
+      "folder": "S03",
+      "clip": "9",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/9.mp4",
+      "video_relative_path": "videos/S03/9.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/out/9.hdf5",
+      "csv_annotation_files": [
+        "S09_127Feb2025_08h09m11s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S03_10",
+      "folder": "S03",
+      "clip": "10",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/10.mp4",
+      "video_relative_path": "videos/S03/10.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S03/out/10.hdf5",
+      "csv_annotation_files": [
+        "S09_127Feb2025_08h09m11s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_1",
+      "folder": "S04",
+      "clip": "1",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/1.mp4",
+      "video_relative_path": "videos/S04/1.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/1.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_2",
+      "folder": "S04",
+      "clip": "2",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/2.mp4",
+      "video_relative_path": "videos/S04/2.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/2.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_3",
+      "folder": "S04",
+      "clip": "3",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/3.mp4",
+      "video_relative_path": "videos/S04/3.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/3.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_4",
+      "folder": "S04",
+      "clip": "4",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/4.mp4",
+      "video_relative_path": "videos/S04/4.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/4.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_5",
+      "folder": "S04",
+      "clip": "5",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/5.mp4",
+      "video_relative_path": "videos/S04/5.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/5.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_6",
+      "folder": "S04",
+      "clip": "6",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/6.mp4",
+      "video_relative_path": "videos/S04/6.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/6.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_7",
+      "folder": "S04",
+      "clip": "7",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/7.mp4",
+      "video_relative_path": "videos/S04/7.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/7.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_8",
+      "folder": "S04",
+      "clip": "8",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/8.mp4",
+      "video_relative_path": "videos/S04/8.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/8.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_9",
+      "folder": "S04",
+      "clip": "9",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/9.mp4",
+      "video_relative_path": "videos/S04/9.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/9.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_10",
+      "folder": "S04",
+      "clip": "10",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/10.mp4",
+      "video_relative_path": "videos/S04/10.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/10.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_11",
+      "folder": "S04",
+      "clip": "11",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/11.mp4",
+      "video_relative_path": "videos/S04/11.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/11.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_12",
+      "folder": "S04",
+      "clip": "12",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/12.mp4",
+      "video_relative_path": "videos/S04/12.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/12.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_13",
+      "folder": "S04",
+      "clip": "13",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/13.mp4",
+      "video_relative_path": "videos/S04/13.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/13.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_14",
+      "folder": "S04",
+      "clip": "14",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/14.mp4",
+      "video_relative_path": "videos/S04/14.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/14.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_15",
+      "folder": "S04",
+      "clip": "15",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/15.mp4",
+      "video_relative_path": "videos/S04/15.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/15.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_16",
+      "folder": "S04",
+      "clip": "16",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/16.mp4",
+      "video_relative_path": "videos/S04/16.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/16.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_17",
+      "folder": "S04",
+      "clip": "17",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/17.mp4",
+      "video_relative_path": "videos/S04/17.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/17.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_18",
+      "folder": "S04",
+      "clip": "18",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/18.mp4",
+      "video_relative_path": "videos/S04/18.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/18.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_19",
+      "folder": "S04",
+      "clip": "19",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/19.mp4",
+      "video_relative_path": "videos/S04/19.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/19.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_20",
+      "folder": "S04",
+      "clip": "20",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/20.mp4",
+      "video_relative_path": "videos/S04/20.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/20.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_21",
+      "folder": "S04",
+      "clip": "21",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/21.mp4",
+      "video_relative_path": "videos/S04/21.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/21.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_22",
+      "folder": "S04",
+      "clip": "22",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/22.mp4",
+      "video_relative_path": "videos/S04/22.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/22.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_23",
+      "folder": "S04",
+      "clip": "23",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/23.mp4",
+      "video_relative_path": "videos/S04/23.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/23.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_24",
+      "folder": "S04",
+      "clip": "24",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/24.mp4",
+      "video_relative_path": "videos/S04/24.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/24.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S04_25",
+      "folder": "S04",
+      "clip": "25",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/25.mp4",
+      "video_relative_path": "videos/S04/25.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S04/out/25.hdf5",
+      "csv_annotation_files": [
+        "S09_227Feb2025_08h12m34s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_1",
+      "folder": "S05",
+      "clip": "1",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/1.mp4",
+      "video_relative_path": "videos/S05/1.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/1.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_2",
+      "folder": "S05",
+      "clip": "2",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/2.mp4",
+      "video_relative_path": "videos/S05/2.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/2.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_3",
+      "folder": "S05",
+      "clip": "3",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/3.mp4",
+      "video_relative_path": "videos/S05/3.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/3.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_4",
+      "folder": "S05",
+      "clip": "4",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/4.mp4",
+      "video_relative_path": "videos/S05/4.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/4.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_5",
+      "folder": "S05",
+      "clip": "5",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/5.mp4",
+      "video_relative_path": "videos/S05/5.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/5.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_6",
+      "folder": "S05",
+      "clip": "6",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/6.mp4",
+      "video_relative_path": "videos/S05/6.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/6.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_7",
+      "folder": "S05",
+      "clip": "7",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/7.mp4",
+      "video_relative_path": "videos/S05/7.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/7.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_8",
+      "folder": "S05",
+      "clip": "8",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/8.mp4",
+      "video_relative_path": "videos/S05/8.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/8.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_9",
+      "folder": "S05",
+      "clip": "9",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/9.mp4",
+      "video_relative_path": "videos/S05/9.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/9.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_10",
+      "folder": "S05",
+      "clip": "10",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/10.mp4",
+      "video_relative_path": "videos/S05/10.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/10.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_11",
+      "folder": "S05",
+      "clip": "11",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/11.mp4",
+      "video_relative_path": "videos/S05/11.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/11.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_12",
+      "folder": "S05",
+      "clip": "12",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/12.mp4",
+      "video_relative_path": "videos/S05/12.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/12.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_13",
+      "folder": "S05",
+      "clip": "13",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/13.mp4",
+      "video_relative_path": "videos/S05/13.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/13.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_14",
+      "folder": "S05",
+      "clip": "14",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/14.mp4",
+      "video_relative_path": "videos/S05/14.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/14.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_15",
+      "folder": "S05",
+      "clip": "15",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/15.mp4",
+      "video_relative_path": "videos/S05/15.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/15.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_16",
+      "folder": "S05",
+      "clip": "16",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/16.mp4",
+      "video_relative_path": "videos/S05/16.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/16.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_17",
+      "folder": "S05",
+      "clip": "17",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/17.mp4",
+      "video_relative_path": "videos/S05/17.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/17.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_18",
+      "folder": "S05",
+      "clip": "18",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/18.mp4",
+      "video_relative_path": "videos/S05/18.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/18.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_19",
+      "folder": "S05",
+      "clip": "19",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/19.mp4",
+      "video_relative_path": "videos/S05/19.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/19.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_20",
+      "folder": "S05",
+      "clip": "20",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/20.mp4",
+      "video_relative_path": "videos/S05/20.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/20.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_21",
+      "folder": "S05",
+      "clip": "21",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/21.mp4",
+      "video_relative_path": "videos/S05/21.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/21.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_22",
+      "folder": "S05",
+      "clip": "22",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/22.mp4",
+      "video_relative_path": "videos/S05/22.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/22.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_23",
+      "folder": "S05",
+      "clip": "23",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/23.mp4",
+      "video_relative_path": "videos/S05/23.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/23.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_24",
+      "folder": "S05",
+      "clip": "24",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/24.mp4",
+      "video_relative_path": "videos/S05/24.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/24.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_25",
+      "folder": "S05",
+      "clip": "25",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/25.mp4",
+      "video_relative_path": "videos/S05/25.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/25.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_26",
+      "folder": "S05",
+      "clip": "26",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/26.mp4",
+      "video_relative_path": "videos/S05/26.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/26.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_27",
+      "folder": "S05",
+      "clip": "27",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/27.mp4",
+      "video_relative_path": "videos/S05/27.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/27.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_28",
+      "folder": "S05",
+      "clip": "28",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/28.mp4",
+      "video_relative_path": "videos/S05/28.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/28.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_29",
+      "folder": "S05",
+      "clip": "29",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/29.mp4",
+      "video_relative_path": "videos/S05/29.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/29.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_30",
+      "folder": "S05",
+      "clip": "30",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/30.mp4",
+      "video_relative_path": "videos/S05/30.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/30.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_31",
+      "folder": "S05",
+      "clip": "31",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/31.mp4",
+      "video_relative_path": "videos/S05/31.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/31.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_32",
+      "folder": "S05",
+      "clip": "32",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/32.mp4",
+      "video_relative_path": "videos/S05/32.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/32.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_33",
+      "folder": "S05",
+      "clip": "33",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/33.mp4",
+      "video_relative_path": "videos/S05/33.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/33.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_34",
+      "folder": "S05",
+      "clip": "34",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/34.mp4",
+      "video_relative_path": "videos/S05/34.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/34.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_35",
+      "folder": "S05",
+      "clip": "35",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/35.mp4",
+      "video_relative_path": "videos/S05/35.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/35.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_36",
+      "folder": "S05",
+      "clip": "36",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/36.mp4",
+      "video_relative_path": "videos/S05/36.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/36.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_37",
+      "folder": "S05",
+      "clip": "37",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/37.mp4",
+      "video_relative_path": "videos/S05/37.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/37.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_38",
+      "folder": "S05",
+      "clip": "38",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/38.mp4",
+      "video_relative_path": "videos/S05/38.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/38.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_39",
+      "folder": "S05",
+      "clip": "39",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/39.mp4",
+      "video_relative_path": "videos/S05/39.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/39.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_40",
+      "folder": "S05",
+      "clip": "40",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/40.mp4",
+      "video_relative_path": "videos/S05/40.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/40.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_41",
+      "folder": "S05",
+      "clip": "41",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/41.mp4",
+      "video_relative_path": "videos/S05/41.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/41.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_42",
+      "folder": "S05",
+      "clip": "42",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/42.mp4",
+      "video_relative_path": "videos/S05/42.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/42.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_43",
+      "folder": "S05",
+      "clip": "43",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/43.mp4",
+      "video_relative_path": "videos/S05/43.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/43.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_44",
+      "folder": "S05",
+      "clip": "44",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/44.mp4",
+      "video_relative_path": "videos/S05/44.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/44.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S05_45",
+      "folder": "S05",
+      "clip": "45",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/45.mp4",
+      "video_relative_path": "videos/S05/45.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S05/out/45.hdf5",
+      "csv_annotation_files": [
+        "S013_127Feb2025_08h19m46s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_1",
+      "folder": "S06",
+      "clip": "1",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/1.mp4",
+      "video_relative_path": "videos/S06/1.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/1.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_2",
+      "folder": "S06",
+      "clip": "2",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/2.mp4",
+      "video_relative_path": "videos/S06/2.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/2.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_3",
+      "folder": "S06",
+      "clip": "3",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/3.mp4",
+      "video_relative_path": "videos/S06/3.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/3.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_4",
+      "folder": "S06",
+      "clip": "4",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/4.mp4",
+      "video_relative_path": "videos/S06/4.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/4.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_5",
+      "folder": "S06",
+      "clip": "5",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/5.mp4",
+      "video_relative_path": "videos/S06/5.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/5.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_6",
+      "folder": "S06",
+      "clip": "6",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/6.mp4",
+      "video_relative_path": "videos/S06/6.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/6.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_7",
+      "folder": "S06",
+      "clip": "7",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/7.mp4",
+      "video_relative_path": "videos/S06/7.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/7.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_8",
+      "folder": "S06",
+      "clip": "8",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/8.mp4",
+      "video_relative_path": "videos/S06/8.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/8.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_9",
+      "folder": "S06",
+      "clip": "9",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/9.mp4",
+      "video_relative_path": "videos/S06/9.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/9.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_10",
+      "folder": "S06",
+      "clip": "10",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/10.mp4",
+      "video_relative_path": "videos/S06/10.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/10.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_11",
+      "folder": "S06",
+      "clip": "11",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/11.mp4",
+      "video_relative_path": "videos/S06/11.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/11.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_12",
+      "folder": "S06",
+      "clip": "12",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/12.mp4",
+      "video_relative_path": "videos/S06/12.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/12.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_13",
+      "folder": "S06",
+      "clip": "13",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/13.mp4",
+      "video_relative_path": "videos/S06/13.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/13.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_14",
+      "folder": "S06",
+      "clip": "14",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/14.mp4",
+      "video_relative_path": "videos/S06/14.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/14.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_15",
+      "folder": "S06",
+      "clip": "15",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/15.mp4",
+      "video_relative_path": "videos/S06/15.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/15.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_16",
+      "folder": "S06",
+      "clip": "16",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/16.mp4",
+      "video_relative_path": "videos/S06/16.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/16.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_17",
+      "folder": "S06",
+      "clip": "17",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/17.mp4",
+      "video_relative_path": "videos/S06/17.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/17.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_18",
+      "folder": "S06",
+      "clip": "18",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/18.mp4",
+      "video_relative_path": "videos/S06/18.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/18.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_19",
+      "folder": "S06",
+      "clip": "19",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/19.mp4",
+      "video_relative_path": "videos/S06/19.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/19.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_20",
+      "folder": "S06",
+      "clip": "20",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/20.mp4",
+      "video_relative_path": "videos/S06/20.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/20.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_21",
+      "folder": "S06",
+      "clip": "21",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/21.mp4",
+      "video_relative_path": "videos/S06/21.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/21.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_22",
+      "folder": "S06",
+      "clip": "22",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/22.mp4",
+      "video_relative_path": "videos/S06/22.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/22.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_23",
+      "folder": "S06",
+      "clip": "23",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/23.mp4",
+      "video_relative_path": "videos/S06/23.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/23.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_24",
+      "folder": "S06",
+      "clip": "24",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/24.mp4",
+      "video_relative_path": "videos/S06/24.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/24.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_25",
+      "folder": "S06",
+      "clip": "25",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/25.mp4",
+      "video_relative_path": "videos/S06/25.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/25.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_26",
+      "folder": "S06",
+      "clip": "26",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/26.mp4",
+      "video_relative_path": "videos/S06/26.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/26.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_27",
+      "folder": "S06",
+      "clip": "27",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/27.mp4",
+      "video_relative_path": "videos/S06/27.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/27.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_28",
+      "folder": "S06",
+      "clip": "28",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/28.mp4",
+      "video_relative_path": "videos/S06/28.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/28.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_29",
+      "folder": "S06",
+      "clip": "29",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/29.mp4",
+      "video_relative_path": "videos/S06/29.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/29.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_30",
+      "folder": "S06",
+      "clip": "30",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/30.mp4",
+      "video_relative_path": "videos/S06/30.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/30.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_31",
+      "folder": "S06",
+      "clip": "31",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/31.mp4",
+      "video_relative_path": "videos/S06/31.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/31.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_32",
+      "folder": "S06",
+      "clip": "32",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/32.mp4",
+      "video_relative_path": "videos/S06/32.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/32.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_33",
+      "folder": "S06",
+      "clip": "33",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/33.mp4",
+      "video_relative_path": "videos/S06/33.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/33.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_34",
+      "folder": "S06",
+      "clip": "34",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/34.mp4",
+      "video_relative_path": "videos/S06/34.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/34.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_35",
+      "folder": "S06",
+      "clip": "35",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/35.mp4",
+      "video_relative_path": "videos/S06/35.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/35.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_36",
+      "folder": "S06",
+      "clip": "36",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/36.mp4",
+      "video_relative_path": "videos/S06/36.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/36.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_37",
+      "folder": "S06",
+      "clip": "37",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/37.mp4",
+      "video_relative_path": "videos/S06/37.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/37.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_38",
+      "folder": "S06",
+      "clip": "38",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/38.mp4",
+      "video_relative_path": "videos/S06/38.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/38.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_39",
+      "folder": "S06",
+      "clip": "39",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/39.mp4",
+      "video_relative_path": "videos/S06/39.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/39.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_40",
+      "folder": "S06",
+      "clip": "40",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/40.mp4",
+      "video_relative_path": "videos/S06/40.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/40.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_41",
+      "folder": "S06",
+      "clip": "41",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/41.mp4",
+      "video_relative_path": "videos/S06/41.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/41.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_42",
+      "folder": "S06",
+      "clip": "42",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/42.mp4",
+      "video_relative_path": "videos/S06/42.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/42.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_43",
+      "folder": "S06",
+      "clip": "43",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/43.mp4",
+      "video_relative_path": "videos/S06/43.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/43.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_44",
+      "folder": "S06",
+      "clip": "44",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/44.mp4",
+      "video_relative_path": "videos/S06/44.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/44.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_45",
+      "folder": "S06",
+      "clip": "45",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/45.mp4",
+      "video_relative_path": "videos/S06/45.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/45.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_46",
+      "folder": "S06",
+      "clip": "46",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/46.mp4",
+      "video_relative_path": "videos/S06/46.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/46.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_47",
+      "folder": "S06",
+      "clip": "47",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/47.mp4",
+      "video_relative_path": "videos/S06/47.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/47.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_48",
+      "folder": "S06",
+      "clip": "48",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/48.mp4",
+      "video_relative_path": "videos/S06/48.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/48.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_49",
+      "folder": "S06",
+      "clip": "49",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/49.mp4",
+      "video_relative_path": "videos/S06/49.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/49.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S06_50",
+      "folder": "S06",
+      "clip": "50",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/50.mp4",
+      "video_relative_path": "videos/S06/50.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S06/out/50.hdf5",
+      "csv_annotation_files": [
+        "S013_227Feb2025_08h25m19s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_01",
+      "folder": "S07",
+      "clip": "01",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/01.mp4",
+      "video_relative_path": "videos/S07/01.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/01.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_02",
+      "folder": "S07",
+      "clip": "02",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/02.mp4",
+      "video_relative_path": "videos/S07/02.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/02.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_03",
+      "folder": "S07",
+      "clip": "03",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/03.mp4",
+      "video_relative_path": "videos/S07/03.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/03.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_04",
+      "folder": "S07",
+      "clip": "04",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/04.mp4",
+      "video_relative_path": "videos/S07/04.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/04.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_05",
+      "folder": "S07",
+      "clip": "05",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/05.mp4",
+      "video_relative_path": "videos/S07/05.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/05.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_06",
+      "folder": "S07",
+      "clip": "06",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/06.mp4",
+      "video_relative_path": "videos/S07/06.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/06.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_07",
+      "folder": "S07",
+      "clip": "07",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/07.mp4",
+      "video_relative_path": "videos/S07/07.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/07.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_08",
+      "folder": "S07",
+      "clip": "08",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/08.mp4",
+      "video_relative_path": "videos/S07/08.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/08.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_09",
+      "folder": "S07",
+      "clip": "09",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/09.mp4",
+      "video_relative_path": "videos/S07/09.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/09.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_10",
+      "folder": "S07",
+      "clip": "10",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/10.mp4",
+      "video_relative_path": "videos/S07/10.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/10.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_11",
+      "folder": "S07",
+      "clip": "11",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/11.mp4",
+      "video_relative_path": "videos/S07/11.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/11.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_12",
+      "folder": "S07",
+      "clip": "12",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/12.mp4",
+      "video_relative_path": "videos/S07/12.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/12.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_13",
+      "folder": "S07",
+      "clip": "13",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/13.mp4",
+      "video_relative_path": "videos/S07/13.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/13.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_14",
+      "folder": "S07",
+      "clip": "14",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/14.mp4",
+      "video_relative_path": "videos/S07/14.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/14.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_15",
+      "folder": "S07",
+      "clip": "15",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/15.mp4",
+      "video_relative_path": "videos/S07/15.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/15.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_16",
+      "folder": "S07",
+      "clip": "16",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/16.mp4",
+      "video_relative_path": "videos/S07/16.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/16.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_17",
+      "folder": "S07",
+      "clip": "17",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/17.mp4",
+      "video_relative_path": "videos/S07/17.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/17.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_18",
+      "folder": "S07",
+      "clip": "18",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/18.mp4",
+      "video_relative_path": "videos/S07/18.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/18.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_19",
+      "folder": "S07",
+      "clip": "19",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/19.mp4",
+      "video_relative_path": "videos/S07/19.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/19.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_20",
+      "folder": "S07",
+      "clip": "20",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/20.mp4",
+      "video_relative_path": "videos/S07/20.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/20.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_21",
+      "folder": "S07",
+      "clip": "21",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/21.mp4",
+      "video_relative_path": "videos/S07/21.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/21.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_22",
+      "folder": "S07",
+      "clip": "22",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/22.mp4",
+      "video_relative_path": "videos/S07/22.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/22.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_23",
+      "folder": "S07",
+      "clip": "23",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/23.mp4",
+      "video_relative_path": "videos/S07/23.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/23.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_24",
+      "folder": "S07",
+      "clip": "24",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/24.mp4",
+      "video_relative_path": "videos/S07/24.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/24.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S07_25",
+      "folder": "S07",
+      "clip": "25",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/25.mp4",
+      "video_relative_path": "videos/S07/25.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S07/out/25.hdf5",
+      "csv_annotation_files": [
+        "S013_327Feb2025_09h29m56s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_1",
+      "folder": "S08",
+      "clip": "1",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/1.mp4",
+      "video_relative_path": "videos/S08/1.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/1.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_2",
+      "folder": "S08",
+      "clip": "2",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/2.mp4",
+      "video_relative_path": "videos/S08/2.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/2.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_3",
+      "folder": "S08",
+      "clip": "3",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/3.mp4",
+      "video_relative_path": "videos/S08/3.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/3.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_4",
+      "folder": "S08",
+      "clip": "4",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/4.mp4",
+      "video_relative_path": "videos/S08/4.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/4.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_5",
+      "folder": "S08",
+      "clip": "5",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/5.mp4",
+      "video_relative_path": "videos/S08/5.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/5.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_6",
+      "folder": "S08",
+      "clip": "6",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/6.mp4",
+      "video_relative_path": "videos/S08/6.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/6.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_7",
+      "folder": "S08",
+      "clip": "7",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/7.mp4",
+      "video_relative_path": "videos/S08/7.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/7.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_8",
+      "folder": "S08",
+      "clip": "8",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/8.mp4",
+      "video_relative_path": "videos/S08/8.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/8.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_9",
+      "folder": "S08",
+      "clip": "9",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/9.mp4",
+      "video_relative_path": "videos/S08/9.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/9.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_10",
+      "folder": "S08",
+      "clip": "10",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/10.mp4",
+      "video_relative_path": "videos/S08/10.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/10.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_11",
+      "folder": "S08",
+      "clip": "11",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/11.mp4",
+      "video_relative_path": "videos/S08/11.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/11.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_12",
+      "folder": "S08",
+      "clip": "12",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/12.mp4",
+      "video_relative_path": "videos/S08/12.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/12.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_13",
+      "folder": "S08",
+      "clip": "13",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/13.mp4",
+      "video_relative_path": "videos/S08/13.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/13.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_14",
+      "folder": "S08",
+      "clip": "14",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/14.mp4",
+      "video_relative_path": "videos/S08/14.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/14.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_15",
+      "folder": "S08",
+      "clip": "15",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/15.mp4",
+      "video_relative_path": "videos/S08/15.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/15.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_16",
+      "folder": "S08",
+      "clip": "16",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/16.mp4",
+      "video_relative_path": "videos/S08/16.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/16.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_17",
+      "folder": "S08",
+      "clip": "17",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/17.mp4",
+      "video_relative_path": "videos/S08/17.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/17.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_18",
+      "folder": "S08",
+      "clip": "18",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/18.mp4",
+      "video_relative_path": "videos/S08/18.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/18.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_19",
+      "folder": "S08",
+      "clip": "19",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/19.mp4",
+      "video_relative_path": "videos/S08/19.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/19.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S08_20",
+      "folder": "S08",
+      "clip": "20",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/20.mp4",
+      "video_relative_path": "videos/S08/20.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S08/out/20.hdf5",
+      "csv_annotation_files": [
+        "S013_427Feb2025_08h35m04s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_1",
+      "folder": "S09",
+      "clip": "1",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/1.mp4",
+      "video_relative_path": "videos/S09/1.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/1.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_2",
+      "folder": "S09",
+      "clip": "2",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/2.mp4",
+      "video_relative_path": "videos/S09/2.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/2.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_3",
+      "folder": "S09",
+      "clip": "3",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/3.mp4",
+      "video_relative_path": "videos/S09/3.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/3.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_4",
+      "folder": "S09",
+      "clip": "4",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/4.mp4",
+      "video_relative_path": "videos/S09/4.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/4.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_5",
+      "folder": "S09",
+      "clip": "5",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/5.mp4",
+      "video_relative_path": "videos/S09/5.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/5.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_6",
+      "folder": "S09",
+      "clip": "6",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/6.mp4",
+      "video_relative_path": "videos/S09/6.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/6.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_7",
+      "folder": "S09",
+      "clip": "7",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/7.mp4",
+      "video_relative_path": "videos/S09/7.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/7.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_8",
+      "folder": "S09",
+      "clip": "8",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/8.mp4",
+      "video_relative_path": "videos/S09/8.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/8.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_9",
+      "folder": "S09",
+      "clip": "9",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/9.mp4",
+      "video_relative_path": "videos/S09/9.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/9.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_10",
+      "folder": "S09",
+      "clip": "10",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/10.mp4",
+      "video_relative_path": "videos/S09/10.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/10.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_11",
+      "folder": "S09",
+      "clip": "11",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/11.mp4",
+      "video_relative_path": "videos/S09/11.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/11.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_12",
+      "folder": "S09",
+      "clip": "12",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/12.mp4",
+      "video_relative_path": "videos/S09/12.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/12.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_13",
+      "folder": "S09",
+      "clip": "13",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/13.mp4",
+      "video_relative_path": "videos/S09/13.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/13.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_14",
+      "folder": "S09",
+      "clip": "14",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/14.mp4",
+      "video_relative_path": "videos/S09/14.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/14.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_15",
+      "folder": "S09",
+      "clip": "15",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/15.mp4",
+      "video_relative_path": "videos/S09/15.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/15.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_16",
+      "folder": "S09",
+      "clip": "16",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/16.mp4",
+      "video_relative_path": "videos/S09/16.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/16.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_17",
+      "folder": "S09",
+      "clip": "17",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/17.mp4",
+      "video_relative_path": "videos/S09/17.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/17.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_18",
+      "folder": "S09",
+      "clip": "18",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/18.mp4",
+      "video_relative_path": "videos/S09/18.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/18.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_19",
+      "folder": "S09",
+      "clip": "19",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/19.mp4",
+      "video_relative_path": "videos/S09/19.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/19.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S09_20",
+      "folder": "S09",
+      "clip": "20",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/20.mp4",
+      "video_relative_path": "videos/S09/20.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S09/out/20.hdf5",
+      "csv_annotation_files": [
+        "S013_527Feb2025_08h46m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_1",
+      "folder": "S10",
+      "clip": "1",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/1.mp4",
+      "video_relative_path": "videos/S10/1.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/1.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_2",
+      "folder": "S10",
+      "clip": "2",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/2.mp4",
+      "video_relative_path": "videos/S10/2.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/2.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_3",
+      "folder": "S10",
+      "clip": "3",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/3.mp4",
+      "video_relative_path": "videos/S10/3.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/3.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_4",
+      "folder": "S10",
+      "clip": "4",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/4.mp4",
+      "video_relative_path": "videos/S10/4.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/4.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_5",
+      "folder": "S10",
+      "clip": "5",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/5.mp4",
+      "video_relative_path": "videos/S10/5.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/5.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_6",
+      "folder": "S10",
+      "clip": "6",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/6.mp4",
+      "video_relative_path": "videos/S10/6.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/6.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_7",
+      "folder": "S10",
+      "clip": "7",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/7.mp4",
+      "video_relative_path": "videos/S10/7.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/7.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_8",
+      "folder": "S10",
+      "clip": "8",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/8.mp4",
+      "video_relative_path": "videos/S10/8.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/8.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_9",
+      "folder": "S10",
+      "clip": "9",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/9.mp4",
+      "video_relative_path": "videos/S10/9.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/9.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_10",
+      "folder": "S10",
+      "clip": "10",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/10.mp4",
+      "video_relative_path": "videos/S10/10.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/10.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_11",
+      "folder": "S10",
+      "clip": "11",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/11.mp4",
+      "video_relative_path": "videos/S10/11.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/11.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_12",
+      "folder": "S10",
+      "clip": "12",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/12.mp4",
+      "video_relative_path": "videos/S10/12.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/12.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_13",
+      "folder": "S10",
+      "clip": "13",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/13.mp4",
+      "video_relative_path": "videos/S10/13.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/13.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_14",
+      "folder": "S10",
+      "clip": "14",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/14.mp4",
+      "video_relative_path": "videos/S10/14.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/14.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_15",
+      "folder": "S10",
+      "clip": "15",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/15.mp4",
+      "video_relative_path": "videos/S10/15.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/15.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_16",
+      "folder": "S10",
+      "clip": "16",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/16.mp4",
+      "video_relative_path": "videos/S10/16.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/16.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_17",
+      "folder": "S10",
+      "clip": "17",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/17.mp4",
+      "video_relative_path": "videos/S10/17.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/17.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_18",
+      "folder": "S10",
+      "clip": "18",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/18.mp4",
+      "video_relative_path": "videos/S10/18.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/18.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_19",
+      "folder": "S10",
+      "clip": "19",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/19.mp4",
+      "video_relative_path": "videos/S10/19.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/19.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    },
+    {
+      "id": "S10_20",
+      "folder": "S10",
+      "clip": "20",
+      "video_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/20.mp4",
+      "video_relative_path": "videos/S10/20.mp4",
+      "reference_available": true,
+      "reference_url": "https://coe.northeastern.edu/Research/AClab/AIR-400/S10/out/20.hdf5",
+      "csv_annotation_files": [
+        "S013_627Feb2025_08h48m01s_export.csv"
+      ],
+      "duration_status": "Read actual duration/timestamps during ingestion; numbered short-clip candidates only",
+      "training_use": "unreviewed_original_clip",
+      "synthetic": false
+    }
+  ]
+}

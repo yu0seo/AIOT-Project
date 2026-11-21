@@ -1,0 +1,32 @@
+{
+  "authorized_scope": [
+    "AIR-400 S01-S10 folder-level numbered videos",
+    "AIR-125 archive videos and publicly accessible listed external clips"
+  ],
+  "excluded": [
+    "original_videos extra ranges",
+    "vis_output processed copies",
+    "private YouTube videos without access"
+  ],
+  "fps": 10,
+  "window_seconds": 30,
+  "waveform_points_per_window": 300,
+  "outputs": [
+    "filtered waveform",
+    "pre-bandpass archival waveform and network output",
+    "estimated breath peaks and intervals",
+    "IBI mean, sample std, CV, RMSSD, maximum, rate estimate, last-peak age and counts",
+    "rolling interval features with validity masks",
+    "face detection, confidence, bbox, actual detection times, missing duration and execution state",
+    "source path, source group, clip time range, SHA256 and observation-quality flags"
+  ],
+  "respiration_model_inputs": [
+    "filtered waveform",
+    "waveform-derived interval features with validity masks"
+  ],
+  "face_role": "separate observation/alert metadata",
+  "filename_example": "air-400_S01_1_000-030.hdf5",
+  "normal_labels_assigned": false,
+  "anomaly_model_training_requested": false,
+  "chest_finetuning_used": false
+}

@@ -1,0 +1,3595 @@
+{
+  "started_at": "2026-11-21T22:27:01.194335+09:00",
+  "target_count": 77,
+  "complete": true,
+  "results": [
+    {
+      "sample_id": "air-125_S01_001_000-030",
+      "completed_at": "2026-11-21T22:27:25.513867+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.127390827673443e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1582,
+        "total_mib": 8188,
+        "utilization_percent": 10,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "952e66ea080256bc7df4c46f9a06a1281333213512f7e9cfd2c7b66e60fa1136",
+      "timing_sec": {
+        "roi": 2.139193399998476,
+        "flow": 8.69119199999841,
+        "total": 13.575171500000579
+      },
+      "waveform_correlation_with_previous": 0.9999999999891594,
+      "waveform_relative_rmse": 4.6584260966564556e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_001_030-060",
+      "completed_at": "2026-11-21T22:27:38.535288+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.0052290364298555e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1641,
+        "total_mib": 8188,
+        "utilization_percent": 2,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "db90b4fd3733e47ee4eb673ad2149037d2cc975f8f612691341dfa582dc596ef",
+      "timing_sec": {
+        "roi": 1.4968068000016501,
+        "flow": 8.623026200002641,
+        "total": 12.842836900003022
+      },
+      "waveform_correlation_with_previous": 0.9999999999922128,
+      "waveform_relative_rmse": 3.946810323853675e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_002_000-030",
+      "completed_at": "2026-11-21T22:27:55.175298+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.014005371291482e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1752,
+        "total_mib": 8188,
+        "utilization_percent": 13,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "98ca2b38ba93052875d4c5d3a4fb2b560aff0fbaf2b19c2f7bf7a2e2a305e38f",
+      "timing_sec": {
+        "roi": 1.5861341999989236,
+        "flow": 7.94914090000384,
+        "total": 11.6756830000013
+      },
+      "waveform_correlation_with_previous": 0.9999999999825991,
+      "waveform_relative_rmse": 6.354511931724619e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_002_030-060",
+      "completed_at": "2026-11-21T22:28:07.174451+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 5.138530720205647e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1583,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "ab0bee0482a8a8591ccfe16cdec646e3e2e3cb61f72d9396c72034d7538ab658",
+      "timing_sec": {
+        "roi": 1.4443036000011489,
+        "flow": 8.147425800001656,
+        "total": 11.82877909999661
+      },
+      "waveform_correlation_with_previous": 0.9999999999937635,
+      "waveform_relative_rmse": 3.5320509656038226e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_003_000-030",
+      "completed_at": "2026-11-21T22:28:22.598293+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 6.864569850884017e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1616,
+        "total_mib": 8188,
+        "utilization_percent": 6,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "a139487559d2d33fa23833b3e3174c046b989cbcb483bf89596bec943054c44f",
+      "timing_sec": {
+        "roi": 1.4646314999990864,
+        "flow": 7.078215999994427,
+        "total": 10.88230559999647
+      },
+      "waveform_correlation_with_previous": 0.9999999999954752,
+      "waveform_relative_rmse": 3.009538227172072e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_003_030-060",
+      "completed_at": "2026-11-21T22:28:33.465901+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.967741935483871,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 6.2218829901400374e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1588,
+        "total_mib": 8188,
+        "utilization_percent": 95,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "ac5049e7b839bd117d434a12c8538eb7e3a283ad0eeb33d2fbcc7b600deb94d9",
+      "timing_sec": {
+        "roi": 1.3620179999998072,
+        "flow": 7.3092974000028335,
+        "total": 10.793921100004809
+      },
+      "waveform_correlation_with_previous": 0.9999999999929532,
+      "waveform_relative_rmse": 3.782879207598964e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_004_000-030",
+      "completed_at": "2026-11-21T22:28:48.854990+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 8.417994274242946e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1588,
+        "total_mib": 8188,
+        "utilization_percent": 25,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "118fc66a911a3ed99f7827220c11765ef7e8cec27b3b5e772cf81fc46dbca8a0",
+      "timing_sec": {
+        "roi": 1.5442589000012958,
+        "flow": 7.134867399996438,
+        "total": 10.847786800004542
+      },
+      "waveform_correlation_with_previous": 0.9999999999882635,
+      "waveform_relative_rmse": 4.95407965810138e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_004_030-060",
+      "completed_at": "2026-11-21T22:28:59.661602+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.8709677419354839,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 4.844697114952945e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1589,
+        "total_mib": 8188,
+        "utilization_percent": 59,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "eef49b6b9799c3dda92c7757b9512c84dea38d9f33ad3eb82a4ffd0a6771af58",
+      "timing_sec": {
+        "roi": 1.3536475000000792,
+        "flow": 7.271629900002154,
+        "total": 10.74567200000456
+      },
+      "waveform_correlation_with_previous": 0.9999999999942137,
+      "waveform_relative_rmse": 3.4122700598655663e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_005_000-030",
+      "completed_at": "2026-11-21T22:29:15.243329+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9032258064516129,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 5.949143253247691e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1586,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "f6d3920afb90080e85881b2f84543f99d3552a39e0c65b83cb0d796dde1e9036",
+      "timing_sec": {
+        "roi": 1.5851517000046442,
+        "flow": 7.215283899997303,
+        "total": 11.046787400002358
+      },
+      "waveform_correlation_with_previous": 0.9999999999960301,
+      "waveform_relative_rmse": 2.864195763065257e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_005_030-060",
+      "completed_at": "2026-11-21T22:29:26.043391+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9032258064516129,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.670765701894068e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1586,
+        "total_mib": 8188,
+        "utilization_percent": 99,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "dda61bca52f9af171b5c710d16c622ab4cd70ff1f14f359e2ce67e8419535f7d",
+      "timing_sec": {
+        "roi": 1.3657230000026175,
+        "flow": 7.168370200000936,
+        "total": 10.733593899996777
+      },
+      "waveform_correlation_with_previous": 0.9999999999851517,
+      "waveform_relative_rmse": 5.616410576897288e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_006_000-030",
+      "completed_at": "2026-11-21T22:29:41.432020+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9032258064516129,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 8.5860370344637e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1585,
+        "total_mib": 8188,
+        "utilization_percent": 89,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "e8f1a2aa097453775fc0ce0142536f5a447a44dc9750540c0aeb8f97f603cfac",
+      "timing_sec": {
+        "roi": 1.514341300004162,
+        "flow": 7.181863699996029,
+        "total": 10.827764500005287
+      },
+      "waveform_correlation_with_previous": 0.9999999999930093,
+      "waveform_relative_rmse": 3.8441408543831625e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_006_030-060",
+      "completed_at": "2026-11-21T22:29:52.429176+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 6.58312874003697e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1580,
+        "total_mib": 8188,
+        "utilization_percent": 93,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "646ad830d33ce0ac8c442bfbd63eabbfb3a511619acc265d73cc62dc74f6afa9",
+      "timing_sec": {
+        "roi": 1.3801608000067063,
+        "flow": 7.33273289999488,
+        "total": 10.939196400002402
+      },
+      "waveform_correlation_with_previous": 0.9999999999979775,
+      "waveform_relative_rmse": 2.0119499980905246e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_007_000-030",
+      "completed_at": "2026-11-21T22:30:07.823946+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.109067591661635e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1586,
+        "total_mib": 8188,
+        "utilization_percent": 18,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "7e5a11ea642ed689512c2c62fe3857b562503bdabdd9651f1c9aeded49430ec9",
+      "timing_sec": {
+        "roi": 1.6134516000020085,
+        "flow": 7.115872700000182,
+        "total": 10.841354900003353
+      },
+      "waveform_correlation_with_previous": 0.9999999999913051,
+      "waveform_relative_rmse": 4.647373052219894e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_007_030-060",
+      "completed_at": "2026-11-21T22:30:19.018187+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.217380433024225e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1586,
+        "total_mib": 8188,
+        "utilization_percent": 98,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "4c64219a20b8c15ca67eaa3b2099ae47f0419094e1dee4c303e5fca02811affa",
+      "timing_sec": {
+        "roi": 1.3475763999958872,
+        "flow": 7.3996997000067495,
+        "total": 11.12300239999604
+      },
+      "waveform_correlation_with_previous": 0.9999999999948493,
+      "waveform_relative_rmse": 3.2148713433701304e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_008_000-030",
+      "completed_at": "2026-11-21T22:30:34.413333+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 5.114002338935109e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1586,
+        "total_mib": 8188,
+        "utilization_percent": 94,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "1107dfad029a7a0db4bb173e4f9e46c622abe17bb3484b86adb427f2761b0591",
+      "timing_sec": {
+        "roi": 1.5152699999962351,
+        "flow": 7.102881599996181,
+        "total": 10.860374500000034
+      },
+      "waveform_correlation_with_previous": 0.9999999999965057,
+      "waveform_relative_rmse": 2.7350193100735763e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_008_030-060",
+      "completed_at": "2026-11-21T22:30:45.814049+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 7.924620688604112e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1630,
+        "total_mib": 8188,
+        "utilization_percent": 25,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "3fd3eff0d24578db44630cd0888fd3ada97de76b54e72e26067d1ffd73726619",
+      "timing_sec": {
+        "roi": 1.3273826000004192,
+        "flow": 7.739285199997539,
+        "total": 11.329581599995436
+      },
+      "waveform_correlation_with_previous": 0.9999999999969967,
+      "waveform_relative_rmse": 2.450973551693222e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_009_000-030",
+      "completed_at": "2026-11-21T22:31:02.792115+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 7.553465400322867e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1642,
+        "total_mib": 8188,
+        "utilization_percent": 32,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "ca1cb40b82f273c24b3e622bb43834a47eb8a085fa873701475e9a465e426a18",
+      "timing_sec": {
+        "roi": 1.6223898000025656,
+        "flow": 7.83081040000252,
+        "total": 11.798560900002485
+      },
+      "waveform_correlation_with_previous": 0.9999999999960497,
+      "waveform_relative_rmse": 2.851466262889921e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_009_030-060",
+      "completed_at": "2026-11-21T22:31:14.594472+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.667023791848361e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1640,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "dd8de50398ae6561fd1a7dc096491a512f838c2813d7d3b9acc6d1036028872d",
+      "timing_sec": {
+        "roi": 1.3991788999992423,
+        "flow": 7.918996499996865,
+        "total": 11.73557200000505
+      },
+      "waveform_correlation_with_previous": 0.999999999992315,
+      "waveform_relative_rmse": 3.9252970219251925e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_010_000-030",
+      "completed_at": "2026-11-21T22:31:30.994483+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.65421332485316e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1632,
+        "total_mib": 8188,
+        "utilization_percent": 99,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "c0c92dc702522db0c89330c479d2a534cd7d55494b389aec73c8dccaae1bcc57",
+      "timing_sec": {
+        "roi": 1.4752375000025495,
+        "flow": 7.79092479999963,
+        "total": 11.563091600000917
+      },
+      "waveform_correlation_with_previous": 0.9999999999842941,
+      "waveform_relative_rmse": 5.613851725406007e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_010_030-060",
+      "completed_at": "2026-11-21T22:31:42.588143+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.777415632475361e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1632,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "5cf8e4a55deb78543c4b96d57bd5c9ade5aacc634d73bedfc5a1ae70f9a721ec",
+      "timing_sec": {
+        "roi": 1.3679993000041577,
+        "flow": 7.938051999997697,
+        "total": 11.529118899998139
+      },
+      "waveform_correlation_with_previous": 0.9999999999753474,
+      "waveform_relative_rmse": 7.036588627188238e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_011_000-030",
+      "completed_at": "2026-11-21T22:31:58.978361+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.014574209690089e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1682,
+        "total_mib": 8188,
+        "utilization_percent": 98,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "8db99f345681ef525b57414b996b50438e60747f0a075515e62320640ed1bfd5",
+      "timing_sec": {
+        "roi": 1.4965792000002693,
+        "flow": 7.939907200001471,
+        "total": 11.580645000001823
+      },
+      "waveform_correlation_with_previous": 0.9999999999944397,
+      "waveform_relative_rmse": 3.3547908793763135e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_011_030-060",
+      "completed_at": "2026-11-21T22:32:10.975524+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 5.061603914280344e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1605,
+        "total_mib": 8188,
+        "utilization_percent": 99,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "e9c9200029b96dadfcd551a9b782db90107c29a0c11a60c2dba449b63dbb232e",
+      "timing_sec": {
+        "roi": 1.3191889000008814,
+        "flow": 8.414323699995293,
+        "total": 11.928778599998623
+      },
+      "waveform_correlation_with_previous": 0.9999999999967559,
+      "waveform_relative_rmse": 2.578487787417158e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_015_030-060",
+      "completed_at": "2026-11-21T22:33:17.759747+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.3366828002681075e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1597,
+        "total_mib": 8188,
+        "utilization_percent": 11,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "09b535cb21f8a299c3418cbddae8a1cd1b80f407c45e7bdb674a400ffa97f861",
+      "timing_sec": {
+        "roi": 1.7948900000046706,
+        "flow": 7.187465800001519,
+        "total": 11.15261240000109
+      },
+      "waveform_correlation_with_previous": 0.9999999999941719,
+      "waveform_relative_rmse": 3.4158023140961887e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_017_000-030",
+      "completed_at": "2026-11-21T22:33:31.739838+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.8219976910871516e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1590,
+        "total_mib": 8188,
+        "utilization_percent": 40,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "af658cf51d4a54654ecf1f4bc2676dda01135a848041f93d0f554a199ceeeda2",
+      "timing_sec": {
+        "roi": 1.4346718999950099,
+        "flow": 7.239874300001247,
+        "total": 10.82836149999639
+      },
+      "waveform_correlation_with_previous": 0.9999999999792363,
+      "waveform_relative_rmse": 6.576113536340937e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_017_030-060",
+      "completed_at": "2026-11-21T22:33:42.540991+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.15426804432018e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1584,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "32d618840758e26dd71e6c687fe6be79a89a70e55bf98b08db7060fc8a2ef2cb",
+      "timing_sec": {
+        "roi": 1.379918099999486,
+        "flow": 7.137815000001865,
+        "total": 10.727461700000276
+      },
+      "waveform_correlation_with_previous": 0.9999999999499938,
+      "waveform_relative_rmse": 1.0011866267614258e-05,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_018_000-030",
+      "completed_at": "2026-11-21T22:33:56.317108+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.253532769537554e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1589,
+        "total_mib": 8188,
+        "utilization_percent": 27,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "f4e9e7f277c21964d29eeb05fbf0d46c2bda80c2f7b0cc6f89040d266de083d1",
+      "timing_sec": {
+        "roi": 1.446569300002011,
+        "flow": 7.116703799998504,
+        "total": 10.648246500000823
+      },
+      "waveform_correlation_with_previous": 0.9999999999338013,
+      "waveform_relative_rmse": 1.2234649339331465e-05,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_018_030-060",
+      "completed_at": "2026-11-21T22:34:07.332324+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9354838709677419,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1592,
+        "total_mib": 8188,
+        "utilization_percent": 9,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "e40adeb58f72279bda5319e29b5f0ec78d330cefb30ea5da6642d04fbcc57201",
+      "timing_sec": {
+        "roi": 1.4325198999940767,
+        "flow": 7.310143300004711,
+        "total": 10.955419300000358
+      },
+      "waveform_correlation_with_previous": 0.9999999999999991,
+      "waveform_relative_rmse": 2.433197594395375e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_019_000-030",
+      "completed_at": "2026-11-21T22:34:21.320957+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1593,
+        "total_mib": 8188,
+        "utilization_percent": 26,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "15aa3ef6c390bcb48d71e711e63e590c6d38bc371c6b5241e3f08e0b2a663786",
+      "timing_sec": {
+        "roi": 1.4751386999996612,
+        "flow": 7.168570199995884,
+        "total": 10.879215799999656
+      },
+      "waveform_correlation_with_previous": 0.9999999999999994,
+      "waveform_relative_rmse": 2.4635896003215823e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_020_030-060",
+      "completed_at": "2026-11-21T22:34:36.511187+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9032258064516129,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1640,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "9e67d7a5d147179c4caaba363377d499e54147f0ff35bb689cf9c056292e5208",
+      "timing_sec": {
+        "roi": 1.5319361000001663,
+        "flow": 8.141332600003807,
+        "total": 12.041929600003641
+      },
+      "waveform_correlation_with_previous": 1.0,
+      "waveform_relative_rmse": 2.626308671293784e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_021_000-030",
+      "completed_at": "2026-11-21T22:34:51.312047+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.8064516129032258,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1662,
+        "total_mib": 8188,
+        "utilization_percent": 45,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "7a313a6fa6862cd0a9e16a6b70af4775255c3d58b58fb49bcdd3dfe2e428af33",
+      "timing_sec": {
+        "roi": 1.542996399999538,
+        "flow": 7.4646074999982375,
+        "total": 11.352752799997688
+      },
+      "waveform_correlation_with_previous": 1.0,
+      "waveform_relative_rmse": 2.631897420670432e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S01_021_030-060",
+      "completed_at": "2026-11-21T22:35:03.711638+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.7741935483870968,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1634,
+        "total_mib": 8188,
+        "utilization_percent": 96,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "c6bd762b9fa337a1d93a1a81298bc57eff7feb707cd92a294ce74f913fad2dd3",
+      "timing_sec": {
+        "roi": 1.4201188999941223,
+        "flow": 8.574343400003272,
+        "total": 12.333876099997724
+      },
+      "waveform_correlation_with_previous": 0.9999999999999987,
+      "waveform_relative_rmse": 2.540706812476353e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_004_000-030",
+      "completed_at": "2026-11-21T22:35:33.916926+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1596,
+        "total_mib": 8188,
+        "utilization_percent": 95,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "cc9799c67d17fe84166d2a664ba4a18c09311053da3ba7e69affb3a502e8ea7e",
+      "timing_sec": {
+        "roi": 1.3409476000015275,
+        "flow": 7.307252200000221,
+        "total": 11.055356899996696
+      },
+      "waveform_correlation_with_previous": 1.0,
+      "waveform_relative_rmse": 2.631812463623192e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_004_030-060",
+      "completed_at": "2026-11-21T22:35:45.383015+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1596,
+        "total_mib": 8188,
+        "utilization_percent": 15,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "9f49c79cfe2b3f52d11fadccc97d37ecf6560009dcc728e74d99a9ede00796fd",
+      "timing_sec": {
+        "roi": 1.3539281000048504,
+        "flow": 8.013261000000057,
+        "total": 11.403862999999546
+      },
+      "waveform_correlation_with_previous": 0.9999999999999997,
+      "waveform_relative_rmse": 2.382426410545633e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_005_000-030",
+      "completed_at": "2026-11-21T22:36:13.671221+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1601,
+        "total_mib": 8188,
+        "utilization_percent": 14,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "550aa612f13531eb68cf50a131c7714b4f225bdc136f38b4dafff93f0bb46b2c",
+      "timing_sec": {
+        "roi": 1.5019316999969305,
+        "flow": 7.141902700001083,
+        "total": 10.887734199997794
+      },
+      "waveform_correlation_with_previous": 0.9999999999999993,
+      "waveform_relative_rmse": 2.510982255919346e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_005_030-060",
+      "completed_at": "2026-11-21T22:36:24.691866+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1602,
+        "total_mib": 8188,
+        "utilization_percent": 97,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "6dce6e95b694de66e1d1cdd69c6950ceda77590909537323f30f9eadb854941b",
+      "timing_sec": {
+        "roi": 1.43561690000206,
+        "flow": 7.3157210999997915,
+        "total": 10.948521599995729
+      },
+      "waveform_correlation_with_previous": 0.9999999999999991,
+      "waveform_relative_rmse": 2.449948816661315e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_007_000-030",
+      "completed_at": "2026-11-21T22:36:53.454102+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9354838709677419,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1585,
+        "total_mib": 8188,
+        "utilization_percent": 89,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "788053be3d326f9e3539ff13e8a19973c1e7f6626a6bc2c87930ca68e3f13497",
+      "timing_sec": {
+        "roi": 1.4974587000033353,
+        "flow": 7.230383699999948,
+        "total": 11.137287500001548
+      },
+      "waveform_correlation_with_previous": 0.9999999999999992,
+      "waveform_relative_rmse": 2.5379466576197426e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_007_030-060",
+      "completed_at": "2026-11-21T22:37:04.448342+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.967741935483871,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1587,
+        "total_mib": 8188,
+        "utilization_percent": 85,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "a6d6404452eac7a1180ab3ef051d4f2e24d0d2a9749d11c7ddf54724d4773a2d",
+      "timing_sec": {
+        "roi": 1.3386077999966801,
+        "flow": 7.30867529999523,
+        "total": 10.93331799999578
+      },
+      "waveform_correlation_with_previous": 0.9999999999999998,
+      "waveform_relative_rmse": 2.4956979327320877e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_008_000-030",
+      "completed_at": "2026-11-21T22:37:32.841028+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1557,
+        "total_mib": 8188,
+        "utilization_percent": 6,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "077f541d5b7403998d3b508f33dc23a0ab0108eb64bfd076bb2bef03d0bf2d8c",
+      "timing_sec": {
+        "roi": 1.4967211000039242,
+        "flow": 7.144928499998059,
+        "total": 10.766291100000672
+      },
+      "waveform_correlation_with_previous": 0.9999999999999999,
+      "waveform_relative_rmse": 2.4804479460908854e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_008_030-060",
+      "completed_at": "2026-11-21T22:37:44.031330+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1550,
+        "total_mib": 8188,
+        "utilization_percent": 1,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "d3c87ffadb0250021c0a170c8229d9fe6751ccae516456599437ce30f1094094",
+      "timing_sec": {
+        "roi": 1.4802229999986594,
+        "flow": 7.115337300005194,
+        "total": 11.120025299998815
+      },
+      "waveform_correlation_with_previous": 0.9999999999999991,
+      "waveform_relative_rmse": 2.8030312038881837e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_009_000-030",
+      "completed_at": "2026-11-21T22:38:12.439246+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1557,
+        "total_mib": 8188,
+        "utilization_percent": 97,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "28f2dd447ed67f4ba183da649a19273982eecf04961068ccd4207fc4c10b5c7a",
+      "timing_sec": {
+        "roi": 1.4830504999990808,
+        "flow": 7.024792299998808,
+        "total": 10.72054599999683
+      },
+      "waveform_correlation_with_previous": 0.9999999999999993,
+      "waveform_relative_rmse": 2.632810719946271e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_009_030-060",
+      "completed_at": "2026-11-21T22:38:23.593189+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.967741935483871,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1556,
+        "total_mib": 8188,
+        "utilization_percent": 1,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "48744f880f2c5bdfcade75c471237500afb7a1fb3a41c88eaec59b93facf151f",
+      "timing_sec": {
+        "roi": 1.3494019999998272,
+        "flow": 7.18907840000611,
+        "total": 11.087285300003714
+      },
+      "waveform_correlation_with_previous": 0.9999999999999989,
+      "waveform_relative_rmse": 2.658495982206312e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_010_000-030",
+      "completed_at": "2026-11-21T22:38:51.401476+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1552,
+        "total_mib": 8188,
+        "utilization_percent": 82,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "f13e45c9656326501526688873fd8bdc93539835eabef8bc7a268ab0ec26b992",
+      "timing_sec": {
+        "roi": 1.5165611000047647,
+        "flow": 6.88524299999699,
+        "total": 10.61172020000231
+      },
+      "waveform_correlation_with_previous": 0.9999999999999996,
+      "waveform_relative_rmse": 2.5080707932095252e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S06_010_030-060",
+      "completed_at": "2026-11-21T22:39:02.207797+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.967741935483871,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1553,
+        "total_mib": 8188,
+        "utilization_percent": 45,
+        "torch_allocated_mib": 162.412109375,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.72607421875,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "a4c726cd38d5344a61d551af3c15892144d12a9a1904faf77b21d6dec3e895ae",
+      "timing_sec": {
+        "roi": 1.3292487999933655,
+        "flow": 7.2324583000008715,
+        "total": 10.744006299995817
+      },
+      "waveform_correlation_with_previous": 1.0,
+      "waveform_relative_rmse": 2.511958843989745e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_001_000-030",
+      "completed_at": "2026-11-21T22:39:16.823279+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.03225806451612903,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1559,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "5c790fbcffa4f280e9231d09859bef2adb2e225f854ce94d0410272ee9b0c59e",
+      "timing_sec": {
+        "roi": 1.3930870999975014,
+        "flow": 7.208828100003302,
+        "total": 10.883002800001123
+      },
+      "waveform_correlation_with_previous": 0.9999999999999997,
+      "waveform_relative_rmse": 2.4744386527927304e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_002_000-030",
+      "completed_at": "2026-11-21T22:39:31.100102+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1554,
+        "total_mib": 8188,
+        "utilization_percent": 99,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "5b0c89c5e0ff91894eafced5f6c535c8a84f7fdc2c9c98d92134270da53e6454",
+      "timing_sec": {
+        "roi": 1.4369616000039969,
+        "flow": 6.980821299999661,
+        "total": 10.633664300003147
+      },
+      "waveform_correlation_with_previous": 0.9999999999999989,
+      "waveform_relative_rmse": 2.1963772859164524e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_003_000-030",
+      "completed_at": "2026-11-21T22:39:45.181430+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1553,
+        "total_mib": 8188,
+        "utilization_percent": 51,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "55c8334ce76ffc03ef9a369bd04283c87a46ab4455a307e0f0458c7a455e978e",
+      "timing_sec": {
+        "roi": 1.321966599993175,
+        "flow": 7.03574629999639,
+        "total": 10.50217469999916
+      },
+      "waveform_correlation_with_previous": 0.9999999999999993,
+      "waveform_relative_rmse": 2.6889029117424124e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_004_000-030",
+      "completed_at": "2026-11-21T22:39:59.419532+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1554,
+        "total_mib": 8188,
+        "utilization_percent": 96,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "e9f20aa8d343cd9d36ac7d81b3d253afe687f4051cc8ae332fb915d6be071d6f",
+      "timing_sec": {
+        "roi": 1.4395017999995616,
+        "flow": 7.085968200000934,
+        "total": 10.64046569999482
+      },
+      "waveform_correlation_with_previous": 0.9999999999999988,
+      "waveform_relative_rmse": 2.5290630484684603e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_005_000-030",
+      "completed_at": "2026-11-21T22:40:13.582850+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1574,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "a4278f8cdcc662517cdcfffff361b895db20fa6722c8e363b227cdeaa390b2a3",
+      "timing_sec": {
+        "roi": 1.3533262999990257,
+        "flow": 7.03453179999633,
+        "total": 10.525009700002556
+      },
+      "waveform_correlation_with_previous": 0.9999999999999994,
+      "waveform_relative_rmse": 2.3846820503582657e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_006_000-030",
+      "completed_at": "2026-11-21T22:40:27.774903+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1567,
+        "total_mib": 8188,
+        "utilization_percent": 51,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "c76d284c1cadabe4d1283a670f0a24aff16b9c58cc645aca5267054fd0304017",
+      "timing_sec": {
+        "roi": 1.4063749000051757,
+        "flow": 7.029524499994295,
+        "total": 10.682842000001983
+      },
+      "waveform_correlation_with_previous": 0.9999999999999992,
+      "waveform_relative_rmse": 2.7072652009203888e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_007_000-030",
+      "completed_at": "2026-11-21T22:40:42.301270+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1556,
+        "total_mib": 8188,
+        "utilization_percent": 93,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "21d7ce91d3f5b19f3a23d3703fb632f596e1f753c15c06e5eb364c70e4222859",
+      "timing_sec": {
+        "roi": 1.416179200001352,
+        "flow": 7.032859899998584,
+        "total": 10.943217300002289
+      },
+      "waveform_correlation_with_previous": 0.9999999999999997,
+      "waveform_relative_rmse": 2.4487734244605362e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_008_000-030",
+      "completed_at": "2026-11-21T22:40:56.661166+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1556,
+        "total_mib": 8188,
+        "utilization_percent": 2,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "e2e34c58235a2732210a24188f9643e290cd52568de3f24bd4c9ef9ee828189d",
+      "timing_sec": {
+        "roi": 1.3978548000013689,
+        "flow": 7.0635393999982625,
+        "total": 10.903120299997681
+      },
+      "waveform_correlation_with_previous": 0.9999999999999996,
+      "waveform_relative_rmse": 2.482394475711717e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_009_000-030",
+      "completed_at": "2026-11-21T22:41:10.758591+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1555,
+        "total_mib": 8188,
+        "utilization_percent": 5,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "3bd314b38e3753ad96e745671e298cba2455eac4884b206807c1f1c9565e7e23",
+      "timing_sec": {
+        "roi": 1.3913049999973737,
+        "flow": 7.060002000005625,
+        "total": 10.546047399999225
+      },
+      "waveform_correlation_with_previous": 1.0,
+      "waveform_relative_rmse": 2.4207405685580066e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_010_000-030",
+      "completed_at": "2026-11-21T22:41:25.560657+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1576,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "36346ffefd25040449210d364ecf9fe0067d7dc74cc86f7a4fea65a73c0472a6",
+      "timing_sec": {
+        "roi": 1.4650768999999855,
+        "flow": 7.4095023999980185,
+        "total": 11.085982000004151
+      },
+      "waveform_correlation_with_previous": 1.0,
+      "waveform_relative_rmse": 2.571692848129659e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-125_S07_011_000-030",
+      "completed_at": "2026-11-21T22:41:40.099917+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 0.0,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1555,
+        "total_mib": 8188,
+        "utilization_percent": 1,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "6b7e4a29934bc7d72c9572975b6f56a12984907b3bbbd187cbd61056ee8a180c",
+      "timing_sec": {
+        "roi": 1.4109779999998864,
+        "flow": 7.030880300000717,
+        "total": 10.943331000002217
+      },
+      "waveform_correlation_with_previous": 0.9999999999999996,
+      "waveform_relative_rmse": 2.565413791373182e-08,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_11_000-030",
+      "completed_at": "2026-11-21T22:41:54.151952+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.967741935483871,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.67064687518171e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1561,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "4fc0a389abc201a7376a3880b7d2285a2c7cd9a72dcd43b44f41aef7de1f21db",
+      "timing_sec": {
+        "roi": 1.463385000002745,
+        "flow": 7.135373299999628,
+        "total": 10.832598799999687
+      },
+      "waveform_correlation_with_previous": 0.9999999999900431,
+      "waveform_relative_rmse": 4.517051475411415e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_11_030-060",
+      "completed_at": "2026-11-21T22:42:04.736030+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9032258064516129,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.1307972877183659e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1543,
+        "total_mib": 8188,
+        "utilization_percent": 12,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "590b1162fd12bd24bf64264f01da0694a78fef4df1a054d49cfe877b319628d6",
+      "timing_sec": {
+        "roi": 1.3355324000003748,
+        "flow": 7.109075300002587,
+        "total": 10.508248900005128
+      },
+      "waveform_correlation_with_previous": 0.9999999999958882,
+      "waveform_relative_rmse": 2.9605249209042916e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_12_000-030",
+      "completed_at": "2026-11-21T22:42:18.722243+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.161165900939405e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1568,
+        "total_mib": 8188,
+        "utilization_percent": 99,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "275eada8108946de3e71fa53a7bdf3c0d299894ef083b8619c80c536b62ef24d",
+      "timing_sec": {
+        "roi": 1.3994939000040176,
+        "flow": 7.124505699997826,
+        "total": 10.744570900002145
+      },
+      "waveform_correlation_with_previous": 0.9999999999984371,
+      "waveform_relative_rmse": 1.8048062699318856e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_12_030-060",
+      "completed_at": "2026-11-21T22:42:29.520742+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9032258064516129,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.0319957276516689e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1545,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "7a1f4f1040f45304f4219e670e7ad26d9a70a33361b56acfcc0654af9ca177e0",
+      "timing_sec": {
+        "roi": 1.3675721999970847,
+        "flow": 7.19503970000369,
+        "total": 10.736857500000042
+      },
+      "waveform_correlation_with_previous": 0.9999999999952571,
+      "waveform_relative_rmse": 3.0942776596286807e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_13_000-030",
+      "completed_at": "2026-11-21T22:42:43.322021+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9032258064516129,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.7961407725863854e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1546,
+        "total_mib": 8188,
+        "utilization_percent": 7,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "ae8cc1f0fab47969d1aeff61e8b79a369fb2714723bfdadecc12535a9b748e2c",
+      "timing_sec": {
+        "roi": 1.4126986999981455,
+        "flow": 7.002472700005455,
+        "total": 10.575884199999564
+      },
+      "waveform_correlation_with_previous": 0.9999999999948078,
+      "waveform_relative_rmse": 3.2230864757543094e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_13_030-060",
+      "completed_at": "2026-11-21T22:42:54.114236+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.15170735971138e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1545,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "13b272f3a6502535bec74a6d93f8dde1b66fdb4fe2e37a282cb62efd162cb3f5",
+      "timing_sec": {
+        "roi": 1.3205567999975756,
+        "flow": 7.205645599999116,
+        "total": 10.724692000003415
+      },
+      "waveform_correlation_with_previous": 0.9999999999955924,
+      "waveform_relative_rmse": 2.983445969658483e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_14_000-030",
+      "completed_at": "2026-11-21T22:43:07.907401+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9032258064516129,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.126358618993802e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1547,
+        "total_mib": 8188,
+        "utilization_percent": 86,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "0c7b672747685e2b3e486be46de78420348d0b1b31ae52a6ba498734d4bb50d3",
+      "timing_sec": {
+        "roi": 1.4137768000000506,
+        "flow": 6.984464400004072,
+        "total": 10.543554099996982
+      },
+      "waveform_correlation_with_previous": 0.9999999999990064,
+      "waveform_relative_rmse": 1.4470834347782356e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_14_030-060",
+      "completed_at": "2026-11-21T22:43:18.692400+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.216417962920609e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1545,
+        "total_mib": 8188,
+        "utilization_percent": 74,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "81a4940df456855a2f64babb62761b3437f692157becd88e5e553daf0a756d83",
+      "timing_sec": {
+        "roi": 1.3428809999968507,
+        "flow": 7.192549100000178,
+        "total": 10.725452400001814
+      },
+      "waveform_correlation_with_previous": 0.9999999999975937,
+      "waveform_relative_rmse": 2.1941240021538715e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_15_000-030",
+      "completed_at": "2026-11-21T22:43:32.534572+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.8387096774193549,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 4.607543247936441e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1545,
+        "total_mib": 8188,
+        "utilization_percent": 100,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "3f5b8a61286054fd1e086587b7c2d095111358fa75d059321e61e6ce789c457b",
+      "timing_sec": {
+        "roi": 1.4105799999961164,
+        "flow": 7.000543900001503,
+        "total": 10.598430300000473
+      },
+      "waveform_correlation_with_previous": 0.9999999999996622,
+      "waveform_relative_rmse": 8.217542345698251e-07,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_15_030-060",
+      "completed_at": "2026-11-21T22:43:43.492054+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.17651283166565e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1545,
+        "total_mib": 8188,
+        "utilization_percent": 99,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "1ca955d35327d137e812e88a9531ccc5cf756fe3e1aa6d24bcec15b200e50502",
+      "timing_sec": {
+        "roi": 1.3579287999964436,
+        "flow": 7.304565500002354,
+        "total": 10.881734899994626
+      },
+      "waveform_correlation_with_previous": 0.999999999997761,
+      "waveform_relative_rmse": 2.1197607675296663e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_16_000-030",
+      "completed_at": "2026-11-21T22:43:57.491964+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 4.61583185756842e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1545,
+        "total_mib": 8188,
+        "utilization_percent": 99,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "6ab2370898055803ccd00d2f8dc5175fdecf79ef2122dc1305b1403c41f8e2be",
+      "timing_sec": {
+        "roi": 1.4074261999994633,
+        "flow": 7.145506799999566,
+        "total": 10.763544900000852
+      },
+      "waveform_correlation_with_previous": 0.9999999999989047,
+      "waveform_relative_rmse": 1.5027760571090918e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_16_030-060",
+      "completed_at": "2026-11-21T22:44:08.287492+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.518128652352686e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1549,
+        "total_mib": 8188,
+        "utilization_percent": 38,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "b7b09ad12677b459905ef06be9110f7bcf357f9810799b4d7ba54488b5b47aa3",
+      "timing_sec": {
+        "roi": 1.3409965000028023,
+        "flow": 7.177836499999103,
+        "total": 10.734399300003133
+      },
+      "waveform_correlation_with_previous": 0.9999999999951915,
+      "waveform_relative_rmse": 3.482154420002848e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_17_000-030",
+      "completed_at": "2026-11-21T22:44:22.364884+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.950758489973843e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1560,
+        "total_mib": 8188,
+        "utilization_percent": 56,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "8c0b749673636df03588248bfbabaa82edfa5f6b9720cc9927ff14ce1acfe4e7",
+      "timing_sec": {
+        "roi": 1.4537114999984624,
+        "flow": 7.108651899994584,
+        "total": 10.879920100000163
+      },
+      "waveform_correlation_with_previous": 0.9999999999978878,
+      "waveform_relative_rmse": 2.0564503642052243e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_17_030-060",
+      "completed_at": "2026-11-21T22:44:33.084761+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.128955960252538e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1547,
+        "total_mib": 8188,
+        "utilization_percent": 68,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "8a42781a7fefde7b910670b316f2714a7d599ca04252379c597f0230aa88ca5b",
+      "timing_sec": {
+        "roi": 1.3329641000018455,
+        "flow": 7.230097399995429,
+        "total": 10.647453999998106
+      },
+      "waveform_correlation_with_previous": 0.9999999999974277,
+      "waveform_relative_rmse": 2.274580141448079e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_18_000-030",
+      "completed_at": "2026-11-21T22:44:47.100292+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.330795419815185e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1546,
+        "total_mib": 8188,
+        "utilization_percent": 2,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "71ba42aa9626251aab71a6d636e4cb568a3a74572ef262526dd27b9eda607402",
+      "timing_sec": {
+        "roi": 1.4253476000012597,
+        "flow": 7.042802099997061,
+        "total": 10.822100400000636
+      },
+      "waveform_correlation_with_previous": 0.9999999999926249,
+      "waveform_relative_rmse": 3.8706257042652415e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_18_030-060",
+      "completed_at": "2026-11-21T22:44:57.863480+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.9032258064516129,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.584520554606672e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1572,
+        "total_mib": 8188,
+        "utilization_percent": 13,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "636871b078039fdb12dc4d9ff81cd3d38c903f3edca89859761b31aa3e020a31",
+      "timing_sec": {
+        "roi": 1.339803299997584,
+        "flow": 7.289718100000755,
+        "total": 10.688684799999464
+      },
+      "waveform_correlation_with_previous": 0.9999999999917752,
+      "waveform_relative_rmse": 4.1271640874056355e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_19_000-030",
+      "completed_at": "2026-11-21T22:45:11.669160+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.392982825429108e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1567,
+        "total_mib": 8188,
+        "utilization_percent": 99,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "f2f43d1396dda50d5333f8c29431a35c90f7d74d209bd2f8f5a4660169970c29",
+      "timing_sec": {
+        "roi": 1.4412115000013728,
+        "flow": 6.993771199995535,
+        "total": 10.606389100001252
+      },
+      "waveform_correlation_with_previous": 0.9999999999966358,
+      "waveform_relative_rmse": 2.604427312759097e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_19_030-060",
+      "completed_at": "2026-11-21T22:45:22.476652+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 0.8709677419354839,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.1645780291225094e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1563,
+        "total_mib": 8188,
+        "utilization_percent": 96,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "f865adc076db3459638321b7ad49cdf4dec6ada7d1d228dfdfa8cd51ca02abf6",
+      "timing_sec": {
+        "roi": 1.3499469000016688,
+        "flow": 7.222233200001938,
+        "total": 10.74059490000218
+      },
+      "waveform_correlation_with_previous": 0.999999999999977,
+      "waveform_relative_rmse": 2.1299427440416997e-07,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_20_000-030",
+      "completed_at": "2026-11-21T22:45:36.245947+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.738462809464103e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1548,
+        "total_mib": 8188,
+        "utilization_percent": 51,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "be7facd34402ee19a3d0b1cf6245ec74495cc68bd70f24a09fa94cd595825e68",
+      "timing_sec": {
+        "roi": 1.4362581000023056,
+        "flow": 7.028549999995448,
+        "total": 10.579391699997359
+      },
+      "waveform_correlation_with_previous": 0.9999999999906655,
+      "waveform_relative_rmse": 4.417941714370171e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_4_000-030",
+      "completed_at": "2026-11-21T22:45:50.056685+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.0054986854579617e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1548,
+        "total_mib": 8188,
+        "utilization_percent": 99,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "914e1590c206f80cde201c0b2d7566076bd1122d264c79c255f80bd03577c83c",
+      "timing_sec": {
+        "roi": 1.3667801999981748,
+        "flow": 7.032588100002613,
+        "total": 10.553625799999281
+      },
+      "waveform_correlation_with_previous": 0.9999999999900425,
+      "waveform_relative_rmse": 4.53545225213977e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_4_030-060",
+      "completed_at": "2026-11-21T22:46:00.836094+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 1.3523425709260906e-05,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1542,
+        "total_mib": 8188,
+        "utilization_percent": 13,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "43a5362f8c7ce0b04ade551bfdc92240073454fb36b6ab5ca9c0ec7816507e18",
+      "timing_sec": {
+        "roi": 1.316995000001043,
+        "flow": 7.192425299996103,
+        "total": 10.71257560000231
+      },
+      "waveform_correlation_with_previous": 0.999999999996919,
+      "waveform_relative_rmse": 2.491022621210996e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_5_000-030",
+      "completed_at": "2026-11-21T22:46:14.656344+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.630648130531938e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1548,
+        "total_mib": 8188,
+        "utilization_percent": 63,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "98660da547b34b8231a3af6c47a5bf22edd32182bcc0bce1f808b2bf9dd24675",
+      "timing_sec": {
+        "roi": 1.384066199992958,
+        "flow": 7.147051699997974,
+        "total": 10.59072699999524
+      },
+      "waveform_correlation_with_previous": 0.9999999999980048,
+      "waveform_relative_rmse": 2.004701866567355e-06,
+      "summary_unchanged": true
+    },
+    {
+      "sample_id": "air-400_S01_5_030-060",
+      "completed_at": "2026-11-21T22:46:25.780060+09:00",
+      "quality": {
+        "sampling_valid_fraction": 1.0,
+        "body_detection_valid_fraction": 0.0,
+        "face_detection_fraction": 1.0,
+        "training_label": "unreviewed",
+        "automatic_extraction_ok": false,
+        "not_a_normality_label": true
+      },
+      "old_body_valid_fraction": 0.0,
+      "body_decisions_identical": true,
+      "roi_xywh": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "waveform_max_abs_difference": 9.214768277976404e-06,
+      "summary_all_finite": true,
+      "detector_diagnostics": {
+        "body_execution_errors": 0,
+        "face_execution_errors": 0,
+        "face_partial_errors": 0,
+        "body_success_observations": 0
+      },
+      "gpu": {
+        "used_mib": 1543,
+        "total_mib": 8188,
+        "utilization_percent": 86,
+        "torch_allocated_mib": 162.41259765625,
+        "torch_reserved_mib": 194.0,
+        "torch_peak_allocated_mib": 309.7265625,
+        "torch_peak_reserved_mib": 346.0
+      },
+      "hdf5_sha256": "77c11e20fc9053292f04d68d89a4663d93664adbaebb0e9d60c36dbdbb0f1896",
+      "timing_sec": {
+        "roi": 1.3251554999951622,
+        "flow": 7.244759900000645,
+        "total": 11.049782399997639
+      },
+      "waveform_correlation_with_previous": 0.9999999999968466,
+      "waveform_relative_rmse": 2.5357839133626533e-06,
+      "summary_unchanged": true
+    }
+  ],
+  "errors": [],
+  "gpu_at_start": {
+    "used_mib": 1522,
+    "total_mib": 8188,
+    "utilization_percent": 36,
+    "torch_allocated_mib": 128.5009765625,
+    "torch_reserved_mib": 140.0,
+    "torch_peak_allocated_mib": 128.5009765625,
+    "torch_peak_reserved_mib": 140.0
+  },
+  "runtime_policy": {
+    "source_processes": 1,
+    "flow_threads": 8,
+    "deepphys_batch_frames": 16,
+    "same_protocol": true,
+    "force_recompute": true
+  },
+  "finished_segments": 77,
+  "updated_at": "2026-11-21T22:46:25.825591+09:00",
+  "previous_attempt_errors": [
+    {
+      "time": "2026-11-21T22:32:14.140315+09:00",
+      "type": "KeyError",
+      "message": "'partial_error'"
+    }
+  ],
+  "non_target_hdf5_changed": [],
+  "summary": {
+    "replaced": 77,
+    "body_detection_recovered": 0,
+    "still_no_body": 77,
+    "body_execution_errors": 0,
+    "face_execution_errors": 0,
+    "face_partial_errors": 0,
+    "largest_waveform_difference": 1.8219976910871516e-05,
+    "minimum_waveform_correlation": 0.9999999999338013,
+    "maximum_waveform_relative_rmse": 1.2234649339331465e-05,
+    "summary_unchanged_count": 77,
+    "gpu_max_used_mib_after_window": 1752,
+    "gpu_max_torch_reserved_mib": 346.0,
+    "dataset_counts": {
+      "air-125": 54,
+      "air-400": 23
+    }
+  },
+  "completed_at": "2026-11-21T22:46:35.139835+09:00"
+}

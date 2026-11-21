@@ -1,0 +1,12 @@
+{
+  "status": "completed_exploratory",
+  "clips": 20,
+  "test_clips": 4,
+  "test_source_groups": 1,
+  "report": "04_PT자료/05_실험개요/index.html",
+  "conclusion": {
+    "roi": "시험 참조 박스와의 겹침이 개선되지 않았습니다.",
+    "waveform": "시험의 모든 Chest 탐지 시도가 실패해 C 파형은 중앙 대체 영역에서 추출됐습니다. 파형 수치의 변화를 Chest 파인튜닝의 성공으로 해석할 수 없습니다.",
+    "recommendation": "이번 파인튜닝 가중치를 기존 ROI 모듈의 대체 모델로 채택할 근거가 부족합니다."
+  }
+}

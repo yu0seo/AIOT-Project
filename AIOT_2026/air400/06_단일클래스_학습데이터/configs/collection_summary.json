@@ -1,0 +1,52 @@
+{
+  "completed_at": "2026-11-21T22:46:35.133312+09:00",
+  "source_videos_available": 415,
+  "source_videos_exported": 415,
+  "segments": 809,
+  "expected_segments_for_decoded_sources": 809,
+  "incomplete_source_windows": [],
+  "dataset_video_count": {
+    "air-400": 295,
+    "air-125": 120
+  },
+  "dataset_segment_count": {
+    "air-125": 224,
+    "air-400": 585
+  },
+  "sources_without_exports": [],
+  "exact_duplicate_source_video_sets": [],
+  "air125_archive_video_count": 99,
+  "air125_total_available_video_count": 120,
+  "air125_external_prepared_video_count": 21,
+  "air125_annotation_files_without_paired_video": [
+    "datasets\\AIR_125\\S08\\002.hdf5",
+    "datasets\\AIR_125\\S08\\003.hdf5",
+    "datasets\\AIR_125\\S08\\004.hdf5",
+    "datasets\\AIR_125\\S08\\005.hdf5",
+    "datasets\\AIR_125\\S08\\006.hdf5"
+  ],
+  "normal_labels_assigned": false,
+  "anomaly_model_trained": false,
+  "fps": 10,
+  "window_sec": 30,
+  "waveform_shape": [
+    809,
+    300,
+    1
+  ],
+  "interval_feature_shape": [
+    809,
+    9
+  ],
+  "rolling_interval_feature_shape": [
+    809,
+    21,
+    9
+  ],
+  "face_observations": 25079,
+  "availability": "Whole-window normalization and filtfilt outputs become available at the 30s input end",
+  "computable_summary_candidates": 731,
+  "other_candidates_flagged": 78,
+  "computable_subset": "model_input_candidates_computable.npz",
+  "computable_subset_is_not_confirmed_normal": true
+}

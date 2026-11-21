@@ -1,0 +1,38 @@
+{
+  "updated_at": "2026-11-22T00:46:25.928135+09:00",
+  "downloaded_videos": 20,
+  "before": {
+    "status": "outputs_present",
+    "waveform_files": 21
+  },
+  "finetuning": {
+    "status": "model_present",
+    "label_files": 600
+  },
+  "after": {
+    "status": "outputs_present",
+    "waveform_files": 20
+  },
+  "paired_before_after_presentation": "completed_exploratory",
+  "runtime_python": "C:\\Users\\dndud\\OneDrive\\Desktop\\coding_folder\\AIOT-Project\\AIOT_2026\\data\\air400_benchmark\\env\\Scripts\\python.exe",
+  "single_class_comparison": {
+    "status": "completed_assumed_normal_validation_only",
+    "run": "07_이상탐지_모델비교/normal731_80_20_seed42_v1",
+    "train_count": 584,
+    "valid_count": 147,
+    "source_group_overlap": 0,
+    "abnormal_detection_performance_measured": false,
+    "models": {
+      "autoencoder": {
+        "best_epoch": 59,
+        "valid_loss": 0.5655146482444945,
+        "normal_validation_accuracy": 0.9659863945578231
+      },
+      "deep_svdd": {
+        "best_epoch": 79,
+        "valid_loss": 1.7238606204639892,
+        "normal_validation_accuracy": 0.9523809523809523
+      }
+    }
+  }
+}
