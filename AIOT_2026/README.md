@@ -71,6 +71,9 @@ PowerShell에서 이 `AIOT_2026` 폴더를 기준으로 실행합니다.
 
 - [라즈베리파이 촬영·전송](raspberry_pi/README.md)
 - [PC 영상 수신](pc/README.md)
+- [Supabase 영상 전송·최근 3분 보관·30초 다운로드](supabase_video/README.md)
 
-현재 카메라 코드는 촬영 확인·영상 전송용입니다. 최근 3분 보관 DB와 호흡 알림 서비스는 후속 구현 대상입니다.
+Supabase 경로는 10FPS 영상을 비공개 Storage에 저장하고, DB에 촬영 시각·경로를 기록합니다.
+최근 3분 보관과 PC의 최신 30초 다운로드를 구현했습니다. 호흡 모델 연결은 별도 단계입니다.
+기존 TCP 촬영·수신 프로그램도 그대로 사용할 수 있습니다.
 이전 프로젝트 삭제 항목은 `air400/cleanup_manifest.json`에 기록합니다.

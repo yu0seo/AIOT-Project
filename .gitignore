@@ -31,3 +31,7 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
+
+# Supabase per-device credentials
+supabase_pi.json
+supabase_pc.json
