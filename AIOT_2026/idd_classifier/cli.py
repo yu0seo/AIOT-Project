@@ -31,7 +31,7 @@ def load_config(path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="IDD 좌표 기반 음주 조건 LSTM 연구 도구")
+    parser = argparse.ArgumentParser(description="IDD 좌표 기반 네 피처 시계열 분류 연구 도구")
     commands = parser.add_subparsers(dest="command", required=True)
     for command in ("inspect", "train"):
         sub = commands.add_parser(command, help="데이터 실사" if command == "inspect" else "3/5/10초 학습·평가")
@@ -54,11 +54,31 @@ def main():
     finalize.add_argument("--data-root", required=True, type=Path)
     finalize.add_argument("--search-run", required=True, type=Path)
     finalize.add_argument("--reference-run", required=True, type=Path)
+    rocket = commands.add_parser('minirocket-cv', help='네 피처 MiniRocket 참가자 중첩 5-fold 평가')
+    rocket.add_argument('--data-root', required=True, type=Path)
+    rocket.add_argument('--config', required=True, type=Path)
+    rocket.add_argument('--rocket-config', required=True, type=Path)
+    rocket.add_argument('--output', required=True, type=Path)
+    inception = commands.add_parser('inception-cv', help='동일 5-fold 소형 InceptionTime 비교')
+    inception.add_argument('--data-root', required=True, type=Path)
+    inception.add_argument('--config', required=True, type=Path)
+    inception.add_argument('--reference-run', required=True, type=Path)
+    inception.add_argument('--output', required=True, type=Path)
+    inception.add_argument('--device', choices=('cpu', 'cuda'), default='cpu')
+    inception.add_argument('--resume', action='store_true', help='동일 환경에서 바깥 테스트 전 완료한 내부 모델만 재사용')
     args = parser.parse_args()
     try:
         if args.command == "replay-idd":
             from .inference import replay_idd
             replay_idd(args.bundle, args.ego_csv, args.output)
+        elif args.command == 'inception-cv':
+            from .inception_cv import run_inception_cv
+            config = json.loads(args.config.read_text(encoding='utf-8-sig'))
+            run_inception_cv(args.data_root, config, args.reference_run, args.output, args.device, args.resume)
+        elif args.command == 'minirocket-cv':
+            from .minirocket_cv import run_minirocket_cv
+            config = json.loads(args.rocket_config.read_text(encoding='utf-8-sig'))
+            run_minirocket_cv(args.data_root, load_config(args.config), config, args.output)
         elif args.command == "search":
             from .tuning import run_search
             search_config = json.loads(args.search_config.read_text(encoding="utf-8-sig"))

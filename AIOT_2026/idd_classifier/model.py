@@ -84,6 +84,9 @@ class DrivingTCN(nn.Module):
 
 def create_model(model_type, architecture):
     """번들의 명시적인 모델 종류만 허용한다. 이전 LSTM 번들도 그대로 읽는다."""
+    if model_type == 'InceptionTime':
+        from .inception import SmallInceptionTime
+        return SmallInceptionTime(**architecture)
     models = {"LSTM": DrivingLSTM, "GRU": DrivingGRU, "TCN": DrivingTCN}
     if model_type not in models:
         raise ValueError(f"지원하지 않는 모델 종류: {model_type}")
@@ -91,6 +94,8 @@ def create_model(model_type, architecture):
 
 
 def model_architecture(config):
+    if config.get('model_type') == 'InceptionTime':
+        return {key: config[key] for key in ('filters', 'bottleneck', 'depth', 'kernels', 'dropout')}
     return {key: config[key] for key in ("hidden_size", "num_layers", "dropout", "pooling") if key in config}
 
 

@@ -47,7 +47,7 @@ def bundle_metadata(config, feature_config, normalizer, seconds, training, split
 
 
 def train_model(train, validation, config, directory, device):
-    """train만 클래스 가중치를 계산한다. 검증 BCE로 early stopping한다."""
+    """train에서만 클래스 가중치를 계산하고 설정된 검증 지표로 조기 종료한다."""
     seed = config["seed"]
     random.seed(seed)
     np.random.seed(seed)

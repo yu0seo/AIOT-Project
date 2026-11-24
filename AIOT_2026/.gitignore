@@ -1,4 +1,7 @@
 .venv-idd/
+.venv-minirocket/
+.venv-inceptiontime/
+.venv-inceptiontime-cpu/
 .tmp/
 __pycache__/
 *.py[cod]

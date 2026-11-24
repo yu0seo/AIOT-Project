@@ -68,9 +68,18 @@ class VehiclePredictor:
             raise ValueError("기준점 오차 한계가 잘못되었습니다.")
         if max_tracks < 1 or idle_timeout_s <= self.config.max_gap_s:
             raise ValueError("추적 저장 한도/만료 시간을 확인하세요.")
-        self.model = create_model(meta["model_type"], meta["architecture"]).to(device)
-        self.model.load_state_dict(torch.load(bundle/"model.pt", map_location=device, weights_only=True))
-        self.model.eval()
+        if meta['model_type'] == 'MiniRocket':
+            if device != 'cpu':
+                raise ValueError('MiniRocket 추론은 CPU를 사용합니다.')
+            import joblib
+            from .rocket_model import RocketModel
+            self.model = joblib.load(bundle/'model.joblib')
+            if not isinstance(self.model, RocketModel):
+                raise ValueError('유효하지 않은 MiniRocket 모델 파일입니다.')
+        else:
+            self.model = create_model(meta["model_type"], meta["architecture"]).to(device)
+            self.model.load_state_dict(torch.load(bundle/"model.pt", map_location=device, weights_only=True))
+            self.model.eval()
         self.device = device
         self.max_tracks = max_tracks
         self.idle_timeout_ns = round(idle_timeout_s*1e9)
@@ -120,7 +129,10 @@ class VehiclePredictor:
         if not points:
             return {**result, "status": "waiting_for_sample", "reason": "새 10Hz 특징을 기다리는 중"}
         values = normalize(np.asarray(state.window)[None], self.metadata["normalizer"])
-        score = float(predict_scores(self.model, values, device=self.device)[0])
+        if self.metadata['model_type'] == 'MiniRocket':
+            score = float(self.model.predict_scores(values)[0])
+        else:
+            score = float(predict_scores(self.model, values, device=self.device)[0])
         return {**result, "status": "ok", "score": score, "suspected": score >= self.threshold,
                 "feature_timestamp_ns": points[-1].timestamp_ns,
                 "available_at_ns": points[-1].available_at_ns,
