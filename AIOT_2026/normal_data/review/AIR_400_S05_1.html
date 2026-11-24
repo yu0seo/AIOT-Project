@@ -1,0 +1,48 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIR_400_S05_1 · 호흡 구간 검토</title>
+<style>body{max-width:1100px;margin:28px auto;padding:0 18px;font-family:system-ui,sans-serif;line-height:1.65;color:#172033}h1{margin-bottom:8px}h2{margin-top:34px;font-size:21px}video{width:100%;max-width:960px;max-height:65vh;background:#111}img{display:block;width:100%;height:auto}.note{padding:12px 16px;background:#eef4ff;border-radius:8px}.error{color:#a21b1b}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}a{color:#174ea6}</style></head>
+<body><p><a href="index.html">← 영상 목록</a></p><h1>AIR_400_S05_1</h1>
+<p>영상을 재생하며 호흡 시점 주석과 함께 확인하세요. 정상 구간은 별도 승인해야 합니다.</p>
+<video controls playsinline preload="metadata" poster="media/AIR_400_S05_1.jpg"><source src="file:///C:/Users/OHS/air-400/data/AIR_400/S05/1.mp4" type="video/mp4">브라우저가 이 영상을 지원하지 않습니다.</video>
+<p id="video-error" class="error" hidden>영상을 불러오지 못했습니다. 이 페이지를 닫고 최신 검토 목록에서 다시 열어 주세요.</p>
+<p>영상 시간: <output id="clock">0.00</output>초 / 60.80초</p><p></p>
+<h2>1. 호흡 시점 주석 · 사람이 표시한 정답</h2>
+<p class="note">뾰족한 봉우리는 사람이 표시한 호흡 시점을 가우시안 형태로 펼친 주석입니다.
+센서로 측정한 호흡량이나 DeepPhys 추론 결과가 아닙니다.</p>
+<img src="AIR_400_S05_1.png" alt="호흡 시점의 정답 주석">
+<h2>2. DeepPhys 추정 파형 · 이상 탐지 학습에 사용할 신호</h2><p>아직 이 영상의 추론 결과를 생성하지 않았습니다. 이상 탐지 학습에 사용할 입력은 DeepPhys를 실행해 얻는 추정 파형입니다.</p>
+<p>정답 주석의 시간축과 영상의 실제 정렬을 확인한 뒤 정상 구간·영상 품질을 승인하세요.</p>
+<details><summary>파일 및 시간축 정보</summary><pre>{
+  &quot;id&quot;: &quot;AIR_400_S05_1&quot;,
+  &quot;subject&quot;: &quot;AIR_400:S05&quot;,
+  &quot;video&quot;: &quot;C:/Users/OHS/air-400/data/AIR_400/S05/1.mp4&quot;,
+  &quot;label&quot;: &quot;C:/Users/OHS/air-400/data/AIR_400/S05/out/1.hdf5&quot;,
+  &quot;fps&quot;: 10.0,
+  &quot;frames&quot;: 608,
+  &quot;duration&quot;: 60.8,
+  &quot;video_sha256&quot;: &quot;86f3fda1c64a060c3760f265f5f98e5f88ef92913e579f6fec41fe61c793b69d&quot;,
+  &quot;label_sha256&quot;: &quot;d7e61c1ea3b766a88128f9a03a1e4f0843dfcb46c09dc30e0e14c74155acc63d&quot;,
+  &quot;label_key&quot;: &quot;respiration&quot;,
+  &quot;time_key&quot;: null,
+  &quot;label_fs&quot;: null,
+  &quot;label_time_mode&quot;: &quot;duration_mapped_requires_alignment_review&quot;,
+  &quot;hdf5_datasets&quot;: {
+    &quot;filename&quot;: {
+      &quot;shape&quot;: [],
+      &quot;dtype&quot;: &quot;object&quot;
+    },
+    &quot;respiration&quot;: {
+      &quot;shape&quot;: [
+        600
+      ],
+      &quot;dtype&quot;: &quot;float64&quot;
+    }
+  },
+  &quot;label_samples&quot;: 600,
+  &quot;reviewable_start&quot;: 0.0,
+  &quot;reviewable_end&quot;: 60.8,
+  &quot;hdf5_attrs&quot;: {},
+  &quot;annotation_filename&quot;: &quot;b&#x27;1.mp4&#x27;&quot;,
+  &quot;status&quot;: &quot;pending_review&quot;
+}</pre></details>
+<script>const video=document.querySelector('video');video.addEventListener('timeupdate',()=>document.querySelector('#clock').value=video.currentTime.toFixed(2));video.addEventListener('error',()=>document.querySelector('#video-error').hidden=false);video.querySelector('source').addEventListener('error',()=>document.querySelector('#video-error').hidden=false);</script></body></html>

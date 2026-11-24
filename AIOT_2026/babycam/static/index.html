@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>베이비캠 · 호흡 분석</title>
+  <link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script>
+</head>
+<body>
+  <main>
+    <header><div><p class="eyebrow">BABYCAM / 호흡 움직임 분석</p><h1>최근 30초의 호흡</h1></div><p id="connection" role="status">결과 서버 연결 중…</p></header>
+    <p id="notice" role="status" class="notice">첫 분석 결과를 기다리고 있습니다.</p>
+    <section aria-labelledby="current-title" class="current">
+      <div class="section-head"><h2 id="current-title">최신 분석</h2><span id="timestamp">—</span></div>
+      <div class="metrics" aria-live="polite">
+        <div><span class="label">분석 상태</span><strong id="status">대기 중</strong></div>
+        <div><span class="label">추정 호흡수</span><strong id="bpm">—</strong><span class="unit"> 회/분</span></div>
+        <div><span class="label">이상 점수 / 임계값</span><strong id="score">—</strong></div>
+      </div>
+      <p id="reason"></p>
+      <figure><svg id="plot" viewBox="0 0 900 240" role="img" aria-label="최근 30초 호흡 파형"><line x1="0" y1="120" x2="900" y2="120" class="baseline"/><polyline id="wave" points=""/></svg><figcaption><span>0초</span><span id="plot-caption">분석 가능한 파형이 도착하면 표시됩니다.</span><span>30초</span></figcaption></figure>
+    </section>
+    <section aria-labelledby="history-title"><div class="section-head"><h2 id="history-title">최근 분석 기록</h2><span>최대 30개 · 자동 갱신</span></div>
+      <div class="table-scroll"><table><thead><tr><th scope="col">결과 저장 시각</th><th scope="col">구간 번호</th><th scope="col">상태</th><th scope="col">추정 호흡수</th><th scope="col">이상 점수</th></tr></thead><tbody id="history"></tbody></table></div>
+      <p id="empty">아직 분석 결과가 없습니다. 수집기가 첫 구간을 처리하면 자동으로 표시됩니다.</p>
+    </section>
+    <footer>영상에서 추정한 호흡 움직임입니다. ‘임계값 이하’는 임상적 정상 판정이 아니며, ‘분석 불가’는 안전 상태를 뜻하지 않습니다.</footer>
+  </main>
+</body>
+</html>
