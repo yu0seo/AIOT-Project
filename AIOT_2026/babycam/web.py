@@ -1,21 +1,34 @@
 import argparse
 import json
 import logging
+import os
+import socket
 import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 
-from .common import Config, RemoteError, Supabase, utc_now
+from .common import Config, RemoteError, utc_now
+from .local_results import LocalResultError, LocalResults
 
 LOG = logging.getLogger("babycam.web")
 STATIC = Path(__file__).with_name("static")
 
 
+class LocalHTTPServer(ThreadingHTTPServer):
+    allow_reuse_address = False
+
+    def server_bind(self):
+        if os.name == "nt":
+            # Windows REUSEADDR can bind an occupied port and route requests to another app.
+            self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_EXCLUSIVEADDRUSE, 1)
+        super().server_bind()
+
+
 class ResultCache:
     def __init__(self, preview=False):
         self.lock = threading.Lock()
-        self.data = dict(results=[], last_success_at=None, error=None, mode="preview" if preview else "live")
+        self.data = dict(results=[], last_success_at=None, error=None, source="local", mode="preview" if preview else "live")
 
     def snapshot(self):
         with self.lock:
@@ -26,10 +39,10 @@ class ResultCache:
             results = api.results(30)
             with self.lock:
                 self.data.update(results=results, last_success_at=utc_now(), error=None)
-        except RemoteError as exc:
+        except (RemoteError, LocalResultError) as exc:
             LOG.warning("결과 조회 실패: %s", exc)
             with self.lock:
-                self.data["error"] = "Supabase 결과 조회에 실패했습니다. 마지막 결과를 표시합니다."
+                self.data["error"] = "로컬 결과를 읽지 못했습니다. 마지막 결과를 표시합니다."
 
 
 def make_server(port, cache):
@@ -80,28 +93,28 @@ def make_server(port, cache):
         def log_message(self, *_):
             pass
 
-    return ThreadingHTTPServer(("127.0.0.1", port), Handler)
+    return LocalHTTPServer(("127.0.0.1", port), Handler)
 
 
 def main(default_env):
-    parser = argparse.ArgumentParser(description="Supabase 분석 결과 조회 + 로컬 실시간 화면/API")
+    parser = argparse.ArgumentParser(description="로컬 분석 결과 조회 + 실시간 화면/API (Supabase 키 불필요)")
     parser.add_argument("--env", type=Path, default=default_env)
     parser.add_argument("--preview", action="store_true", help="키 없이 빈 대기 화면만 확인; 가짜 분석 결과 없음")
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     stop = threading.Event()
     try:
-        cfg = Config("", "") if args.preview else Config.load(args.env)
+        cfg = Config.load(args.env, require_supabase=False)
         cache = ResultCache(args.preview)
         server = make_server(cfg.port, cache)
         thread = None
         if not args.preview:
-            api = Supabase(cfg)
+            api = LocalResults(cfg)
             def poll():
                 while not stop.is_set():
                     cache.refresh(api)
                     stop.wait(cfg.result_poll)
-            thread = threading.Thread(target=poll, daemon=True, name="supabase-results")
+            thread = threading.Thread(target=poll, daemon=True, name="local-results")
             thread.start()
         LOG.info("화면: http://127.0.0.1:%d  (Ctrl+C 종료)", cfg.port)
         try:

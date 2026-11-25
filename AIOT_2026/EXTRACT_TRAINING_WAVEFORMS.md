@@ -7,23 +7,23 @@
 기본 AIR 폴더에 설치한 복사본은 현재 PowerShell 폴더와 관계없이 다음 한 줄로 실행합니다.
 
 ```powershell
-& C:\Users\OHS\miniconda3\envs\air400\python.exe -X utf8 C:\Users\OHS\air-400\extract_training_waveforms.py
+& C:\Users\OHS\miniconda3\envs\air400\python.exe -X utf8 C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026\extract_training_waveforms.py
 ```
 
 기존 `air400` 환경의 Python을 직접 실행하므로 Conda 활성화나 환경 재설치가 필요 없습니다. 아래는 이 프로젝트 폴더를 기준으로 한 PowerShell 명령입니다.
 
 ```powershell
 Set-Location C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026
-& C:\Users\OHS\miniconda3\envs\air400\python.exe -X utf8 .\pc\extract_respiration.py
+& C:\Users\OHS\miniconda3\envs\air400\python.exe -X utf8 .\extract_training_waveforms.py
 ```
 
 아무 옵션 없이 실행하면 다음 경로를 사용합니다.
 
-- 입력: `C:\Users\OHS\air-400\data`의 하위 폴더 전체
-- 모델 설정: `C:\Users\OHS\air-400\configs\inference\deepphys_deep_infer.yaml`
-- 체크포인트: `C:\Users\OHS\air-400\checkpoints\DeepPhys_Deep_Body_best.pth`
-- 기존 공통 추론 코드: `C:\Users\OHS\air-400\normal_pipeline\inference_adapter.py`
-- 결과: `C:\Users\OHS\air-400\output\training_30s`
+- 입력: `C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026\data`의 하위 폴더 전체
+- 모델 설정: `C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026\configs\inference\deepphys_deep_infer.yaml`
+- 체크포인트: `C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026\checkpoints\DeepPhys_Deep_Body_best.pth`
+- 기존 공통 추론 코드: `C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026\normal_pipeline\inference_adapter.py`
+- 결과: `C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026\output\training_30s`
 
 기본 간격은 30초입니다. 예를 들어 60초 영상은 `0~30`, `30~60` 두 구간이 됩니다. 남은 30초 미만의 꼬리와 30초 미만 영상은 채우거나 늘리지 않습니다. 원본 영상·라벨·기존 승인 파일은 수정하지 않습니다.
 
@@ -62,19 +62,19 @@ training_30s/
 먼저 대상 수만 확인하기:
 
 ```powershell
-& C:\Users\OHS\miniconda3\envs\air400\python.exe -X utf8 .\pc\extract_respiration.py --dry-run
+& C:\Users\OHS\miniconda3\envs\air400\python.exe -X utf8 .\extract_training_waveforms.py --dry-run
 ```
 
 영상 한 편만 처리하기:
 
 ```powershell
-& C:\Users\OHS\miniconda3\envs\air400\python.exe -X utf8 .\pc\extract_respiration.py --input C:\Users\OHS\air-400\data\AIR_400\S01\1.mp4 --output .\outputs\one_video
+& C:\Users\OHS\miniconda3\envs\air400\python.exe -X utf8 .\extract_training_waveforms.py --input C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026\data\AIR_400\S01\1.mp4 --output .\outputs\one_video
 ```
 
 폴더를 지정하고 5초 간격으로 겹쳐 추출하기(60초 영상당 최대 7구간):
 
 ```powershell
-& C:\Users\OHS\miniconda3\envs\air400\python.exe -X utf8 .\pc\extract_respiration.py --input C:\Users\OHS\air-400\data --stride 5 --output C:\Users\OHS\air-400\output\training_30s_stride5
+& C:\Users\OHS\miniconda3\envs\air400\python.exe -X utf8 .\extract_training_waveforms.py --input C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026\data --stride 5 --output C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026\output\training_30s_stride5
 ```
 
 첫 구간 하나만 시험하려면 `--limit-windows 1`, 그래프가 필요 없으면 `--no-plots`를 추가합니다. `--air-repo`, `--config`, `--checkpoint`로 경로를 바꿀 수 있습니다. 기존 `normal_pipeline` 공통 추론 코드가 필요합니다.
@@ -91,7 +91,7 @@ training_30s/
 import numpy as np
 import torch
 
-root = r"C:\Users\OHS\air-400\output\training_30s"
+root = r"C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026\output\training_30s"
 x = np.load(root + r"\X.npy", allow_pickle=False)       # (N,1,300)
 bpm = np.load(root + r"\bpm.npy", allow_pickle=False)   # (N,)
 tensor = torch.from_numpy(x)

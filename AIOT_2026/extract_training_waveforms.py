@@ -13,7 +13,7 @@ import sys
 
 import numpy as np
 
-DEFAULT_REPO = Path(r'C:\Users\OHS\air-400')
+DEFAULT_REPO = Path(__file__).resolve().parent
 VIDEO_SUFFIXES = {'.mp4', '.avi', '.mov', '.mkv'}
 
 

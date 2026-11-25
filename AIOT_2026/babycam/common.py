@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 TABLE = "babycam_analysis_results"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 TS_NAME = re.compile(r"^\d{12}\.ts$")
 RESULT_COLUMNS = ("batch_id,stream_id,start_seq,end_seq,status,is_anomaly,anomaly_score,"
                   "threshold,pred_rr_bpm,wave_mse,bpm_mse,waveform,reason,created_at,"
@@ -30,13 +31,14 @@ def utc_now():
     return datetime.now(timezone.utc).isoformat()
 
 
-def atomic_json(path, value):
+def atomic_json(path, value, *, indent=None):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, temp = tempfile.mkstemp(prefix=path.name, suffix=".tmp", dir=path.parent)
     try:
         with os.fdopen(fd, "w", encoding="utf-8") as fp:
-            json.dump(value, fp, ensure_ascii=False, allow_nan=False)
+            json.dump(value, fp, ensure_ascii=False, allow_nan=False, indent=indent)
+            fp.write("\n")
             fp.flush()
             os.fsync(fp.fileno())
         os.replace(temp, path)
@@ -68,7 +70,7 @@ def load_env(path):
 class Config:
     url: str
     key: str = field(repr=False)
-    root: Path = Path(r"C:\Users\OHS\air-400")
+    root: Path = PROJECT_ROOT
     bucket: str = "breathing-video"
     prefix: str = "pi-camera/b68d088e-e0d0-4606-a21e-8e2a8099dda3"
     stream_id: str = "babycam-session-1"
@@ -78,20 +80,22 @@ class Config:
     ffprobe: str = "ffprobe"
     poll: float = 2.0
     result_poll: float = 2.0
-    port: int = 8765
+    port: int = 8766
+    result_dir: Path = PROJECT_ROOT / "output" / "stream_results"
 
     @classmethod
-    def load(cls, path):
-        v = load_env(path)
+    def load(cls, path, *, require_supabase=True):
+        path = Path(path).resolve()
+        v = load_env(path) if path.is_file() or require_supabase else dict(os.environ)
         url, key = v.get("SUPABASE_URL", "").rstrip("/"), v.get("SUPABASE_SECRET_KEY", "")
         parsed = urllib.parse.urlsplit(url)
         local = parsed.hostname in ("127.0.0.1", "localhost")
-        if (not parsed.hostname or parsed.username or parsed.password or parsed.query or parsed.fragment
+        if require_supabase and (not parsed.hostname or parsed.username or parsed.password or parsed.query or parsed.fragment
                 or parsed.path or (parsed.scheme != "https" and not (local and parsed.scheme == "http"))):
             raise ValueError(".env의 SUPABASE_URL에 https://프로젝트주소 를 입력하세요.")
-        if not (key.startswith("sb_secret_") or key.startswith("eyJ")):
+        if require_supabase and not (key.startswith("sb_secret_") or key.startswith("eyJ")):
             raise ValueError("SUPABASE_SECRET_KEY에 서버용 sb_secret_... 또는 legacy service_role 키를 넣으세요.")
-        if key.startswith("eyJ"):
+        if require_supabase and key.startswith("eyJ"):
             import base64
             try:
                 payload = key.split(".")[1]
@@ -100,7 +104,8 @@ class Config:
                 raise ValueError("legacy service_role 키 형식을 확인하세요.") from None
             if role != "service_role":
                 raise ValueError("anon JWT 대신 서버용 service_role 키를 넣으세요.")
-        root = Path(v.get("AIR400_ROOT", r"C:\Users\OHS\air-400")).expanduser().resolve()
+        root = Path(v.get("AIR400_ROOT") or PROJECT_ROOT).expanduser()
+        root = (path.parent / root).resolve()
         work = Path(v.get("WORK_DIR", "output/stream_batches"))
         cfg = cls(url=url, key=key, root=root,
                   bucket=v.get("STORAGE_BUCKET", "breathing-video"),
@@ -110,7 +115,8 @@ class Config:
                   work_dir=(root / work).resolve(),
                   ffmpeg=v.get("FFMPEG", "ffmpeg"), ffprobe=v.get("FFPROBE", "ffprobe"),
                   poll=float(v.get("POLL_SECONDS", 2)), result_poll=float(v.get("RESULT_POLL_SECONDS", 2)),
-                  port=int(v.get("SERVER_PORT", 8765)))
+                  port=int(v.get("SERVER_PORT", 8766)),
+                  result_dir=(root / Path(v.get("RESULT_DIR", "output/stream_results"))).resolve())
         if (not re.fullmatch(r"[A-Za-z0-9_-]+", cfg.bucket)
                 or not re.fullmatch(r"[A-Za-z0-9_./-]+", cfg.prefix)
                 or ".." in cfg.prefix.split("/") or not cfg.prefix

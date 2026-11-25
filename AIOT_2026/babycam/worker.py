@@ -13,6 +13,7 @@ from pathlib import Path
 from types import SimpleNamespace
 
 from .common import Config, RemoteError, atomic_json, select_batch, validate_result
+from .local_results import LocalResultError, LocalResults
 
 LOG = logging.getLogger("babycam.worker")
 
@@ -33,8 +34,9 @@ def signature(cfg):
              "detectors/yolov8m.pt", "detectors/yolov8n-face.pt", "output/ae_results_v2/air400_ae.pt"]
     source = {p: file_hash(cfg.root / p) for p in files}
     source.update(service=file_hash(Path(__file__)), common=file_hash(Path(__file__).with_name("common.py")),
+                  result_store=file_hash(Path(__file__).with_name("local_results.py")),
                   project=cfg.url, bucket=cfg.bucket, prefix=cfg.prefix, stream_id=cfg.stream_id,
-                  start_seq=cfg.start_seq, ffmpeg=cfg.ffmpeg, ffprobe=cfg.ffprobe)
+                  start_seq=cfg.start_seq, ffmpeg=cfg.ffmpeg, ffprobe=cfg.ffprobe, result_dir=str(cfg.result_dir))
     return hashlib.sha256(json.dumps(source, sort_keys=True).encode()).hexdigest()
 
 
@@ -189,8 +191,9 @@ class BatchProcessor:
 
 
 class Worker:
-    def __init__(self, cfg, api, process, model_signature):
+    def __init__(self, cfg, api, process, model_signature, *, result_store=None):
         self.cfg, self.api, self.process, self.model_signature = cfg, api, process, model_signature
+        self.result_store = result_store if result_store is not None else LocalResults(cfg)
         self.state_path = cfg.work_dir / "state.json"
         if self.state_path.exists():
             self.state = json.loads(self.state_path.read_text(encoding="utf-8"))
@@ -233,12 +236,12 @@ class Worker:
                            segments=[o["name"] for o in batch], model_signature=self.model_signature,
                            processing_sec=round(time.monotonic() - started, 3), **partial)
             self.state["pending"] = validate_result(payload)
-            self.save_state()  # Durable outbox BEFORE making the remote write.
+            self.save_state()  # Durable outbox BEFORE committing the local result.
         pending = self.state["pending"]
-        self.api.save_result(pending)  # An uncertain response is retried with the SAME idempotency key.
+        self.result_store.save_result(pending)  # A crash/retry preserves the SAME idempotency key.
         self.state.update(next_seq=pending["end_seq"] + 1, pending=None, attempts=0)
         self.save_state()
-        LOG.info("DB 저장 완료: %d..%d status=%s 처리 %.1f초", pending["start_seq"], pending["end_seq"],
+        LOG.info("로컬 결과 저장 완료: %d..%d status=%s 처리 %.1f초", pending["start_seq"], pending["end_seq"],
                  pending["status"], pending["processing_sec"])
         if pending["processing_sec"] > 30:
             LOG.warning("30초 입력보다 처리 시간이 깁니다. 모든 구간을 순서대로 처리하므로 분석 지연이 누적될 수 있습니다.")
@@ -258,9 +261,9 @@ class Worker:
 
 
 def main(default_env):
-    parser = argparse.ArgumentParser(description="Supabase TS 15개 → 30초 MP4 → 기존 AIR-400 → Supabase 결과")
+    parser = argparse.ArgumentParser(description="Supabase TS 15개 → 30초 MP4 → 기존 AIR-400 → 로컬 CSV/JSON 결과")
     parser.add_argument("--env", type=Path, default=default_env)
-    parser.add_argument("--check", action="store_true", help="설정·파일·원격 테이블과 목록 확인만 수행")
+    parser.add_argument("--check", action="store_true", help="설정·모델 파일·Storage 목록·로컬 결과 폴더 확인만 수행")
     parser.add_argument("--once", action="store_true", help="배치 하나만 처리; 대기/재시도는 종료 코드 2")
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -272,20 +275,21 @@ def main(default_env):
                 raise ValueError(f"실행 파일이 없습니다: {binary}. FFMPEG/FFPROBE 설정을 확인하세요.")
         model_signature = signature(cfg)
         api = Supabase(cfg)
-        api.results(1)  # Fail early if the result table/permissions were not configured.
+        results = LocalResults(cfg)
         objects = api.list_segments()
         LOG.info("설정/모델 파일/원격 접근 확인: TS 목록 %d개", len(objects))
+        LOG.info("로컬 결과 폴더: %s", cfg.result_dir)
         if args.check:
             return 0
         with SingleInstance(cfg.work_dir):
             pipeline = ExistingPipeline(cfg)
-            worker = Worker(cfg, api, BatchProcessor(cfg, api, pipeline), model_signature)
+            worker = Worker(cfg, api, BatchProcessor(cfg, api, pipeline), model_signature, result_store=results)
             while True:
                 try:
                     outcome = worker.tick()
                     if args.once:
                         return 0 if outcome == "saved" else 2
-                except RemoteError as exc:
+                except (RemoteError, LocalResultError) as exc:
                     LOG.error("%s; 결과/커서를 보존하고 재시도합니다.", exc)
                     if args.once:
                         return 2

@@ -1,6 +1,8 @@
 # AIR-400 베이비캠 — 팀 개발 환경 설정 및 실행 가이드
 
-기준일: 2026-11-24 · 대상: Windows / PowerShell / Python 3.12
+기준일: 2026-11-25 · 대상: Windows / PowerShell / Python 3.12
+
+현재 개발 루트는 `C:\Users\OHS\Documents\GitHub\AIOT-Project\AIOT_2026`입니다. **영상은 Supabase Storage에서 수집하고, 판단 결과는 로컬 CSV/JSON/Markdown에 저장합니다.** 결과 서버도 로컬 결과를 읽습니다.
 
 이 문서는 GitHub에서 코드를 받은 팀원이 프로젝트를 설정하고, 담당 개발자가 공유 전에 준비해야 할 항목을 확인하기 위한 안내입니다. 모든 명령은 **팀 저장소의 루트 폴더**에서 실행합니다. 아래 저장소 주소와 경로 예시는 각자의 실제 값으로 바꿉니다.
 
@@ -9,19 +11,19 @@
 ```text
 라즈베리파이 → Supabase Storage의 TS 영상
                          ↓
-storage_inference.py: 연속 TS 15개 → 30초 MP4 → 기존 DeepPhys/v2 → Supabase 결과 테이블
+storage_inference.py: 연속 TS 15개 → 30초 MP4 → 기존 DeepPhys/v2 → 로컬 판단 결과
                                                                       ↓
-serve_results.py: 결과 주기적 조회 → 로컬 API → 브라우저 파형·BPM·분석 상태
+serve_results.py: 로컬 결과 주기적 조회 → 로컬 API → 브라우저 파형·BPM·분석 상태
 ```
 
 | 구분 | 현재 상태 |
 |---|---|
 | 지속 영상 수집·분석 | 구현됨. 기존 DeepPhys, ROI, v2 모델을 재사용 |
-| 결과 저장 | Supabase Data API와 신규 결과 테이블용 SQL 구현 |
+| 결과 저장 | 로컬 SQLite 원본 + Excel용 CSV + 최신 요약 MD/JSON + 구간별 JSON |
 | 기본 프론트 | 구현됨. 최신 파형·BPM·상태 및 최근 30개 결과 표시 |
-| 자동 테스트 | 기존 개발 PC에서 24개 통과 |
+| 자동 테스트 | 새 루트에서 로컬 저장 테스트 포함 34개 통과 |
 | 실제 모델 연결 | 로컬 영상의 서로 다른 연속 TS 15개와 모의 Supabase로 단일 배치 검증 |
-| 실제 운영 Supabase/Pi 연결 | 프로젝트 키·SQL·실제 TS를 준비한 뒤 확인 필요 |
+| 실제 운영 Supabase/Pi 연결 | Storage 접근 키·실제 TS를 준비한 뒤 확인 필요. 결과 SQL 불필요 |
 | 새 PC 설치 | 아래 설치 절차는 준비안. 깨끗한 새 환경에서의 재현 검증과 의존성 잠금 파일은 아직 필요 |
 | 실시간 처리 속도 | 기존 PC에서 30초 입력 처리 약 85초. 모든 구간을 처리하면 지연 누적 가능 |
 | 무호흡 판정 | 전용 무호흡 검증 완료 모델이 아님. 일반 이상 후보를 검토하기 위한 시스템 |
@@ -32,7 +34,7 @@ serve_results.py: 결과 주기적 조회 → 로컬 API → 브라우저 파형
 
 ### 2.1 팀 저장소와 코드
 
-현재 원본 개발 폴더의 `origin`은 AIR-400 원본 저장소 `michaelwwan/air-400`입니다. **팀이 관리할 fork 또는 별도 저장소 주소를 먼저 정해야 합니다.** 기존 Windows 수정과 새 서비스는 원본 저장소를 clone하는 것만으로 받을 수 없습니다.
+현재 코드는 팀 저장소의 `AIOT_2026` 폴더에서 관리합니다. Git 원격 주소와 현재 변경은 아래 명령으로 확인하고 팀 저장소에 공유합니다. 기존 Windows 수정과 새 서비스는 AIR-400 원본 저장소를 clone하는 것만으로 받을 수 없습니다.
 
 공유할 코드에 아래 파일이 포함되어 있는지 확인합니다.
 
@@ -44,6 +46,7 @@ serve_results.py: 결과 주기적 조회 → 로컬 API → 브라우저 파형
 │   ├── __init__.py
 │   ├── common.py
 │   ├── worker.py
+│   ├── local_results.py
 │   ├── web.py
 │   └── static/
 │       ├── index.html
@@ -60,7 +63,6 @@ serve_results.py: 결과 주기적 조회 → 로컬 API → 브라우저 파형
 ├── configs/inference/deepphys_deep_infer.yaml
 ├── .env.example
 ├── .gitignore
-├── supabase_setup.sql
 ├── TEAM_SETUP.md
 ├── BABYCAM_SERVICES.md
 └── LICENSE
@@ -229,10 +231,11 @@ notepad .\.env
 | `START_SEQ` | `auto` 또는 최초 시작 번호 | 운영 담당자 결정 |
 | `AIR400_ROOT` | **자기 PC의 이 저장소 전체 경로** | 각 팀원 |
 | `WORK_DIR` | `output/stream_batches` 등 자기 PC 작업 폴더 | 수집기 담당자 |
+| `RESULT_DIR` | `output/stream_results` 등 로컬 판단 결과 폴더 | 수집기·결과 서버에서 동일하게 사용 |
 | `FFMPEG`, `FFPROBE` | PATH 명령 또는 exe 전체 경로 | 각 팀원 |
 | `POLL_SECONDS` | 수집 조회 주기, 기본 2초 | 운영 담당자 |
 | `RESULT_POLL_SECONDS` | DB 결과 조회 주기, 기본 2초 | 결과 서버 담당자 |
-| `SERVER_PORT` | 화면 포트, 기본 8765 | 결과 서버 담당자 |
+| `SERVER_PORT` | 화면 포트, 기본 8766 | 결과 서버 담당자 |
 
 개별 값의 예시이며 실제 프로젝트 값으로 변경합니다.
 
@@ -243,33 +246,35 @@ STORAGE_BUCKET=breathing-video
 STORAGE_PREFIX=pi-camera/your-session-id
 STREAM_ID=babycam-session-1
 START_SEQ=auto
-AIR400_ROOT=C:/work/babycam
+AIR400_ROOT=.
 WORK_DIR=output/stream_batches
+RESULT_DIR=output/stream_results
 FFMPEG=ffmpeg
 FFPROBE=ffprobe
 POLL_SECONDS=2
 RESULT_POLL_SECONDS=2
-SERVER_PORT=8765
+SERVER_PORT=8766
 ```
 
 - Secret key는 Supabase 대시보드의 API Keys에서 확인합니다. `sb_secret_...` 또는 legacy `service_role`을 사용하며, `anon`/publishable 키·DB 비밀번호·Personal Access Token을 이 칸에 넣지 않습니다. [공식 키 안내](https://supabase.com/docs/guides/getting-started/api-keys)
-- 브라우저 프론트에는 서버 키를 넣지 않습니다. 화면은 Python API를 사용합니다.
+- 브라우저 프론트에는 서버 키를 넣지 않습니다. 수집기만 영상 Storage 접근 키를 사용하고, 결과 서버와 화면은 로컬 결과를 읽습니다.
 - `.env` 안의 `$projectRoot` 같은 셸 변수는 자동 치환되지 않습니다. 실제 경로를 적습니다. 같은 행 뒤에 주석도 붙이지 않습니다.
 - 셸 환경 변수가 있으면 `.env` 값보다 우선합니다. 파일을 바꿨는데 값이 그대로면 환경 변수도 확인합니다.
 - `START_SEQ=auto`는 첫 실행 때 가장 오래된 TS부터 시작합니다. 밀린 영상이 많다면 번호와 세션을 확인하여 최초 시작 번호를 정합니다.
 - `.env`에 들어 있는 예전 개발 PC 경로와 Storage prefix를 새 PC의 실제 값으로 반드시 바꿉니다.
 
-### 3.5 Supabase 관리자의 DB 준비
+### 3.5 로컬 결과 폴더와 Storage 준비
 
-프로젝트 관리자 한 명이 대상 프로젝트의 **SQL Editor**에서 [supabase_setup.sql](supabase_setup.sql)을 한 번 실행합니다.
+결과 테이블 SQL은 필요하지 않습니다. `supabase_setup.sql`은 과거 원격 결과 저장 방식의 보관 파일이며 현재 기본 실행에서는 사용하지 않습니다. Supabase 관리자는 영상 버킷·Pi 업로드 권한·수집기의 Storage 읽기 권한을 확인합니다.
 
-- 새 테이블: `public.babycam_analysis_results`.
-- RLS를 켜고 `anon`/`authenticated`의 직접 접근을 허용하지 않습니다.
-- 서버용 키가 사용하는 `service_role`에 조회·삽입 권한을 줍니다.
-- 동일 이름의 테이블이 있으면 SQL은 중단됩니다. 테이블을 지우고 다시 만드는 대신 관리자가 기존 스키마를 대조합니다.
-- 기존 Storage 버킷이나 Pi 업로드 권한을 만드는 SQL은 아닙니다. 영상 버킷과 업로드 설정은 별도로 준비되어 있어야 합니다.
+판단 결과는 기본적으로 `output/stream_results`에 저장합니다. 폴더는 자동 생성합니다.
 
-팀원 전원이 SQL을 반복 실행할 필요는 없습니다. 관리자는 실제 대상 프로젝트와 Data API 노출/권한까지 확인합니다.
+- `analysis_results.csv`: 한국어 열 이름/한국 시각을 포함한 전체 기록. Excel에서 열기.
+- `latest.md`: 최신 판정·BPM·점수·이유 요약.
+- `latest.json`, `records/<batch_id>.json`: 최신/구간별 전체 수치와 파형.
+- `analysis_results.sqlite3`: 중복 방지와 안전한 저장을 위한 로컬 원본. 직접 편집하지 않음.
+
+Excel이 CSV 교체를 막아도 DB 원본에는 저장됩니다. 파일을 닫으면 다음 결과 저장 때 CSV를 다시 갱신합니다. 웹 화면은 DB 원본의 최신 결과를 읽습니다. 자세한 동작은 [로컬 실행 안내](BABYCAM_SERVICES.md)를 참고합니다.
 
 ## 4. 실행 순서
 
@@ -284,17 +289,17 @@ python -X utf8 .\storage_inference.py --check
 python -X utf8 .\storage_inference.py --once
 ```
 
-`--check`는 설정·모델 파일 해시 계산·실행 파일 경로·Storage 목록·결과 테이블 접근을 확인합니다. **모델을 실제 로드하거나 추론까지 하는 검사는 아닙니다.** 신규 환경은 `--once`까지 확인해야 합니다.
+`--check`는 설정·모델 파일 해시 계산·실행 파일 경로·Storage 목록·로컬 결과 폴더를 확인합니다. **모델을 실제 로드하거나 추론까지 하는 검사는 아닙니다.** 신규 환경은 `--once`까지 확인해야 합니다.
 
 `--once`의 종료 코드:
 
 | 코드 | 의미 |
 |---|---|
-| 0 | 배치 한 개의 결과를 DB에 저장. `unscored`도 저장 성공일 수 있으므로 상태/이유 확인 필요 |
+| 0 | 배치 한 개의 결과를 로컬에 저장. `unscored`도 저장 성공일 수 있으므로 상태/이유 확인 필요 |
 | 2 | 연속 TS 부족, 처리 재시도 대기, 실행 루프 중 원격 오류 등으로 아직 저장하지 못함 |
 | 1 | 설정·파일·모델 로드 등 시작/실행 오류. 시작 단계 원격 접근 오류도 여기에 해당 가능 |
 
-실제 서로 다른 TS 15개가 수집되고, 새 DB 행에 올바른 번호·상태·파형이 있는지 확인합니다. 같은 TS를 반복 연결해서 성공한 것을 운영 영상 검증으로 간주하지 않습니다.
+실제 서로 다른 TS 15개가 수집되고, 로컬 CSV·JSON에 올바른 번호·상태·파형이 있는지 확인합니다. 같은 TS를 반복 연결해서 성공한 것을 운영 영상 검증으로 간주하지 않습니다.
 
 ### 4.2 지속 실행: 터미널 두 개
 
@@ -314,19 +319,19 @@ conda activate air400
 python -X utf8 .\serve_results.py
 ```
 
-`C:\work\babycam`은 자기 PC의 경로로 바꿉니다. 브라우저에서 **http://127.0.0.1:8765**를 엽니다. 포트를 바꿨다면 설정한 포트로 접속합니다. HTML 파일을 파일 탐색기에서 직접 열지 않습니다.
+`C:\work\babycam`은 자기 PC의 경로로 바꿉니다. 브라우저에서 **http://127.0.0.1:8766**를 엽니다. 포트를 바꿨다면 설정한 포트로 접속합니다. HTML 파일을 파일 탐색기에서 직접 열지 않습니다.
 
 각 터미널에서 `Ctrl+C`로 종료합니다. 터미널 종료·PC 절전·재부팅 시 프로그램도 멈춥니다. Windows 서비스/자동 부팅 등록은 아직 포함하지 않습니다.
 
 ### 4.3 프론트 화면만 개발할 때
 
-키나 GPU가 없어도 Python 3.11 이상에서 빈 미리보기 화면을 확인할 수 있습니다. 이 명령은 `.env`를 읽지 않고 기본 포트 8765를 사용합니다.
+키나 GPU가 없어도 Python 3.11 이상에서 빈 미리보기 화면을 확인할 수 있습니다. `.env`가 있으면 포트 등 로컬 설정을 읽으며 Supabase 키를 검사하거나 네트워크에 접속하지 않습니다. 기본 포트는 8766입니다.
 
 ```powershell
 python -X utf8 .\serve_results.py --preview
 ```
 
-미리보기는 가짜 BPM이나 분석 결과를 만들지 않습니다. 실제 결과를 읽을 때는 `--preview`를 제거하고 `.env`를 설정합니다. Supabase에서 이미 생성된 결과만 표시하는 서버에는 DeepPhys 모델/GPU가 필요하지 않지만, 해당 Python 서버의 Supabase 접근 설정은 필요합니다.
+미리보기는 가짜 BPM이나 분석 결과를 만들지 않습니다. 실제 결과를 읽을 때는 `--preview`를 제거하고 수집기와 같은 `RESULT_DIR`, `STREAM_ID`를 사용합니다. 로컬 결과만 표시하는 서버에는 DeepPhys 모델/GPU와 Supabase 키가 필요하지 않습니다.
 
 **현재 주소는 해당 PC 전용입니다.** 다른 팀원 PC/휴대폰에서 이 PC의 `127.0.0.1`로 접근할 수 없습니다. 원격 배포와 사용자 인증은 개발 예정 기능입니다.
 
@@ -342,7 +347,7 @@ python -X utf8 .\serve_results.py --preview
 | 추가 보관 | 원시 출력 450점 및 fs 정보, NPZ/CSV |
 | 결과 상태 | `anomaly_candidate`, `below_threshold`, `unscored` |
 | 분석 불가 | 점수·BPM·bool·파형 null, 이유 보존 |
-| DB 저장 실패 | 로컬 outbox를 보존하고 재전송. 완료된 분석을 다시 수행하지 않음 |
+| 로컬 원본 저장 실패 | outbox를 보존하고 재시도. 완료된 분석을 다시 수행하지 않음 |
 | 영상/처리 오류 | 최대 3회 시도 후 `unscored`로 기록하고 다음 배치 진행 |
 | 원본 덮어쓰기 감지 | 수집기 중단. 세션/prefix/작업 폴더 점검 필요 |
 | 보관 정책 | 완료된 원본 TS/MP4는 최근 3배치 유지. 작은 NPZ/CSV/결과는 계속 유지 |
@@ -350,7 +355,7 @@ python -X utf8 .\serve_results.py --preview
 
 재시작 시 `WORK_DIR/state.json`에서 이어갑니다. 실행 중 state/outbox를 수정하거나 삭제하지 않습니다. 입력/시작 번호/모델/서명 대상 코드 등이 바뀌면 기존 작업 폴더 사용을 거절하므로, 이전 결과를 보관한 상태에서 새 `WORK_DIR`를 지정합니다.
 
-Pi가 번호를 초기화하거나 새 촬영 세션을 시작하면 새 Storage prefix와 `STREAM_ID`, `WORK_DIR`를 사용합니다. 수집기와 결과 서버의 `STREAM_ID`가 다르면 결과가 보이지 않습니다.
+Pi가 번호를 초기화하거나 새 촬영 세션을 시작하면 새 Storage prefix와 `STREAM_ID`, `WORK_DIR`를 사용합니다. 수집기와 결과 서버의 `STREAM_ID`, `RESULT_DIR`가 다르면 결과가 보이지 않습니다. 동시에 여러 세션을 운영하면 `RESULT_DIR`도 분리합니다.
 
 **한 스트림의 운영 수집기는 담당 PC 한 대에서 실행합니다.** 로컬 파일 잠금은 같은 작업 폴더의 중복 실행만 막습니다. 서로 다른 PC의 수집기를 조정하는 분산 잠금은 아직 없습니다.
 
@@ -360,7 +365,7 @@ Pi가 번호를 초기화하거나 새 촬영 세션을 시작하면 새 Storage
 
 | API | 응답 |
 |---|---|
-| `GET /api/results?limit=30` | `results`, `last_success_at`, `error`, `mode`, `server_time` |
+| `GET /api/results?limit=30` | `results`, `last_success_at`, `error`, `mode`, `server_time`, `source=local` |
 | `GET /api/health` | 조회 상태·마지막 성공 시간·오류·모드 |
 
 `limit`은 1~30이며 결과는 `end_seq` 내림차순입니다. `results`의 주요 필드는 다음과 같습니다.
@@ -379,9 +384,9 @@ Pi가 번호를 초기화하거나 새 촬영 세션을 시작하면 새 Storage
 | P0 | 저장소 관리자 | 팀 저장소 주소 확정, 새 서비스/Windows 변경/테스트/문서 포함 | 다른 PC가 clone하여 핵심 파일 확인 가능 |
 | P0 | 모델 담당자 | 네 가중치의 전달 위치·버전·해시·사용 조건 정리 | 팀원이 재학습 없이 동일 파일 배치 가능 |
 | P0 | 환경 담당자 | 새 Windows 환경 설치, Ultralytics/OpenCV 의존성 문제 정리, 검증된 lock/환경 파일 제공 | import·DeepFlow·의존성 상태·실제 단일 배치 재현 결과 기록 |
-| P0 | Supabase 담당자 | 프로젝트/Storage 경로/서버 키 전달 방식 확정, 결과 SQL 적용, 권한 확인 | `--check` 성공 및 실제 결과 행 확인 |
+| P0 | Supabase 담당자 | 프로젝트/Storage 경로/서버 키 전달 방식 확정, 영상 수집 권한 확인 | Storage 목록·다운로드 확인. 결과 SQL 불필요 |
 | P0 | Pi 담당자 | 약 2초 TS 생성, 12자리 연속 번호, 덮어쓰기 방지, 세션 교체 규칙 제공 | 실제 연속 15개 확보, 누락/중복/촬영 시간 검증 |
-| P0 | 통합 담당자 | 실제 Pi→Storage→모델→DB→화면 단일 배치 시험 | 번호·길이·파형·BPM·상태·처리 시간 근거 보관 |
+| P0 | 통합 담당자 | 실제 Pi→Storage→모델→로컬 파일→화면 단일 배치 시험 | 번호·길이·파형·BPM·상태·처리 시간 근거 보관 |
 | P1 | 영상/성능 담당자 | 약 85초/배치 병목 측정 및 DeepFlow 경로 개선 검토 | 30초 입력 대비 처리량/지연 측정. 모델 전처리 영향 함께 검증 |
 | P1 | 운영 담당자 | 장시간 실행·재시작·네트워크 오류·Storage 보관 기간·디스크 사용량 점검 | 커서/중복/실패 처리와 backlog 관리 확인 |
 | P1 | 프론트/백엔드 담당자 | 원격 앱이 필요하면 인증·사용자별 접근·HTTPS·배포 구조 설계 | 서버 키 없이 허용된 사용자만 결과 접근 |
@@ -396,9 +401,9 @@ Pi가 번호를 초기화하거나 새 촬영 세션을 시작하면 새 Storage
 |---|---|
 | 파일/가중치를 찾지 못함 | GitHub에서 가중치가 자동으로 내려오지 않음. 2.2절 파일 배치와 `AIR400_ROOT` 확인 |
 | Supabase HTTP 401/403 | 프로젝트 URL과 서버 키가 같은 프로젝트인지, 올바른 키인지 확인 |
-| 결과 테이블 오류 | 관리자의 SQL 적용 여부, 기존 스키마, Data API 노출/권한 확인 |
+| 로컬 결과 저장 오류 | `RESULT_DIR`의 쓰기 권한/디스크 공간 확인. Excel 파일 잠금 시 원본 DB와 웹 화면 확인 |
 | 계속 TS 대기 | 버킷/prefix, 12자리 파일명, 실제 연속 15개, `START_SEQ`와 이미 저장된 커서 확인 |
-| 화면에 결과가 없음 | 양쪽 `STREAM_ID`, 동일 Supabase 프로젝트, 수집기 실제 DB 저장 여부 확인 |
+| 화면에 결과가 없음 | 양쪽 `STREAM_ID`, `RESULT_DIR`, 수집기의 로컬 저장 여부 확인 |
 | ffmpeg/ffprobe 없음 | PATH 또는 `.env`의 두 exe 경로 확인 |
 | DeepFlow가 없음 | 실제 import된 cv2와 contrib 설치 확인. ROI/Optical Flow를 꺼서 통과시키지 않음 |
 | 이전 실행과 설정이 다름 | 코드·모델·입력 변경 여부 확인 후 새 `WORK_DIR` 사용. 기존 상태는 보존 |

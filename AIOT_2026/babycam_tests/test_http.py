@@ -93,6 +93,13 @@ class HttpTests(unittest.TestCase):
             urllib.request.urlopen(urllib.request.Request(base + "/api/results", headers={"Host":"attacker.invalid"}))
         self.assertEqual(ctx.exception.code, 403)
 
+    def test_busy_port_is_rejected_instead_of_shared(self):
+        server = make_server(0, ResultCache())
+        self.addCleanup(server.server_close)
+        with self.assertRaises(OSError):
+            duplicate = make_server(server.server_port, ResultCache())
+            duplicate.server_close()
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -52,7 +52,7 @@ async function refresh() {
     const response = await fetch("/api/results", {cache:"no-store", signal:AbortSignal.timeout(5000)});
     if (!response.ok) throw new Error("connection");
     const data = await response.json();
-    el("connection").textContent = data.mode === "preview" ? "미연결 미리보기" : data.error ? "결과 조회 연결 오류" : data.last_success_at ? "연결됨 · 자동 갱신 중" : "Supabase 연결 중…";
+    el("connection").textContent = data.mode === "preview" ? "미연결 미리보기" : data.error ? "결과 파일 읽기 오류" : data.last_success_at ? "로컬 결과 · 자동 갱신 중" : "로컬 결과 읽는 중…";
     const version = JSON.stringify(data.results);
     if (version !== lastVersion) { renderRows(data.results); lastVersion = version; }
     const notice = el("notice");
@@ -60,7 +60,7 @@ async function refresh() {
     notice.textContent = data.error ? `${data.error} 마지막 성공: ${date(data.last_success_at)}`
       : data.mode === "preview" ? "화면 미리보기입니다. .env 설정 후 서버를 다시 실행하면 실제 결과를 읽습니다."
       : !data.results.length ? "첫 30초 분석 결과를 기다리고 있습니다."
-      : `마지막 DB 확인: ${date(data.last_success_at)} · 분석 구간의 실제 촬영시각 연속성은 별도 확인이 필요합니다.`;
+      : `마지막 파일 확인: ${date(data.last_success_at)} · 분석 구간의 실제 촬영시각 연속성은 별도 확인이 필요합니다.`;
   } catch {
     el("connection").textContent = "결과 서버 연결 끊김";
     el("notice").classList.add("error");

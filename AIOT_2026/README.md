@@ -1,3 +1,12 @@
+# AIOT 2026 베이비캠
+
+현재 서비스는 Supabase Storage에서 영상을 가져와 기존 모델로 분석하고, 판단 결과를 로컬 파일에 저장합니다.
+
+- [팀 환경 설정 및 실행](TEAM_SETUP.md)
+- [로컬 결과 파일과 화면 보기](BABYCAM_SERVICES.md)
+
+아래는 기반이 되는 AIR-400 원본 프로젝트의 설명입니다.
+
 <h1 align="center">Overcoming Small Data Limitations in Video-Based Infant Respiration Estimation & AIR-400 Dataset</h1>
 
 <p align="center">
